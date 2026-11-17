@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claude 文件 artifact 難</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../站台/style.css">
+</head>
+<body>
+<header class="wrap mast small">
+ <div class="rule1"></div>
+ <div class="dateline"><span>2026年11月14日　星期六</span><span class="mid">第 5 期</span>
+  <div class="theme" role="group" aria-label="顏色模式"><button type="button" data-mode="auto">自動</button><button type="button" data-mode="light">淺色</button><button type="button" data-mode="dark">深色</button></div></div>
+ <h1><a href="../index.html">今日草稿</a></h1>
+ <p class="en">TODAY'S DRAFT</p>
+ 
+ 
+ <nav aria-label="主題"><ul><li><a href="../index.html">首頁</a></li><li><a href="../主題/心理與自我照顧.html">心理與自我照顧</a></li><li><a href="../主題/人生方向與故事.html">人生方向與故事</a></li><li><a href="../主題/思考與決策.html">思考與決策</a></li><li><a href="../主題/學習與研究.html">學習與研究</a></li><li><a href="../主題/表達與人際關係.html">表達與人際關係</a></li><li><a href="../主題/社會與商業.html">社會與商業</a></li><li><a href="../主題/寫作與設計.html">寫作與設計</a></li><li><a href="../主題/其他.html">其他</a></li><li><a href="../主題/個人系統與工具.html">個人系統與工具</a></li><li><a href="../主題/AI 協作與治理.html" aria-current=page>AI 協作與治理</a></li><li><a href="../往期.html">往期</a></li></ul></nav>
+</header>
+
+<div class="crumb wrap"><a href="../各期/2026-11-14.html">← 回到 2026-11-14 這一期</a></div>
+<main class="wrap"><article class="article"><div class="kick">約 3 分鐘　頭條　AI 協作與治理　舊文 11/07</div><h1>Claude 文件 artifact 難讀：找報告撰寫方法做成 skill</h1><p>有人覺得 Claude 做出來的文件 artifact「一坨」：字很多、框很多、很難讀。他想回頭找 AI 時代之前就成熟的報告寫法，轉成 skill 或 plugin。串裡最有意思的，是後面關於「報告到底該寫給人還是寫給 agent」的討論。</p><h2>作者的痛點</h2><ul><li>公司請他做 AI 報帳 bot，他自己試用很好用，但請 Claude 寫的教學文件反而讓人不知道怎麼用：只是把一堆字放在卡片裡，沒有合適的排版，用字也怪怪的。</li><li>平常開發要盤點進度、寫系統設計，artifact 總是只會三招：增加字、減少字、把字框起來，沒法吸收和閱讀。</li><li>他想要的報告：有適當的圖表與精練的資訊，能加速主事者的決策。Codex 也差不多。</li><li>試過的辦法：把 ASD-STE100 放進輸出風格、提示詞加上「可視化」，效果有限，還要一直來回調整；花太多時間在報告上本末倒置。</li></ul><h2>他的想法與留言的建議</h2><p>作者想找 AI 時代前成熟的報告撰寫方法，做成 skill（目前還沒找到，說有結果會分享）。ASD-STE100 是真實存在的受控英語規格，源自航太業，Issue 9 在 2025 年 1 月發布，主要目的是讓用字單一、不產生歧義。</p><p>@peter_career_hack 建議：請 AI 站在 UAT（使用者驗收測試）的角度，列出使用者會卡關的點，再用 playwright 模擬操作路徑，做出圖文並茂的使用手冊。他同時預測：幾個月後 agent 對 agent 的時代，要思考的是怎麼把資訊整理成適合 agent 讀的結構，資訊量大到人看不完，這些說明書也會被丟掉。</p><h2>作者的兩個追問</h2><figure class="diagram"><svg viewBox="0 0 720 130"><rect class="dg-box" x="3" y="14" width="152" height="102" rx="8"/><text class="dg-tb" x="79" y="46" text-anchor="middle">老闆</text><text class="dg-t" x="79" y="78" text-anchor="middle">讀高管的報告</text><line class="dg-line" x1="158" y1="65" x2="180" y2="65"/><polygon class="dg-arrow" points="180,57 190,65 180,73"/><rect class="dg-box" x="190" y="14" width="152" height="102" rx="8"/><text class="dg-tb" x="266" y="46" text-anchor="middle">高管</text><text class="dg-t" x="266" y="78" text-anchor="middle">讀主管的報告</text><line class="dg-line" x1="346" y1="65" x2="368" y2="65"/><polygon class="dg-arrow" points="368,57 378,65 368,73"/><rect class="dg-box" x="378" y="14" width="152" height="102" rx="8"/><text class="dg-tb" x="454" y="46" text-anchor="middle">主管</text><text class="dg-t" x="454" y="78" text-anchor="middle">帶團隊</text><line class="dg-line" x1="534" y1="65" x2="556" y2="65"/><polygon class="dg-arrow" points="556,57 566,65 556,73"/><rect class="dg-hl" x="566" y="14" width="152" height="102" rx="8"/><text class="dg-ths" x="641" y="46" text-anchor="middle">現在的模型</text><text class="dg-ths" x="641" y="78" text-anchor="middle">體感像主管</text></svg><figcaption>作者的比喻：人與 agent 的報告要濃縮到哪一層</figcaption></figure><ol><li><strong>什麼是適合 agent 讀的資訊？</strong>他的看法是底層其實還是常見的網路協定加 JSON，再配上 agent 需要的 metadata，暫時不會有大變化（他也說可能是自己了解得不夠深，歡迎補充）。</li><li><strong>說明書會被丟掉，但人不可能不看 agent 的報告。</strong>資訊要濃縮到什麼程度、談多高的層次，人與 agent 才能對齊？就像老闆要看高管的報告、高管要跟主管開會、主管要跟團隊一起工作。他的體感是：現在最前沿的模型還在「主管」等級，但這取決於 harness 的設計、模型能力、上下文記憶大小與投入的成本。</li></ol><h2>跟知識庫怎麼接</h2><ul><li>AI 使用整理把它跟「去 AI 味」放在一起：那一則處理文字的口氣，這則處理排版與資訊層次。</li><li>做成 skill 的方法，見 AI 規則與 Skill 整理的第 5 步（流程做成 skill），以及「用 Skill 取代 Prompt」那篇。</li><li>你自己的知識庫已經有答案雛形：「網頁與簡報製作規範」與這個電子報站台，都規定了文章骨架（導言、圖解、重點、怎麼用、備註）和字數，這就是把「好讀」寫成規則。</li><li>版面與圖形說理的框架，見設計與簡報整理。</li></ul><h2>可以怎麼用</h2><p>下次請 AI 寫報告前，先告訴它三件事：給誰看、讀完要做什麼決定、他有幾分鐘；並要求第一句就是結論、重點不超過三個。做了幾次之後，把這個格式存成 skill。</p><p class="src">來源與備註：Threads @azetry0422，2026-11-07，含留言討論。作者與留言者都是分享個人經驗與預測，沒有註明背景；ASD-STE100 的規格為真實存在。</p><section class="cmd"><h2>給 Claude Code 的指令</h2><p class="when"><strong>適合情境：</strong>覺得 AI 做的報告字多、框多、很難讀，想讓它改成好讀的格式時</p><pre id="cmdtext">請先讀懂下面的需求，列出你打算讀哪些檔案、改哪些地方、步驟是什麼，等我說「好」再動手；不要直接修改或刪除任何檔案。
+
+請幫我設計一個「好讀報告」的做法，讓你以後寫報告都照做。步驟：1. 先問我三件事：報告給誰看、他要做什麼決定、他能花幾分鐘讀。2. 依答案擬一份固定格式：第一句結論、三個以內的重點、必要的圖表（說明什麼情況該用表格或圖）、風險與下一步，並規定字數上限與不要把字框起來湊版面。3. 把這份格式寫成 skill 草稿（SKILL.md 的內容），貼給我看。4. 用我最近一份報告當範例，示範改寫前後的差別。我說「好」才建立 skill 檔案。</pre><button type="button" class="btn copy" id="copybtn">一鍵複製</button><p class="sub">貼進 Claude Code 後，它會先列出要改什麼、等你說「好」才動手。同一份指令也存在原筆記的「給 AI 的指令」。</p></section><section class="rel"><h2>延伸閱讀</h2><p class="sub">以下是別篇的內容，和這篇的重點分開看。</p><ul><li><span class="rl">補充</span><a href="2026-11-13-h1.html">認知投降三層級：用 AI 做事，怎麼不知不覺放棄判斷</a><span class="why">AI 產出難讀時，更要小心不知不覺放棄判斷</span></li><li><span class="rl">補充</span><a href="2026-11-15-h10.html">用 AI 把零碎想法與舊筆記合成永久筆記</a><span class="why">同樣是把 AI 的產出整理成好用的成品</span></li></ul></section><p class="src">原筆記：2026-11-07-Claude文件artifact難讀-找報告撰寫方法做成skill　<a href="obsidian://open?vault=%E7%9F%A5%E8%AD%98%E5%BA%AB&amp;file=%E5%B7%B2%E7%B5%B1%E6%95%B4/2026-11-07-Claude%E6%96%87%E4%BB%B6artifact%E9%9B%A3%E8%AE%80-%E6%89%BE%E5%A0%B1%E5%91%8A%E6%92%B0%E5%AF%AB%E6%96%B9%E6%B3%95%E5%81%9A%E6%88%90skill" style="border-bottom:1.5px solid var(--hl)">在 Obsidian 打開</a></p></article>
+<div class="pn"><a href="2026-11-14-h8.html" style="border-bottom:1.5px solid var(--hl)">← 上一則</a><a href="2026-11-14-h10.html" style="border-bottom:1.5px solid var(--hl)">下一則 →</a></div></main>
+<footer class="wrap">今日草稿 ・ 內容整理自你的知識庫筆記，出處與細節都留在原筆記</footer>
+<script src="../站台/theme.js"></script>
+</body>
+</html>

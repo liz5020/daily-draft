@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>用 AI 把零碎想法與舊筆記合成永久筆記</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../站台/style.css">
+</head>
+<body>
+<header class="wrap mast small">
+ <div class="rule1"></div>
+ <div class="dateline"><span>2026年11月15日　星期日</span><span class="mid">第 6 期</span>
+  <div class="theme" role="group" aria-label="顏色模式"><button type="button" data-mode="auto">自動</button><button type="button" data-mode="light">淺色</button><button type="button" data-mode="dark">深色</button></div></div>
+ <h1><a href="../index.html">今日草稿</a></h1>
+ <p class="en">TODAY'S DRAFT</p>
+ 
+ 
+ <nav aria-label="主題"><ul><li><a href="../index.html">首頁</a></li><li><a href="../主題/心理與自我照顧.html">心理與自我照顧</a></li><li><a href="../主題/人生方向與故事.html">人生方向與故事</a></li><li><a href="../主題/思考與決策.html">思考與決策</a></li><li><a href="../主題/學習與研究.html">學習與研究</a></li><li><a href="../主題/表達與人際關係.html">表達與人際關係</a></li><li><a href="../主題/社會與商業.html">社會與商業</a></li><li><a href="../主題/寫作與設計.html">寫作與設計</a></li><li><a href="../主題/其他.html">其他</a></li><li><a href="../主題/個人系統與工具.html" aria-current=page>個人系統與工具</a></li><li><a href="../主題/AI 協作與治理.html">AI 協作與治理</a></li><li><a href="../往期.html">往期</a></li></ul></nav>
+</header>
+
+<div class="crumb wrap"><a href="../各期/2026-11-15.html">← 回到 2026-11-15 這一期</a></div>
+<main class="wrap"><article class="article"><div class="kick">約 1 分鐘　頭條　個人系統與工具　舊文 11/04</div><h1>用 AI 把零碎想法與舊筆記合成永久筆記</h1><p>備忘錄累積很多零碎靈感，有些其實能和舊筆記結合，但下班後沒力氣一篇篇對。作者的解法是讓 AI 讀過去的筆記並模仿自己的風格，幫忙合併成新的永久筆記。</p><figure class='diagram'><svg viewBox='0 0 720 264'><rect class='dg-box' x='40' y='10' width='640' height='66' rx='8'/><text class='dg-tb' x='360' y='38' text-anchor='middle'>① 丟給 AI</text><text class='dg-t' x='360' y='62' text-anchor='middle'>把備忘錄裡零碎的想法</text><line class='dg-line' x1='360' y1='76' x2='360' y2='86'/><polygon class='dg-arrow' points='352,80 368,80 360,90'/><rect class='dg-box' x='40' y='98' width='640' height='66' rx='8'/><text class='dg-tb' x='360' y='126' text-anchor='middle'>② 讓 AI 對照舊筆記</text><text class='dg-t' x='360' y='150' text-anchor='middle'>合併新舊，產生永久筆記</text><line class='dg-line' x1='360' y1='164' x2='360' y2='174'/><polygon class='dg-arrow' points='352,168 368,168 360,178'/><rect class='dg-box' x='40' y='186' width='640' height='66' rx='8'/><text class='dg-tb' x='360' y='214' text-anchor='middle'>③ 看初稿、微調</text><text class='dg-t' x='360' y='238' text-anchor='middle'>放進 Obsidian</text></svg><figcaption>三步驟</figcaption></figure><h2>三個步驟</h2><ol><li>把備忘錄裡零碎的想法全部丟給 AI。</li><li>讓 AI 對照過去寫的筆記，把新舊合併成新的「永久筆記」。</li><li>看完 AI 初稿、稍微調整語句，放進 Obsidian。</li></ol><p>目的是降低寫筆記的阻力，適合「有新想法、又剛好有相關舊筆記」的情況。</p><p>作者的背景是：備忘錄累積很多新靈感，有些其實能和過去的 Notion 筆記結合，但下班後懶得一篇一篇翻。所以他讓 AI 讀過去的筆記並模仿自己的寫作風格，把 AI 接進筆記流程。作者自 2026 年 9 月 1 日起，用下班時間打造與 AI 協作的第二大腦，這篇是系列的第 30 天。</p><h2>可以怎麼用</h2><p>挑最近三則備忘錄，找一篇相關舊筆記，請 AI 合併成一篇，你只改語句。</p><p class='src'>來源與備註：Threads 帳號 hihi_eg（劉怡君），為 Day30 分享；作者自 2026-09-01 起用下班時間打造與 AI 協作的第二大腦。</p><section class="cmd"><h2>給 Claude Code 的指令</h2><p class="when"><strong>適合情境：</strong>你有一堆零碎備忘錄與舊筆記想整合時</p><pre id="cmdtext">請先讀懂下面的需求，列出你打算讀哪些檔案、改哪些地方、步驟是什麼，等我說「好」再動手；不要直接修改或刪除任何檔案。
+
+我有一個資料夾放零碎想法（路徑請先問我）和一個資料夾放舊筆記。請：1. 讀零碎想法，找出每一則最相關的 1～2 篇舊筆記。2. 模仿舊筆記的語氣，把新想法與舊筆記合成一篇『永久筆記』草稿，另存成新檔，不要改動原檔。3. 草稿開頭用一句話寫重點，並列出你引用了哪些舊筆記。4. 全部做完後給我清單，讓我逐篇看過再決定要不要放進正式筆記。</pre><button type="button" class="btn copy" id="copybtn">一鍵複製</button><p class="sub">貼進 Claude Code 後，它會先列出要改什麼、等你說「好」才動手。同一份指令也存在原筆記的「給 AI 的指令」。</p></section><section class="rel"><h2>延伸閱讀</h2><p class="sub">以下是別篇的內容，和這篇的重點分開看。</p><ul><li><span class="rl">補充</span><a href="obsidian://open?vault=%E7%9F%A5%E8%AD%98%E5%BA%AB&amp;file=%E5%B7%B2%E7%B5%B1%E6%95%B4/2026-11-03/2026-11-03-Obsidian%E6%9E%B6%E6%A7%8B-CLAUDE-md%E8%88%87llm-wiki" title="在 Obsidian 打開">2026-11-03-Obsidian架構-CLAUDE-md與llm-wiki</a><span class="why">合成筆記之前，先看整個庫怎麼架構</span></li><li><span class="rl">接續</span><a href="2026-11-15-d1.html">把 Obsidian 當 AI 的長期記憶：Codex＋Hermes 第二大腦做法</a><span class="why">筆記合成後，可讓 AI 接上筆記當長期記憶</span></li></ul></section><p class="src">原筆記：2026-11-04-Day30-用AI合併新舊筆記進Obsidian-三步驟　<a href="obsidian://open?vault=%E7%9F%A5%E8%AD%98%E5%BA%AB&amp;file=%E5%B7%B2%E7%B5%B1%E6%95%B4/2026-11-04/2026-11-04-Day30-%E7%94%A8AI%E5%90%88%E4%BD%B5%E6%96%B0%E8%88%8A%E7%AD%86%E8%A8%98%E9%80%B2Obsidian-%E4%B8%89%E6%AD%A5%E9%A9%9F" style="border-bottom:1.5px solid var(--hl)">在 Obsidian 打開</a></p></article>
+<div class="pn"><a href="2026-11-15-h9.html" style="border-bottom:1.5px solid var(--hl)">← 上一則</a><a href="2026-11-15-h11.html" style="border-bottom:1.5px solid var(--hl)">下一則 →</a></div></main>
+<footer class="wrap">今日草稿 ・ 內容整理自你的知識庫筆記，出處與細節都留在原筆記</footer>
+<script src="../站台/theme.js"></script>
+</body>
+</html>

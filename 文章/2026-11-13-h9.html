@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ui-ux-pro-max-skill：</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../站台/style.css">
+</head>
+<body>
+<header class="wrap mast small">
+ <div class="rule1"></div>
+ <div class="dateline"><span>2026年11月13日　星期五</span><span class="mid">第 4 期</span>
+  <div class="theme" role="group" aria-label="顏色模式"><button type="button" data-mode="auto">自動</button><button type="button" data-mode="light">淺色</button><button type="button" data-mode="dark">深色</button></div></div>
+ <h1><a href="../index.html">今日草稿</a></h1>
+ <p class="en">TODAY'S DRAFT</p>
+ 
+ 
+ <nav aria-label="主題"><ul><li><a href="../index.html">首頁</a></li><li><a href="../主題/心理與自我照顧.html">心理與自我照顧</a></li><li><a href="../主題/人生方向與故事.html">人生方向與故事</a></li><li><a href="../主題/思考與決策.html">思考與決策</a></li><li><a href="../主題/學習與研究.html">學習與研究</a></li><li><a href="../主題/表達與人際關係.html">表達與人際關係</a></li><li><a href="../主題/社會與商業.html">社會與商業</a></li><li><a href="../主題/寫作與設計.html" aria-current=page>寫作與設計</a></li><li><a href="../主題/其他.html">其他</a></li><li><a href="../主題/個人系統與工具.html">個人系統與工具</a></li><li><a href="../主題/AI 協作與治理.html">AI 協作與治理</a></li><li><a href="../往期.html">往期</a></li></ul></nav>
+</header>
+
+<div class="crumb wrap"><a href="../各期/2026-11-13.html">← 回到 2026-11-13 這一期</a></div>
+<main class="wrap"><article class="article"><div class="kick">約 1 分鐘　頭條　寫作與設計　舊文 11/08</div><h1>ui-ux-pro-max-skill：做網頁前，先讓 Claude Code 配好設計</h1><p>Claude Code Everyday 第 113 天介紹 GitHub 上的 ui-ux-pro-max-skill：裝好後，叫 Claude 做網頁或介面時，它會先配好結構、風格、配色與字型，再動手寫程式，而不是直接給你一個預設樣式的頁面。</p><figure class="diagram"><svg viewBox="0 0 720 100"><rect class="dg-box" x="10.0" y="15" width="209.33333333333334" height="70" rx="8"/><text class="dg-t" x="114.66666666666667" y="45.0" text-anchor="middle">加入外掛來源</text><text class="dg-t" x="114.66666666666667" y="65.0" text-anchor="middle">marketplace add</text><line class="dg-line" x1="223.33333333333334" y1="50.0" x2="245.33333333333334" y2="50.0"/><polygon class="dg-arrow" points="245.33333333333334,43.0 255.33333333333334,50.0 245.33333333333334,57.0"/><rect class="dg-box" x="255.33333333333334" y="15" width="209.33333333333334" height="70" rx="8"/><text class="dg-t" x="360.0" y="45.0" text-anchor="middle">安裝外掛</text><text class="dg-t" x="360.0" y="65.0" text-anchor="middle">plugin install</text><line class="dg-line" x1="468.6666666666667" y1="50.0" x2="490.6666666666667" y2="50.0"/><polygon class="dg-arrow" points="490.6666666666667,43.0 500.6666666666667,50.0 490.6666666666667,57.0"/><rect class="dg-hl" x="500.6666666666667" y="15" width="209.33333333333334" height="70" rx="8"/><text class="dg-ths" x="605.3333333333334" y="45.0" text-anchor="middle">直接說要做</text><text class="dg-ths" x="605.3333333333334" y="65.0" text-anchor="middle">什麼網頁</text></svg><figcaption>三步裝好，之後它在需要時自動啟動。</figcaption></figure><h2>它先做什麼</h2><p>寫程式前先產生一套設計：<strong>結構</strong>（首頁分哪幾塊）、<strong>風格</strong>（從風格庫挑）、<strong>配色</strong>（依產品類型配一整組）、<strong>字型</strong>（標題與內文組合）、<strong>避免</strong>（這類產品別犯的設計錯）。它同時是一個 skill 與 Claude Code 外掛，授權 MIT。</p><h2>三步裝好</h2><ol><li><code>/plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill</code></li><li><code>/plugin install ui-ux-pro-max@ui-ux-pro-max-skill</code></li><li>直接說要做的網頁，它自己啟動。</li></ol><h2>裝之前先知道</h2><ul><li>電腦要有 Python 3，搜尋腳本才跑得動。</li><li>沒指定技術就做成一般網頁（HTML 加 Tailwind）；支援網頁、手機、桌面程式共 22 種技術，如 React、Vue、SwiftUI。</li><li>既有專案指定一種風格，就能換主題。</li><li>作者整理頁寫的資料庫規模：84 種風格、192 組配色、74 組字型搭配與 UX 準則，共 7 個 skill。</li></ul><p>實際設計品質是否真的比不裝好，目前沒有查到獨立評測；專案的星數作者當日讀到約 14.7 萬。</p><h2>可以怎麼用</h2><p>找一個小的網頁需求（例如一頁自我介紹），先不裝、請 Claude 做一版，再裝了重做一版，兩個並排比較。</p><p class="src">來源與備註：@yrrah9_，Threads，2026-11-08（Claude Code Everyday 第 113 天）；功能與安裝指令取自作者整理頁，未自行安裝測試；部分數字未查到出處。</p><section class="cmd"><h2>給 Claude Code 的指令</h2><p class="when"><strong>適合情境：</strong>你想讓 Claude Code 做出的網頁比預設樣式更有設計感時</p><pre id="cmdtext">請先讀懂下面的需求，列出你打算讀哪些檔案、改哪些地方、步驟是什麼，等我說「好」再動手；不要直接修改或刪除任何檔案。
+
+我想試用 ui-ux-pro-max-skill 這個外掛。請先確認我的電腦有裝 Python 3，沒有的話告訴我怎麼裝，不要自己執行任何刪除動作。接著帶我執行這兩個指令：/plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill 與 /plugin install ui-ux-pro-max@ui-ux-pro-max-skill。裝好後，請用它幫我設計一頁簡單的自我介紹網頁：先列出你選的結構、風格、配色、字型與要避免的錯誤，我確認後再動手做。</pre><button type="button" class="btn copy" id="copybtn">一鍵複製</button><p class="sub">貼進 Claude Code 後，它會先列出要改什麼、等你說「好」才動手。同一份指令也存在原筆記的「給 AI 的指令」。</p></section><section class="rel"><h2>延伸閱讀</h2><p class="sub">以下是別篇的內容，和這篇的重點分開看。</p><ul><li><span class="rl">接續</span><a href="2026-11-14-h4.html">怎麼讓 AI 擁有你自己的美感：四步驟循環</a><span class="why">配好設計工具後，再教 AI 學你自己的美感</span></li></ul></section><p class="src">原筆記：2026-11-08-ui-ux-pro-max-skill-Claude-Code做網頁先配好設計　<a href="obsidian://open?vault=%E7%9F%A5%E8%AD%98%E5%BA%AB&amp;file=%E5%B7%B2%E7%B5%B1%E6%95%B4/2026-11-08/2026-11-08-ui-ux-pro-max-skill-Claude-Code%E5%81%9A%E7%B6%B2%E9%A0%81%E5%85%88%E9%85%8D%E5%A5%BD%E8%A8%AD%E8%A8%88" style="border-bottom:1.5px solid var(--hl)">在 Obsidian 打開</a></p></article>
+<div class="pn"><a href="2026-11-13-h8.html" style="border-bottom:1.5px solid var(--hl)">← 上一則</a><a href="2026-11-13-h10.html" style="border-bottom:1.5px solid var(--hl)">下一則 →</a></div></main>
+<footer class="wrap">今日草稿 ・ 內容整理自你的知識庫筆記，出處與細節都留在原筆記</footer>
+<script src="../站台/theme.js"></script>
+</body>
+</html>

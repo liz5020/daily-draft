@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>用 Mermaid 畫架構圖：讓 AI </title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../站台/style.css">
+</head>
+<body>
+<header class="wrap mast small">
+ <div class="rule1"></div>
+ <div class="dateline"><span>2026年11月12日　星期四</span><span class="mid">第 3 期</span>
+  <div class="theme" role="group" aria-label="顏色模式"><button type="button" data-mode="auto">自動</button><button type="button" data-mode="light">淺色</button><button type="button" data-mode="dark">深色</button></div></div>
+ <h1><a href="../index.html">今日草稿</a></h1>
+ <p class="en">TODAY'S DRAFT</p>
+ 
+ 
+ <nav aria-label="主題"><ul><li><a href="../index.html">首頁</a></li><li><a href="../主題/心理與自我照顧.html">心理與自我照顧</a></li><li><a href="../主題/人生方向與故事.html">人生方向與故事</a></li><li><a href="../主題/思考與決策.html">思考與決策</a></li><li><a href="../主題/學習與研究.html">學習與研究</a></li><li><a href="../主題/表達與人際關係.html">表達與人際關係</a></li><li><a href="../主題/社會與商業.html">社會與商業</a></li><li><a href="../主題/寫作與設計.html">寫作與設計</a></li><li><a href="../主題/其他.html">其他</a></li><li><a href="../主題/個人系統與工具.html">個人系統與工具</a></li><li><a href="../主題/AI 協作與治理.html" aria-current=page>AI 協作與治理</a></li><li><a href="../往期.html">往期</a></li></ul></nav>
+</header>
+
+<div class="crumb wrap"><a href="../各期/2026-11-12.html">← 回到 2026-11-12 這一期</a></div>
+<main class="wrap"><article class="article"><div class="kick">約 3 分鐘　深讀　AI 協作與治理　舊文 11/06</div><h1>用 Mermaid 畫架構圖：讓 AI 讀文字、讓人看圖</h1><p>請 AI 畫架構圖，直接要它出圖常常不準；作者 Vic 的經驗是，改成先讓 AI 產生 Mermaid（用文字描述圖的一種語法），準確率高很多。理由很直接：AI 讀寫程式碼的能力，比理解圖形強。這篇把他的五步流程、網友留言裡的限制與替代做法，以及一個真實的雲端架構圖範例整理在一起。</p><figure class="diagram"><svg viewBox="0 0 720 120"><rect class="dg-box" x="10" y="12" width="113" height="96" rx="8"/><text class="dg-t" x="66.5" y="55.0" text-anchor="middle">1 跟 AI 討論</text><text class="dg-t" x="66.5" y="77.0" text-anchor="middle">產生 Mermaid code</text><line class="dg-line" x1="123" y1="60" x2="147" y2="60"/><polygon class="dg-arrow" points="147,54 147,66 157,60"/><rect class="dg-box" x="157" y="12" width="113" height="96" rx="8"/><text class="dg-t" x="213.5" y="55.0" text-anchor="middle">2 自己微調</text><text class="dg-t" x="213.5" y="77.0" text-anchor="middle">到 Mermaid 編輯</text><line class="dg-line" x1="270" y1="60" x2="294" y2="60"/><polygon class="dg-arrow" points="294,54 294,66 304,60"/><rect class="dg-box" x="304" y="12" width="113" height="96" rx="8"/><text class="dg-t" x="360.5" y="55.0" text-anchor="middle">3 貼回 AI</text><text class="dg-t" x="360.5" y="77.0" text-anchor="middle">用白話請它改</text><line class="dg-line" x1="416" y1="60" x2="440" y2="60"/><polygon class="dg-arrow" points="440,54 440,66 450,60"/><rect class="dg-box" x="450" y="12" width="113" height="96" rx="8"/><text class="dg-t" x="506.5" y="55.0" text-anchor="middle">4 反覆 1～3</text><text class="dg-t" x="506.5" y="77.0" text-anchor="middle">直到符合預期</text><line class="dg-line" x1="563" y1="60" x2="587" y2="60"/><polygon class="dg-arrow" points="587,54 587,66 597,60"/><rect class="dg-hl" x="597" y="12" width="113" height="96" rx="8"/><text class="dg-ths" x="653.5" y="55.0" text-anchor="middle">5 請 AI</text><text class="dg-ths" x="653.5" y="77.0" text-anchor="middle">依 code 出圖</text></svg><figcaption>Vic 的 Mermaid 畫圖流程：文字版給 AI 改，最後才輸出圖片</figcaption></figure><h2>核心想法：兩種表示，各取所長</h2><p>Mermaid 是文字，AI 擅長；圖片是給人看的，人擅長。作者的做法是讓兩邊分工：討論與修改都在文字（程式碼）上進行，要定稿時才請 AI 轉成圖片。這樣每一次修改都是對文字做小調整，比對一張圖片說「把左邊那個箭頭移到右邊」可靠得多。</p><h2>五個步驟</h2><ol><li>跟 AI 討論你要畫的架構，並請它產生 Mermaid code。</li><li>自己前往 Mermaid 工具做小幅度修改（看圖、拖拉順序、改文字）。</li><li>把修改後的 Mermaid code 貼回給 AI，用自然語言請它再改。</li><li>反覆做 1、2、3，直到結果符合預期。</li><li>最後請 AI 依照 Mermaid code 產出圖片。</li></ol><h2>留言裡的補充與限制</h2><ul><li><strong>可見度問題：</strong>有網友指出，Mermaid 對人眼不夠友善，架構一密集，圖就糊成一團；他想知道貼文裡第二張圖怎麼讓 AI 畫成第一張。作者回答「不知道」，想到的可能做法是改轉成 draw.io。</li><li><strong>另一條路：</strong>另一位網友建議請 AI 去查 GitHub 上 draw.io 的 MCP（讓 AI 能直接操作 draw.io 的連接工具），再參考別人的泳道圖、循序圖來畫。</li><li><strong>正面經驗：</strong>也有人說 Mermaid 可以很清楚地看出架構流程，開發前拿來做規劃、開發後拿來圖解釐清都很好，並附上一個繁中教學網站當範例。</li></ul><h2>範例：雲端架構圖長什麼樣</h2><p>留言區有人貼了一張完整的 GCP（Google Cloud Platform）架構圖，可以看出「架構圖」可以複雜到什麼程度：</p><ul><li><strong>最上層流程：</strong>使用者 → 網際網路 → Cloud Armor（防護）→ 外部應用程式負載平衡器 → URL Map（依主機／路徑分流）→ 分到 WMS（倉儲系統）與 Order（訂單系統）；另外有 DNS 查詢走 Cloud DNS，URL Map 與 Cloud CDN 雙向連接。</li><li><strong>組織下四大塊：</strong>治理與管理（IAM、組織政策、帳單等）；主專案網路（共用 VPC、防火牆規則、AP 與 DB 子網路、Cloud Router 與 NAT）；兩個服務專案（WMS、Order，各有後端服務、執行個體群組、AP 與 DB 主機，兩者之間用內部 API 溝通）；集中式觀測專案（監控與日誌、稽核日誌、日誌路由與集中日誌桶）。</li><li><strong>備份：</strong>Order 資料庫備份以虛線連到組織外的異地備份。</li></ul><p>這種帶官方圖示的圖，Mermaid 預設畫不出來；它是不是由 Mermaid 產生、和貼文第一張是否同一張，無法確認。比較合理的理解是：Mermaid 適合畫流程圖、循序圖這類「關係清楚」的圖；要帶圖示、排版精緻，就要靠 draw.io 之類工具，或讓 AI 直接生成圖像。</p><h2>留言連結的教學網站</h2><p>留言者分享的是施育廷（2026-07-28）寫的繁中教學頁，內容講 Codex、Antigravity IDE、Gemini CLI 與本機 Ollama 的多 agent 分工，頁面本身用 Mermaid 的 graph、flowchart、sequenceDiagram 畫流程並附 SVG。頁面沒有說這些圖是不是 AI 畫的，只提到交付前會由人看過。</p><h2>可以怎麼用</h2><p>挑一個你手上的小系統（例如「網站表單送出後會發生什麼事」），先用 Claude 說出你的理解，請它輸出 Mermaid flowchart；把 code 貼到 Mermaid 的線上編輯器看圖，找出哪一步畫錯，再把修改指令貼回去。做兩三輪你就會抓到手感，也會發現「圖畫不對」常常是「自己的理解有缺口」。</p><p class="src">來源與備註：Threads 貼文，帳號 @_vic_work（Vic 工作日記），2026-11；流程是作者的個人經驗，效果沒有數據；貼文另一張圖未取得。</p><section class="cmd"><h2>給 Claude Code 的指令</h2><p class="when"><strong>適合情境：</strong>你想把某個系統或流程畫成架構圖、又不想一直手動拖拉時</p><pre id="cmdtext">請先讀懂下面的需求，列出你打算讀哪些檔案、改哪些地方、步驟是什麼，等我說「好」再動手；不要直接修改或刪除任何檔案。
+
+我想畫一張架構圖，請照下面步驟幫我做：
+1. 先問我 3～5 個問題，弄清楚系統有哪些元件、誰呼叫誰、資料往哪走。
+2. 根據我的回答，產生 Mermaid code（優先用 flowchart；若有時間先後就用 sequenceDiagram），並說明每個區塊代表什麼。
+3. 我會把 code 貼到 Mermaid 編輯器檢查，之後把修改後的 code 貼回來；你要用我貼回的版本為準，用白話告訴我你改了哪裡。
+4. 重複到我說「定稿」為止。
+5. 定稿後，另外幫我輸出一份 SVG 或 draw.io 可匯入的版本；如果元件超過 15 個，請先建議我怎麼拆成幾張小圖，因為太密的圖人很難看。
+請全程用繁體中文，不要自己新增我沒提到的元件。</pre><button type="button" class="btn copy" id="copybtn">一鍵複製</button><p class="sub">貼進 Claude Code 後，它會先列出要改什麼、等你說「好」才動手。同一份指令也存在原筆記的「給 AI 的指令」。</p></section><section class="rel"><h2>延伸閱讀</h2><p class="sub">以下是別篇的內容，和這篇的重點分開看。</p><ul><li><span class="rl">補充</span><a href="2026-11-13-h5.html">對話壓縮的代價，與換新對話前寫交接檔的做法</a><span class="why">畫圖交給 AI 之外，長對話怎麼交接也是同一套文字流程</span></li><li><span class="rl">補充</span><a href="2026-11-15-d1.html">把 Obsidian 當 AI 的長期記憶：Codex＋Hermes 第二大腦做法</a><span class="why">同樣是把資料整理成 AI 讀得懂的文字格式</span></li><li><span class="rl">補充</span><a href="2026-11-14-h9.html">Claude 文件 artifact 難讀：找報告撰寫方法做成 skill</a><span class="why">同樣在處理 AI 產出的東西怎麼讓人看得懂</span></li></ul></section><p class="src">原筆記：2026-11-06-用Mermaid畫架構圖-AI畫圖流程　<a href="obsidian://open?vault=%E7%9F%A5%E8%AD%98%E5%BA%AB&amp;file=%E5%B7%B2%E7%B5%B1%E6%95%B4/2026-11-06/2026-11-06-%E7%94%A8Mermaid%E7%95%AB%E6%9E%B6%E6%A7%8B%E5%9C%96-AI%E7%95%AB%E5%9C%96%E6%B5%81%E7%A8%8B" style="border-bottom:1.5px solid var(--hl)">在 Obsidian 打開</a></p></article>
+<div class="pn"><a href="2026-11-12-d1.html" style="border-bottom:1.5px solid var(--hl)">← 上一則</a><a href="2026-11-12-h1.html" style="border-bottom:1.5px solid var(--hl)">下一則 →</a></div></main>
+<footer class="wrap">今日草稿 ・ 內容整理自你的知識庫筆記，出處與細節都留在原筆記</footer>
+<script src="../站台/theme.js"></script>
+</body>
+</html>

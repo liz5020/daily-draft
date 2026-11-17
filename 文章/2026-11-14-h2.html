@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>數據分析師工作上 SQL 要學到什麼程度</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../站台/style.css">
+</head>
+<body>
+<header class="wrap mast small">
+ <div class="rule1"></div>
+ <div class="dateline"><span>2026年11月14日　星期六</span><span class="mid">第 5 期</span>
+  <div class="theme" role="group" aria-label="顏色模式"><button type="button" data-mode="auto">自動</button><button type="button" data-mode="light">淺色</button><button type="button" data-mode="dark">深色</button></div></div>
+ <h1><a href="../index.html">今日草稿</a></h1>
+ <p class="en">TODAY'S DRAFT</p>
+ 
+ 
+ <nav aria-label="主題"><ul><li><a href="../index.html">首頁</a></li><li><a href="../主題/心理與自我照顧.html">心理與自我照顧</a></li><li><a href="../主題/人生方向與故事.html">人生方向與故事</a></li><li><a href="../主題/思考與決策.html">思考與決策</a></li><li><a href="../主題/學習與研究.html" aria-current=page>學習與研究</a></li><li><a href="../主題/表達與人際關係.html">表達與人際關係</a></li><li><a href="../主題/社會與商業.html">社會與商業</a></li><li><a href="../主題/寫作與設計.html">寫作與設計</a></li><li><a href="../主題/其他.html">其他</a></li><li><a href="../主題/個人系統與工具.html">個人系統與工具</a></li><li><a href="../主題/AI 協作與治理.html">AI 協作與治理</a></li><li><a href="../往期.html">往期</a></li></ul></nav>
+</header>
+
+<div class="crumb wrap"><a href="../各期/2026-11-14.html">← 回到 2026-11-14 這一期</a></div>
+<main class="wrap"><article class="article"><div class="kick">約 3 分鐘　頭條　學習與研究　昨天新增</div><h1>數據分析師工作上 SQL 要學到什麼程度</h1><p>@yzkijhuo_ 目前靠 GPT 學 SQL，覺得有點太基礎，想問工作上到底要學到什麼程度。串裡最有內容的回答是：語法不難，難的是業務與資料。其他留言補了幾個很實際的角度，也有人唱反調。</p><h2>最完整的回答：六項語法</h2><p>@autumn.__.0426 說，工作上的 SQL 語法大致就是下面六項，並且先強調：真正難的是所屬產業或公司的業務邏輯、領域知識，以及判斷彙整出來的數據合不合理。</p><ol><li>SELECT 等基本查詢（DML）。</li><li>CREATE、ALTER 等建表與改表（DDL），順便了解索引（INDEX）的概念。</li><li>GROUP BY 分組與彙整函式（MAX、AVG 等）。</li><li>各類型的 JOIN，「非常常用」。</li><li>UNION 與 UNION ALL，「非常常用」。</li><li>視窗與分析函數（partition by … order by），整理資料、做報表常用。</li></ol><p>學習路線：先用歐萊禮的《SQL 學習手冊》建立系統化的知識地圖；基礎熟了之後，再往「效能與最佳化」走，學什麼樣的 SQL 才是高效率的。</p><h2>其他人的補充：難在資料，不在語法</h2><ul><li>進公司後最難的是「亂到不行的表格跟欄位」。</li><li>要能在腦中想像資料表的結構與關聯（一對多、多對多），並預判不同查詢會怎麼改變資料的維度與粒度。</li><li>不同公司的資料性質落差很大，要靠對資料的敏感度，所以「SQL 很吃經驗，很難獨立學」。</li><li>有人被塞了一堆髒數據，是先搞懂窗口函數才撐過去。</li></ul><h2>該練什麼</h2><ul><li>各類型 JOIN 與優化。</li><li>刷 LeetCode 練窗口函數；寫的時候每改一點就把輸出貼到 Excel 看，幫助理解資料結構，也容易抓出不是語法的定義錯誤。</li><li>自動回覆的 @meta.ai 給的檢核線：必熟 JOIN 全類型、GROUP BY／HAVING、CASE WHEN、CTE、Window Function（ROW_NUMBER、RANK、LAG／LEAD）；加分是效能意識（EXISTS 對 IN、索引）與髒數據處理（NULL、去重）。作者回說跟 GPT 講的差不多。</li></ul><h2>兩種反方意見</h2><ul><li>「現在直接叫 AI Agent 查就好，語法都不需要會。」</li><li>「所有 SQL 都服務業務，連業務都搞不懂時學 SQL 沒意義。」</li></ul><h2>一題現成的練習題</h2><p>有員工表與月薪表，每位員工同一個月可能有多筆薪資（扣款為負數）。請：①統計 2026 年 10 月每人的當月收入；②所有人都要列出，沒有當月紀錄的顯示 0；③由高到低排序。提示（我的補充）：先想要用哪種 JOIN 才不會漏掉沒紀錄的人，再想怎麼把 NULL 變成 0。</p><h2>跟知識庫怎麼接</h2><p>這跟學習整理裡的「直接練習、攻擊自己的弱點」同方向：語法學完，要拿真實問題練；也跟「先知道夠用是什麼，才知道還缺什麼」相通。至於「叫 AI 查就好」，知識庫的 AI 使用整理有一條相關的提醒：AI 交回成果後要自己驗收，而「判斷數據合不合理」正是這裡的業務邏輯，AI 替你寫語法，仍然需要有人看得出結果對不對。</p><h2>可以怎麼用</h2><p>用手上真實的資料表，寫一個會用到 JOIN 的小問題，每改一次就把輸出貼出來對照，不要只看有沒有報錯。</p><p class="src">來源與備註：Threads @yzkijhuo_，2026-11-13，共讀到 15 則留言。《SQL 學習手冊》是 O'Reilly 的 <em>Learning SQL</em>（Alan Beaulieu），繁中版有第 2、3 版，第 3 版新增分析函數章節。其餘為留言者的個人經驗。</p><section class="rel"><h2>延伸閱讀</h2><p class="sub">以下是別篇的內容，和這篇的重點分開看。</p><ul><li><span class="rl">對照</span><a href="2026-11-14-h6.html">日文學習 App 與頻道 S 到 D 分級表</a><span class="why">同樣談學到什麼程度才夠用，一個學日文一個學 SQL</span></li><li><span class="rl">補充</span><a href="2026-11-15-h2.html">花一個月學這 6 個主題，讓思考更有根據</a><span class="why">統計是分析工作的底子，可一起規劃學習</span></li></ul></section><p class="src">原筆記：2026-11-13-數據分析師工作上SQL要學到什麼程度　<a href="obsidian://open?vault=%E7%9F%A5%E8%AD%98%E5%BA%AB&amp;file=%E5%B7%B2%E7%B5%B1%E6%95%B4/2026-11-13-%E6%95%B8%E6%93%9A%E5%88%86%E6%9E%90%E5%B8%AB%E5%B7%A5%E4%BD%9C%E4%B8%8ASQL%E8%A6%81%E5%AD%B8%E5%88%B0%E4%BB%80%E9%BA%BC%E7%A8%8B%E5%BA%A6" style="border-bottom:1.5px solid var(--hl)">在 Obsidian 打開</a></p></article>
+<div class="pn"><a href="2026-11-14-h1.html" style="border-bottom:1.5px solid var(--hl)">← 上一則</a><a href="2026-11-14-h3.html" style="border-bottom:1.5px solid var(--hl)">下一則 →</a></div></main>
+<footer class="wrap">今日草稿 ・ 內容整理自你的知識庫筆記，出處與細節都留在原筆記</footer>
+<script src="../站台/theme.js"></script>
+</body>
+</html>

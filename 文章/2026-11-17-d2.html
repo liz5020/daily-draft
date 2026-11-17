@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>給 Claude 的指令：把「alway</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../站台/style.css">
+</head>
+<body>
+<header class="wrap mast small">
+ <div class="rule1"></div>
+ <div class="dateline"><span>2026年11月17日　星期二</span><span class="mid">第 8 期</span>
+  <div class="theme" role="group" aria-label="顏色模式"><button type="button" data-mode="auto">自動</button><button type="button" data-mode="light">淺色</button><button type="button" data-mode="dark">深色</button></div></div>
+ <h1><a href="../index.html">今日草稿</a></h1>
+ <p class="en">TODAY'S DRAFT</p>
+ 
+ 
+ <nav aria-label="主題"><ul><li><a href="../index.html">首頁</a></li><li><a href="../主題/心理與自我照顧.html">心理與自我照顧</a></li><li><a href="../主題/人生方向與故事.html">人生方向與故事</a></li><li><a href="../主題/思考與決策.html">思考與決策</a></li><li><a href="../主題/學習與研究.html">學習與研究</a></li><li><a href="../主題/表達與人際關係.html">表達與人際關係</a></li><li><a href="../主題/社會與商業.html">社會與商業</a></li><li><a href="../主題/寫作與設計.html">寫作與設計</a></li><li><a href="../主題/其他.html">其他</a></li><li><a href="../主題/個人系統與工具.html">個人系統與工具</a></li><li><a href="../主題/AI 協作與治理.html" aria-current=page>AI 協作與治理</a></li><li><a href="../往期.html">往期</a></li></ul></nav>
+</header>
+
+<div class="crumb wrap"><a href="../各期/2026-11-17.html">← 回到 2026-11-17 這一期</a></div>
+<main class="wrap"><article class="article"><div class="kick">約 3 分鐘　深讀　AI 協作與治理　舊文 11/14</div><h1>給 Claude 的指令：把「always／never」換成「ask me first」</h1><p>很多人給 Claude 的設定裡，滿滿的「絕對不要」「一定要」。Threads 上一位專門寫 AI 教學的作者 Ruben Hassid 建議換個方向：把指示和記憶區裡的 always／never，換成「ask me first（先問我）」，並要求它「做完整件事再停」。這招值得看，因為它點出一個常見誤會——想讓 AI 更聽話，不是靠更大聲的禁令，而是靠講清楚界線與原因。</p>
+<figure class="diagram"><svg viewBox="0 0 720 272"><rect x="80" y="10" width="560" height="64" rx="8" class="dg-box"/><text x="360.0" y="36.0" text-anchor="middle" class="dg-t">壞：「幫我修歡迎信。</text><text x="360.0" y="58.0" text-anchor="middle" class="dg-t">什麼都不要改，每句不超過 15 字。」</text><line x1="360" y1="74" x2="360" y2="90" class="dg-line"/><polygon points="353,89 367,89 360,101" class="dg-arrow"/><rect x="80" y="104" width="560" height="64" rx="8" class="dg-box"/><text x="360.0" y="130.0" text-anchor="middle" class="dg-t">更好：說清楚能改什麼、不能碰什麼</text><text x="360.0" y="152.0" text-anchor="middle" class="dg-t">改價格前先問我，因為客戶簽過報價</text><line x1="360" y1="168" x2="360" y2="184" class="dg-line"/><polygon points="353,183 367,183 360,195" class="dg-arrow"/><rect x="80" y="198" width="560" height="64" rx="8" class="dg-hl"/><text x="360.0" y="224.0" text-anchor="middle" class="dg-ths">最好：目標＋背景＋能改／不能碰</text><text x="360.0" y="246.0" text-anchor="middle" class="dg-ths">＋有風險的事先問＋做完整件事再停＋刪除前先問＋收尾摘要</text></svg><figcaption>三級提示詞：從「全是禁令」，到「說明界線與原因」，再到完整模板</figcaption></figure>
+<h2>三步做法</h2>
+<ol>
+<li>打開 Claude 的「指示」與「記憶」設定區。</li>
+<li>找出「always」和「never」這兩個字。</li>
+<li>把它們換成「ask me first」。例：舊版「Never change my prices（永遠不要改我的價格）」，新版「Ask me before you delete anything（刪任何東西之前先問我）」。</li>
+</ol>
+<p>為什麼這樣換？禁令只告訴 AI「不准」，沒說為什麼，也沒給它遇到灰色地帶時的出口；「先問我」則把決定權留在你手上，同時讓 AI 繼續把能做的事做完。</p>
+<h2>兩句可以直接貼的話</h2>
+<blockquote><p>完成整個工作，然後再停止。不要提出「要不要繼續」，直接繼續。<br>在你刪除任何東西之前，先問我。</p></blockquote>
+<p>第一句處理的是另一個常見困擾：AI 做到一半就停下來問「要我繼續嗎？」，你得一直回「好」。第二句則是留一道安全閘，因為刪除是少數無法撤回的動作。</p>
+<h2>同一件事的三種寫法</h2>
+<h3>壞的提示詞</h3>
+<p>「幫我修歡迎信。其他什麼都不要改。每句不超過 15 個字。快點。」太短、全是禁令，AI 不知道目標，也不知道你在意什麼。</p>
+<h3>更好的提示詞</h3>
+<p>「幫我重寫 3 封給新客戶的歡迎信。語氣和結構可以改。發票範本不要動。改價格前先問我，因為客戶已簽報價。」這裡有三件事：明確說可以改什麼、不能碰什麼，並且給了「先問」的理由。</p>
+<h3>最好的提示詞（模板）</h3>
+<ol>
+<li><strong>目標：</strong>一句話寫出想要的結果，附期限或數字。</li>
+<li><strong>背景：</strong>附了什麼、已經有什麼；並告訴它「這個專案由你負責，怎麼建由你決定」，讓它有主導感。</li>
+<li><strong>界線：</strong>可以改什麼、不能碰什麼；哪些有風險的事要先問，並說明原因。</li>
+<li><strong>完工標準：</strong>做完整件事再停，不要只問要不要繼續。</li>
+<li><strong>安全閘：</strong>刪任何東西前先問。</li>
+<li><strong>收尾：</strong>給一份「沒看過過程的人也看得懂」的摘要，重點在前、用白話。</li>
+</ol>
+<h2>其他使用者的經驗</h2>
+<ul>
+<li>有人只留一條死規則：「沒問就不刪除」，因為刪除是唯一無法撤回的動作，其他一切都變得更容易，工作也在同一天變好。</li>
+<li>有人說，他們曾在代理人（agent）的描述裡加上全大寫的「重要」，重寫了三次，失敗的結果每次都一樣——大聲不等於有效。</li>
+<li>也有人問這招在大型專案是否同樣有效，貼文下沒有得到答覆，所以大專案的效果目前沒有可靠說法。</li>
+</ul>
+<h2>要小心的地方</h2>
+<ul>
+<li>作者說這是讀完 Anthropic 官方指南後的整理，但「官方指南要你這樣做」這點我找不到對應文件。方向上與官方「少用全大寫 ALWAYS／NEVER、改成說明理由」的建議相近，但「ask me first」更像社群常見的寫法，建議當成可以試的做法，不要當成官方規定。</li>
+<li>「先問我」會增加來回次數。只在「刪除、花錢、對外發送、改價格」這類難以挽回的事上用，小事讓 AI 直接做。</li>
+</ul>
+<h2>可以怎麼用</h2>
+<p>今天花十分鐘，打開你的 Claude 指示頁，搜尋 always 和 never，挑出一條最常讓你卡住的，改成「ask me before ……，因為 ……」，並在最後補上「做完整件事再停」。隔天看看有沒有少一次「要不要繼續」。</p>
+<p class="src">來源與備註：作者 Ruben Hassid，2026-11-13 發在 Threads，原文為英文，是個人解讀；其中「官方指南」的說法未查到出處。</p><section class="cmd"><h2>給 Claude Code 的指令</h2><p class="when"><strong>適合情境：</strong>你的 Claude 指示或 CLAUDE.md 裡有很多「絕對不要／一定要」，想換成比較好用的寫法時</p><pre id="cmdtext">請先讀懂下面的需求，列出你打算讀哪些檔案、改哪些地方、步驟是什麼，等我說「好」再動手；不要直接修改或刪除任何檔案。
+
+請幫我檢查我的 Claude 指示與設定檔（例如 CLAUDE.md 與全域指示檔）：
+1. 先只讀、不要修改任何檔案。
+2. 找出所有含有 always、never、絕對不要、一定要、禁止 這類字眼的規則，列成清單，標出所在檔案與行號。
+3. 逐條判斷：這條是不是在防「無法撤回的動作」（刪除、覆蓋、對外發送、花錢）？如果是，建議改成「做這件事之前先問我，因為……」並寫出理由；如果只是風格偏好，建議改成一句說明原因的白話句。
+4. 另外建議補上兩句：「完成整個工作再停止，不要問要不要繼續」與「刪除任何東西之前先問我」。
+5. 把建議整理成「原句 → 新句 → 理由」的表格給我看，等我說「可以」才動手改。</pre><button type="button" class="btn copy" id="copybtn">一鍵複製</button><p class="sub">貼進 Claude Code 後，它會先列出要改什麼、等你說「好」才動手。同一份指令也存在原筆記的「給 AI 的指令」。</p></section><section class="rel"><h2>延伸閱讀</h2><p class="sub">以下是別篇的內容，和這篇的重點分開看。</p><ul><li><span class="rl">補充</span><a href="2026-11-11-d1.html">全職媽媽想用 Claude Code 剪片，差點對網紅外掛一路按「允許」</a><span class="why">真實案例：一路按允許差點出事，正好呼應先問我</span></li><li><span class="rl">補充</span><a href="2026-11-11-d2.html">AI 治理框架 OAC：可觀測、可授權、可停止</a><span class="why">從治理角度講可授權、可停止，是同一概念的系統版</span></li><li><span class="rl">補充</span><a href="2026-11-13-d1.html">Thorsten Ball：和 AI agent 共事的十五條做法，最大的改變是「要證據」</a><span class="why">另一套和 AI 共事的做法，一起看更完整</span></li></ul></section><p class="src">原筆記：2026-11-14-給Claude的指令-把always和never換成ask-me-first　<a href="obsidian://open?vault=%E7%9F%A5%E8%AD%98%E5%BA%AB&amp;file=%E5%B7%B2%E7%B5%B1%E6%95%B4/2026-11-14/2026-11-14-%E7%B5%A6Claude%E7%9A%84%E6%8C%87%E4%BB%A4-%E6%8A%8Aalways%E5%92%8Cnever%E6%8F%9B%E6%88%90ask-me-first" style="border-bottom:1.5px solid var(--hl)">在 Obsidian 打開</a></p></article>
+<div class="pn"><a href="2026-11-17-d1.html" style="border-bottom:1.5px solid var(--hl)">← 上一則</a><a href="2026-11-17-h1.html" style="border-bottom:1.5px solid var(--hl)">下一則 →</a></div></main>
+<footer class="wrap">今日草稿 ・ 內容整理自你的知識庫筆記，出處與細節都留在原筆記</footer>
+<script src="../站台/theme.js"></script>
+</body>
+</html>

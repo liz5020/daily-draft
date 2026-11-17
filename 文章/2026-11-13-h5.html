@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>對話壓縮的代價，與換新對話前寫交接檔的做</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../站台/style.css">
+</head>
+<body>
+<header class="wrap mast small">
+ <div class="rule1"></div>
+ <div class="dateline"><span>2026年11月13日　星期五</span><span class="mid">第 4 期</span>
+  <div class="theme" role="group" aria-label="顏色模式"><button type="button" data-mode="auto">自動</button><button type="button" data-mode="light">淺色</button><button type="button" data-mode="dark">深色</button></div></div>
+ <h1><a href="../index.html">今日草稿</a></h1>
+ <p class="en">TODAY'S DRAFT</p>
+ 
+ 
+ <nav aria-label="主題"><ul><li><a href="../index.html">首頁</a></li><li><a href="../主題/心理與自我照顧.html">心理與自我照顧</a></li><li><a href="../主題/人生方向與故事.html">人生方向與故事</a></li><li><a href="../主題/思考與決策.html">思考與決策</a></li><li><a href="../主題/學習與研究.html">學習與研究</a></li><li><a href="../主題/表達與人際關係.html">表達與人際關係</a></li><li><a href="../主題/社會與商業.html">社會與商業</a></li><li><a href="../主題/寫作與設計.html">寫作與設計</a></li><li><a href="../主題/其他.html">其他</a></li><li><a href="../主題/個人系統與工具.html">個人系統與工具</a></li><li><a href="../主題/AI 協作與治理.html" aria-current=page>AI 協作與治理</a></li><li><a href="../往期.html">往期</a></li></ul></nav>
+</header>
+
+<div class="crumb wrap"><a href="../各期/2026-11-13.html">← 回到 2026-11-13 這一期</a></div>
+<main class="wrap"><article class="article"><div class="kick">約 1 分鐘　頭條　AI 協作與治理　昨天新增</div><h1>對話壓縮的代價，與換新對話前寫交接檔的做法</h1><p>Claude Code 這類工具在對話快滿時，會自動把前面整段對話讀一次、寫成摘要，再用摘要開新對話接著做，而且不會先問你。Threads 上的 @quiet_resting 介紹這件事的代價，並分享自己的替代做法：在換新對話之前，先請 Agent 寫一份交接檔。</p><figure class="diagram"><svg viewBox="0 0 720 205"><rect class="dg-box" x="210" y="10" width="300" height="48" rx="8"/><text class="dg-t" x="360.0" y="39.0" text-anchor="middle">交接檔固定五段</text><line class="dg-line" x1="360" y1="58" x2="360" y2="80"/><line class="dg-line" x1="74.4" y1="80" x2="645.6" y2="80"/><line class="dg-line" x1="74.4" y1="80" x2="74.4" y2="100"/><rect class="dg-box" x="10.0" y="100" width="128.8" height="90" rx="8"/><text class="dg-t" x="74.4" y="140.0" text-anchor="middle">下一段</text><text class="dg-t" x="74.4" y="160.0" text-anchor="middle">先做什麼</text><line class="dg-line" x1="217.20000000000002" y1="80" x2="217.20000000000002" y2="100"/><rect class="dg-box" x="152.8" y="100" width="128.8" height="90" rx="8"/><text class="dg-t" x="217.20000000000002" y="150.0" text-anchor="middle">做到哪</text><line class="dg-line" x1="360.0" y1="80" x2="360.0" y2="100"/><rect class="dg-box" x="295.6" y="100" width="128.8" height="90" rx="8"/><text class="dg-t" x="360.0" y="140.0" text-anchor="middle">做了哪些決定</text><text class="dg-t" x="360.0" y="160.0" text-anchor="middle">和為什麼</text><line class="dg-line" x1="502.80000000000007" y1="80" x2="502.80000000000007" y2="100"/><rect class="dg-hl" x="438.40000000000003" y="100" width="128.8" height="90" rx="8"/><text class="dg-ths" x="502.80000000000007" y="140.0" text-anchor="middle">試過但</text><text class="dg-ths" x="502.80000000000007" y="160.0" text-anchor="middle">行不通的</text><line class="dg-line" x1="645.6" y1="80" x2="645.6" y2="100"/><rect class="dg-box" x="581.2" y="100" width="128.8" height="90" rx="8"/><text class="dg-t" x="645.6" y="140.0" text-anchor="middle">要讀</text><text class="dg-t" x="645.6" y="160.0" text-anchor="middle">哪些檔</text></svg><figcaption>交接檔五段，最不能空白的是「試過但行不通的」。</figcaption></figure><h2>壓縮的代價</h2><p>作者轉述 Alexander Yue（@Alezander9，2026-10 的 X 長文，第一句是「壓縮對話是個錯誤」）的量測：一段約 40 萬 token 的真實工作，壓縮一次，快取過期時要 38 秒、1.99 美元；快取還在時 29 秒、0.17 美元。他更在意的是摘要會丟重要訊息：「精確的錯誤訊息、檔案路徑、你需要的那一個數字，常常不見了。」</p><p>他的做法是把每段對話完整存成檔案，塞滿就開新對話，要用時叫它回去搜舊紀錄、抄需要的幾行，同一段工作 15 秒、0.10 美元。有人問寫交接檔行不行，他說交接本身也是一種壓縮。（這些是他自己的量測，而他也是相關工具的作者，立場要留意。）</p><h2>作者的交接檔做法</h2><p>不等自動壓縮，一件大事做完、或 Agent 提醒快滿了，就先寫交接檔再開新對話；新對話只讀這份，回「已接手」。交接檔固定五段：下一段先做什麼、做到哪、做了哪些決定和為什麼、試過但行不通的、要讀哪些檔。</p><p>其中最不能空白的是「試過但行不通的」：摘要最常丟掉它，少了它，新對話會重走一遍死胡同。</p><h2>可以怎麼用</h2><p>下次一個長任務告一段落時，不要繼續塞同一段對話，先請 AI 照這五段寫交接檔，再開新對話只貼這份。</p><p class="src">來源與備註：@quiet_resting，Threads，2026-11-10；轉述 Alexander Yue 2026-10 的 X 長文並加上自己的做法。</p><section class="cmd"><h2>給 Claude Code 的指令</h2><p class="when"><strong>適合情境：</strong>一個長任務做到一半、對話快滿或想開新對話時</p><pre id="cmdtext">請先讀懂下面的需求，列出你打算讀哪些檔案、改哪些地方、步驟是什麼，等我說「好」再動手；不要直接修改或刪除任何檔案。
+
+這段對話我想先收尾再開新對話。請幫我寫一份交接檔，存成專案資料夾裡的 交接檔.md，固定這五段：
+1. 下一段先做什麼
+2. 目前做到哪
+3. 做了哪些決定，以及為什麼
+4. 試過但行不通的（要寫清楚做了什麼、為什麼不行，這段不能空白）
+5. 要讀哪些檔案（列出完整路徑）
+寫完後請把內容貼給我確認。之後新的對話我會只讀這份檔案，請寫到讓新對話不用回頭看舊紀錄也能接手。</pre><button type="button" class="btn copy" id="copybtn">一鍵複製</button><p class="sub">貼進 Claude Code 後，它會先列出要改什麼、等你說「好」才動手。同一份指令也存在原筆記的「給 AI 的指令」。</p></section><section class="rel"><h2>延伸閱讀</h2><p class="sub">以下是別篇的內容，和這篇的重點分開看。</p><ul><li><span class="rl">補充</span><a href="2026-11-14-d1.html">使用 Agent 最常見的 8 大浪費 Token 行為</a><span class="why">對話越長越耗資源，兩篇都在談怎麼省</span></li><li><span class="rl">補充</span><a href="2026-11-13-d1.html">Thorsten Ball：和 AI agent 共事的十五條做法，最大的改變是「要證據」</a><span class="why">另一套和 agent 共事的日常做法，可一起參考</span></li></ul></section><p class="src">原筆記：2026-11-12-對話壓縮的代價與換新對話前的交接檔-quiet_resting　<a href="obsidian://open?vault=%E7%9F%A5%E8%AD%98%E5%BA%AB&amp;file=%E5%B7%B2%E7%B5%B1%E6%95%B4/2026-11-12/2026-11-12-%E5%B0%8D%E8%A9%B1%E5%A3%93%E7%B8%AE%E7%9A%84%E4%BB%A3%E5%83%B9%E8%88%87%E6%8F%9B%E6%96%B0%E5%B0%8D%E8%A9%B1%E5%89%8D%E7%9A%84%E4%BA%A4%E6%8E%A5%E6%AA%94-quiet_resting" style="border-bottom:1.5px solid var(--hl)">在 Obsidian 打開</a></p></article>
+<div class="pn"><a href="2026-11-13-h4.html" style="border-bottom:1.5px solid var(--hl)">← 上一則</a><a href="2026-11-13-h6.html" style="border-bottom:1.5px solid var(--hl)">下一則 →</a></div></main>
+<footer class="wrap">今日草稿 ・ 內容整理自你的知識庫筆記，出處與細節都留在原筆記</footer>
+<script src="../站台/theme.js"></script>
+</body>
+</html>

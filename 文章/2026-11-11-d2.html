@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 治理框架 OAC：可觀測、可授權、</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../站台/style.css">
+</head>
+<body>
+<header class="wrap mast small">
+ <div class="rule1"></div>
+ <div class="dateline"><span>2026年11月11日　星期三</span><span class="mid">第 2 期</span>
+  <div class="theme" role="group" aria-label="顏色模式"><button type="button" data-mode="auto">自動</button><button type="button" data-mode="light">淺色</button><button type="button" data-mode="dark">深色</button></div></div>
+ <h1><a href="../index.html">今日草稿</a></h1>
+ <p class="en">TODAY'S DRAFT</p>
+ 
+ 
+ <nav aria-label="主題"><ul><li><a href="../index.html">首頁</a></li><li><a href="../主題/心理與自我照顧.html">心理與自我照顧</a></li><li><a href="../主題/人生方向與故事.html">人生方向與故事</a></li><li><a href="../主題/思考與決策.html">思考與決策</a></li><li><a href="../主題/學習與研究.html">學習與研究</a></li><li><a href="../主題/表達與人際關係.html">表達與人際關係</a></li><li><a href="../主題/社會與商業.html">社會與商業</a></li><li><a href="../主題/寫作與設計.html">寫作與設計</a></li><li><a href="../主題/其他.html">其他</a></li><li><a href="../主題/個人系統與工具.html">個人系統與工具</a></li><li><a href="../主題/AI 協作與治理.html" aria-current=page>AI 協作與治理</a></li><li><a href="../往期.html">往期</a></li></ul></nav>
+</header>
+
+<div class="crumb wrap"><a href="../各期/2026-11-11.html">← 回到 2026-11-11 這一期</a></div>
+<main class="wrap"><article class="article"><div class="kick">約 3 分鐘　深讀　AI 協作與治理　舊文 11/03</div><h1>AI 治理框架 OAC：可觀測、可授權、可停止</h1><p>當 AI 開始替人做決定，最危險的可能不是它犯錯，而是犯錯時沒有人知道怎麼讓它停下來。研究者 EliyahOren 把這個問題整理成三層框架：可觀測、可授權、可停止。它原本談的是企業裡的多 AI Agent 系統，但縮小到你我自己用 AI 的情境，同樣能拿來檢查：它碰得到什麼、做了什麼看得到嗎、要停時停得下來嗎？</p><figure class="diagram"><svg viewBox="0 0 720 150"><rect class="dg-box" x="0" y="15" width="217" height="120" rx="8"/><text class="dg-tb" x="108.66666666666667" y="52" text-anchor="middle">① 可觀測</text><text class="dg-t" x="108.66666666666667" y="80" text-anchor="middle">看得到</text><text class="dg-t" x="108.66666666666667" y="108" text-anchor="middle">做了什麼</text><line class="dg-line" x1="220" y1="75" x2="237" y2="75"/><polygon class="dg-arrow" points="237,67 247,75 237,83"/><rect class="dg-box" x="251" y="15" width="217" height="120" rx="8"/><text class="dg-tb" x="360.0" y="52" text-anchor="middle">② 授權邊界</text><text class="dg-t" x="360.0" y="80" text-anchor="middle">能做什麼</text><text class="dg-t" x="360.0" y="108" text-anchor="middle">誰批准</text><line class="dg-line" x1="472" y1="75" x2="489" y2="75"/><polygon class="dg-arrow" points="489,67 499,75 489,83"/><rect class="dg-hl" x="503" y="15" width="217" height="120" rx="8"/><text class="dg-ths" x="611.3333333333334" y="52" text-anchor="middle">③ 限制與停止</text><text class="dg-ths" x="611.3333333333334" y="80" text-anchor="middle">出事能</text><text class="dg-ths" x="611.3333333333334" y="108" text-anchor="middle">喊停、隔離</text></svg><figcaption>三層由「看得見」到「管得住」，最後一層是出事時的底線</figcaption></figure><h2>先看一個情境</h2><p>文章用一個假設的場景開頭：凌晨 2:17，一家企業的 AI Agent 正在自動處理跨部門任務，它可以讀取文件、呼叫 API、修改資料庫，甚至指揮其他 AI Agent。突然系統收到一項與原任務衝突的指令：</p><ul><li>第一個 Agent 認為應該繼續；</li><li>第二個 Agent 判斷有風險；</li><li>第三個 Agent 提出新的執行方案。</li></ul><p>三個 AI 都有自己的理由，真正的問題是：<strong>誰有權說「停止」？</strong>這是假設情境，卻點出一個值得研究的治理問題。</p><h2>為什麼現在才問這個</h2><p>過去 AI 是工具，工具出錯，人類停止使用就好。但當 AI 逐漸具備長期記憶、工具呼叫、任務規劃與多 Agent 協作的能力，問題就不再只是「模型答得對不對」，而是<strong>整個系統是否仍然可控</strong>。</p><h2>OAC 三層</h2><h3>① Observability 可觀測</h3><p>系統必須能回答四件事：</p><ul><li>AI 收到什麼指令？</li><li>做出了哪些決策？</li><li>呼叫了哪些工具？</li><li>留下了哪些可供稽核的證據？</li></ul><p>如果連發生什麼事都無法重建，就很難建立責任機制。</p><h3>② Authority 授權邊界</h3><p>AI 可以提出建議，不代表它擁有無限制的執行權。要先想清楚：</p><ul><li>哪些操作可以自主完成？</li><li>哪些必須經過人類批准？</li><li>哪些權限應該隨時可以撤銷？</li></ul><p>重點是：授權不應只存在於提示詞裡，而要落實在<strong>可執行的系統控制</strong>中。</p><h3>③ Containment 限制與停止</h3><p>出現異常時，系統能不能停止高風險操作、撤銷權限、隔離受影響的元件，並保留調查紀錄？這一層是最後的安全網。</p><h2>哪些是已知的、哪些還在研究</h2><table><tr><th>類別</th><th>內容</th></tr><tr><td>已知的工程原則</td><td>日誌、最小權限、權限撤銷與隔離，本來就是資訊系統安全治理的重要手段</td></tr><tr><td>研究中</td><td>如何把這些控制整合到長期運作的多 AI Agent 系統，並證明有效</td></tr><tr><td>前瞻假說</td><td>未來 AI 系統的競爭力，可能不只看自主能力，也看能否接受外部監督、修正與停止</td></tr></table><p>作者自己說得很清楚：OAC 不是已完成驗證的產品，而是供後續工程實驗與治理設計用的分析框架。</p><h2>給企業的提問</h2><blockquote>不要只問 AI 能替我們完成多少工作，還要問：當 AI 不應該繼續工作時，我們能否確實阻止它？</blockquote><p>文章的結論是：值得信任的自主系統，不是永遠不犯錯，而是錯誤發生時仍保有可追溯、可治理、可控制的邊界。</p><h2>縮小到個人使用</h2><p>你不需要有企業系統，也能套用這三層：</p><ol><li><strong>可觀測：</strong>AI 做過的事我看得到紀錄嗎？（例如對話與操作歷史、檔案的修改紀錄）</li><li><strong>授權：</strong>我給它的存取範圍有多大？有沒有哪些動作應該改成「每次都問我」？</li><li><strong>停止：</strong>它做到一半我要怎麼讓它停？停了之後能不能還原？</li></ol><h2>三層怎麼一起運作</h2><p>回到凌晨 2:17 的情境：三個 Agent 意見不同、沒人能說「停」，其實是三層同時缺席。沒有可觀測，就看不到誰下了什麼指令、為什麼衝突；沒有授權邊界，就不知道誰有權決定繼續或暫停；沒有停止機制，即使知道出事了也收不回來。所以三層是疊在一起的：先看得見，才談得上管；先管得住，出事時才有底線。</p><h2>這個框架的定位</h2><p>要特別留意：這不是已經證明有效的標準，作者把證據分成三類（已知的工程原則、研究中的整合方式、前瞻的假說），並明說自己的框架是後續實驗與治理設計用的起點。貼文也帶有作者團隊介紹研究方向的性質，且情境是假設的。把它當成一張好用的檢查表，而不是結論，會比較貼近原意。</p><h2>可以怎麼用</h2><p>今天花十分鐘，打開你最常用的 AI 工具的權限設定，只問自己這三個問題各一次；如果有哪一題答不出來，就是你該補的缺口。也可以直接把下面的指令交給 Claude Code，請它只讀、不改，幫你盤點。</p><p class="src">來源與備註：社群貼文，作者 EliyahOren 團隊，貼文談及其研究方向；情境為假設，框架為作者的分析框架，貼文帶有團隊自我介紹的性質。我們收藏於 2026-11-03。</p><section class="cmd"><h2>給 Claude Code 的指令</h2><p class="when"><strong>適合情境：</strong>你想檢查自己給 AI 的權限開得太大、或出事時停不停得下來時</p><pre id="cmdtext">請先讀懂下面的需求，列出你打算讀哪些檔案、改哪些地方、步驟是什麼，等我說「好」再動手；不要直接修改或刪除任何檔案。
+
+請用「可觀測、可授權、可停止」三個角度，幫我盤點目前這台電腦上 Claude Code 的使用狀況。全程只讀取，不要修改、刪除任何檔案或設定。
+
+步驟：
+1. 讀取我的 Claude Code 設定檔（settings.json 與 settings.local.json，若有）與 CLAUDE.md，列出目前允許自動執行的指令、能讀寫的資料夾、有哪些 hook。
+2. 可觀測：說明我現在能在哪裡看到你做過的操作與檔案修改（例如對話紀錄、版本紀錄），哪些地方看不到。
+3. 可授權：指出哪些權限開得比必要的更大，建議改成「每次詢問」的項目。
+4. 可停止：說明我在你執行到一半時可以怎麼中斷，以及如何還原被你改過的檔案。
+最後用白話給我三個最優先要補的缺口，每個附一個具體的設定建議，但先不要動手改。</pre><button type="button" class="btn copy" id="copybtn">一鍵複製</button><p class="sub">貼進 Claude Code 後，它會先列出要改什麼、等你說「好」才動手。同一份指令也存在原筆記的「給 AI 的指令」。</p></section><section class="rel"><h2>延伸閱讀</h2><p class="sub">以下是別篇的內容，和這篇的重點分開看。</p><ul><li><span class="rl">補充</span><a href="2026-11-11-d1.html">全職媽媽想用 Claude Code 剪片，差點對網紅外掛一路按「允許」</a><span class="why">用真實剪片差點盲目授權的例子，看治理為什麼需要</span></li><li><span class="rl">補充</span><a href="2026-11-12-h2.html">提示注入：AI 讀到網頁裡的指令，可能照做</a><span class="why">講 AI 可能被網頁指令誘導，說明為何要能授權與停止</span></li><li><span class="rl">補充</span><a href="2026-11-13-d1.html">Thorsten Ball：和 AI agent 共事的十五條做法，最大的改變是「要證據」</a><span class="why">日常和 AI 共事如何要證據，是治理落到做法的樣子</span></li></ul></section><p class="src">原筆記：2026-11-03-AI治理-OAC框架-可觀測授權可停止　<a href="obsidian://open?vault=%E7%9F%A5%E8%AD%98%E5%BA%AB&amp;file=%E5%B7%B2%E7%B5%B1%E6%95%B4/2026-11-03/2026-11-03-AI%E6%B2%BB%E7%90%86-OAC%E6%A1%86%E6%9E%B6-%E5%8F%AF%E8%A7%80%E6%B8%AC%E6%8E%88%E6%AC%8A%E5%8F%AF%E5%81%9C%E6%AD%A2" style="border-bottom:1.5px solid var(--hl)">在 Obsidian 打開</a></p></article>
+<div class="pn"><a href="2026-11-11-d1.html" style="border-bottom:1.5px solid var(--hl)">← 上一則</a><a href="2026-11-11-h1.html" style="border-bottom:1.5px solid var(--hl)">下一則 →</a></div></main>
+<footer class="wrap">今日草稿 ・ 內容整理自你的知識庫筆記，出處與細節都留在原筆記</footer>
+<script src="../站台/theme.js"></script>
+</body>
+</html>
