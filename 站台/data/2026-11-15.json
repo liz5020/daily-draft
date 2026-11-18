@@ -1,0 +1,411 @@
+{
+ "one_line": "好奇心每天留一點，慢慢就長成見解",
+ "deep": [
+  {
+   "topic": "個人系統與工具",
+   "title": "把 Obsidian 當 AI 的長期記憶：Codex＋Hermes 第二大腦做法",
+   "summary": "作者把 Obsidian 當成 AI 的長期記憶層，讓 Codex 負責調度、Hermes 負責執行。從資料夾編號、外掛、三個應用例子（學習、內容創作、工作自動化）到避坑清單，一次講完新手到進階的做法，並提醒外掛有安全風險、只按需要安裝。",
+   "hint": "工具效果為作者個人經驗",
+   "tags": [
+    "Obsidian",
+    "AI Agent",
+    "第二大腦"
+   ],
+   "note": "已統整/2026-11-14/2026-11-14-Obsidian接AI-Agent-Codex加Hermes當第二大腦.md",
+   "is_new": true,
+   "body_html": "<p>很多人學了一堆東西，要用時卻找不到：資料、想法、工作進度散在不同地方。這篇作者的做法是把 Obsidian 當成 AI 的「長期記憶層」，再接上 Codex 與 Hermes 兩個工具幫你做事。它從怎麼整理資料夾、裝哪些外掛，一路講到學習、內容創作、工作自動化三個實例，適合已經在用 Obsidian、想讓 AI 真正派上用場的人。</p><figure class='diagram'><svg viewBox='0 0 720 416'><rect class='dg-box' x='40' y='10' width='640' height='42' rx='8'/><text class='dg-tb' x='360' y='38' text-anchor='middle'>問題：資料與進度散在各處</text><line class='dg-line' x1='360' y1='52' x2='360' y2='62'/><polygon class='dg-arrow' points='352,56 368,56 360,66'/><rect class='dg-box' x='40' y='74' width='640' height='66' rx='8'/><text class='dg-tb' x='360' y='102' text-anchor='middle'>Obsidian＝長期記憶</text><text class='dg-t' x='360' y='126' text-anchor='middle'>筆記、規則、SOP 都存在這裡</text><line class='dg-line' x1='360' y1='140' x2='360' y2='150'/><polygon class='dg-arrow' points='352,144 368,144 360,154'/><rect class='dg-box' x='40' y='162' width='640' height='66' rx='8'/><text class='dg-tb' x='360' y='190' text-anchor='middle'>Codex＝調度核心</text><text class='dg-t' x='360' y='214' text-anchor='middle'>寫腳本、整理、分派工作</text><line class='dg-line' x1='360' y1='228' x2='360' y2='238'/><polygon class='dg-arrow' points='352,232 368,232 360,242'/><rect class='dg-box' x='40' y='250' width='640' height='66' rx='8'/><text class='dg-tb' x='360' y='278' text-anchor='middle'>Hermes＝執行領隊</text><text class='dg-t' x='360' y='302' text-anchor='middle'>照流程把事情做完</text><line class='dg-line' x1='360' y1='316' x2='360' y2='326'/><polygon class='dg-arrow' points='352,320 368,320 360,330'/><rect class='dg-hl' x='40' y='338' width='640' height='66' rx='8'/><text class='dg-ths' x='360' y='366' text-anchor='middle'>成果：混亂變成可重用的系統</text><text class='dg-ths' x='360' y='390' text-anchor='middle'>做錯就把修正寫回規則頁</text></svg><figcaption>Obsidian＋AI Agent 的分工</figcaption></figure><h2>為什麼是 Obsidian</h2><p>作者列出的理由是：知識可以沉澱、重複使用；可以追溯、擴充；資料存在自己的電腦裡由自己掌控；AI 讀取格式穩定（本機 Markdown）。Obsidian 本身的核心功能包括雙向連結、Graph View、全文搜尋、Daily Notes、Templates 與插件生態。三者的角色是：Obsidian 是長期記憶，Codex 是調度核心，Hermes 是執行領隊。</p><h2>新手第一步：先整理 Vault</h2><p>作者建議的資料夾編號如下：</p><ul><li>00_Inbox：還沒整理的收件匣</li><li>01_Projects：進行中的專案</li><li>02_Areas：長期維持的領域</li><li>03_Resources：參考資料</li><li>04_SOPs：標準流程</li><li>05_Skills：技能與做法</li><li>06_Memory：給 AI 的記憶</li><li>07_Daily Notes：每日記錄</li><li>08_ARCHIVE：封存</li></ul><p>三個習慣：命名規則統一、用 Templates 讓格式一致、養成 Daily Notes。重點提醒是「SOPs、Skills、Memory 分開放，AI 更容易讀」，資料夾命名統一，之後搜尋與自動化才會準。另一個小技巧：每篇筆記只放一個主題（例如「N5 日文單字」「每日學習」分開寫），再用雙向連結串起來；複雜概念、學習流程、心智圖可以用 Excalidraw 直接畫，不用硬打字。</p><h2>可以先裝的外掛</h2><ul><li>Obsidian Web：網頁剪藏，選取文字送進 Obsidian</li><li>Sidenote2 Obsidian：側欄快速記下靈感</li><li>WebClipper：長文保存與標註整理</li><li>Local REST API：讓 Chrome 與 Obsidian 溝通，要先裝它。作者自己也提醒這需要了解安全風險，按需要才加裝</li></ul><p>順序是先裝 Obsidian Web 加 Local REST API，其他工具之後再說。</p><h2>三個應用例子</h2><h2>例子 1：學習整理</h2><p>流程是上課筆記、AI 整理重點、建立複習清單、決定下次行動。筆記分成記下（重點、問題、例子）、整理成（摘要、重點、待查資料），考前直接看複習頁，不必重翻全部。學日文時，單字、文法、例句、複習清單放在同一頁，語言筆記固定四欄：單字、文法、例句、複習；每晚回看 10 分鐘，每次學完用 5 分鐘補一頁「今日學到什麼」。</p><h2>例子 2：內容創作</h2><p>把靈感庫、Hook（吸引停留的開場句）、Caption、Hashtag、圖片 Prompt 收進同一個內容庫。IG 或 Threads 的題材先存起來，不怕忘；爆款結構拆成模板，下次直接重用；AI 協助改寫語氣、整理 9 宮格腳本。模板固定五欄：主題、痛點、Hook、CTA、素材。作者的示範是「寵物店日常」：主題「夏天帶貓出門的小提醒」，痛點「主人怕熱、怕緊張」，Hook「第一次帶貓出門，最怕不是不乖，而是太熱」，再同一頁產出 IG 貼文、Threads 文案與圖片 prompt；也可以先寫長版 IG 再濃縮成 Threads。</p><h2>例子 3：工作自動化</h2><p>流程是客戶需求進 Obsidian（規則與 SOP），Codex 寫工具，Hermes 執行流程。例如處理工作進度與客戶購買紀錄：每日記錄、匯入購買表、Codex 整理、Hermes 跟進。</p><h2>進階：把 Obsidian 變成 AI 的記憶層</h2><p>建立 Rules、SOP、Clients、Templates 這幾個資料夾，讓 AI 每次都照裡面的規則做事；AI 做錯時，就把修正後的結果寫回規則頁，下次不會再犯。</p><h2>避坑清單</h2><ul><li>不要一開始就裝一堆外掛</li><li>不要同一個 Vault 同時用多個雲端同步</li><li>不要兩個裝置同時修改同一篇筆記</li><li>定期備份</li></ul><h2>需要留意的地方</h2><p>這是作者的個人經驗，工具組合與效果沒有第三方數據；貼文沒有說明 Hermes 到底是哪個產品，實際用之前要自己確認。Local REST API 會開啟本機連接埠，要注意金鑰與安全。</p><h2>可以怎麼用</h2><p>今天只做一件事：在自己的 Vault 裡建一個 06_Memory 或 Rules 資料夾，寫三條「AI 做錯過就不要再犯」的規則，下次叫 AI 做事時請它先讀這個資料夾。</p><p class=\"src\">來源與備註：Threads 帳號 corpenpremier（Corpen Premier 職場高效），2026-06-29 發文，12 頁輪播；留言區的教學索取導流已略去。</p>",
+   "ai_cmd": {
+    "when": "想讓 Claude Code 讀你的 Obsidian 資料夾並照規則做事時",
+    "prompt": "請先讀懂下面的需求，列出你打算讀哪些檔案、改哪些地方、步驟是什麼，等我說「好」再動手；不要直接修改或刪除任何檔案。\n\n請幫我檢查我的 Obsidian Vault（資料夾路徑：請先問我）。步驟：1. 列出現有資料夾結構。2. 對照這個建議架構：00_Inbox、01_Projects、02_Areas、03_Resources、04_SOPs、05_Skills、06_Memory、07_Daily Notes、08_ARCHIVE，告訴我哪些已有、哪些缺、哪些可合併，先不要搬動任何檔案。3. 在 06_Memory 建一個『AI 規則.md』，先放三條空白規則欄位讓我填。4. 告訴我下次你開工時要先讀哪幾個檔案。做完用白話列出你改了什麼。"
+   },
+   "label": "",
+   "related": [
+    {
+     "title": "2026-11-14-AI助理每日站會-兩個Agent每天同步記憶",
+     "ref": null,
+     "relation": "補充",
+     "why": "同樣是兩個 AI 靠共用記憶協作，這篇講每天怎麼同步",
+     "note": "已統整/2026-11-14/2026-11-14-AI助理每日站會-兩個Agent每天同步記憶.md"
+    },
+    {
+     "title": "對話壓縮的代價，與換新對話前寫交接檔的做法",
+     "ref": "2026-11-13-h5",
+     "relation": "補充",
+     "why": "AI 記不住長對話時，交接檔是另一種留記憶的做法"
+    },
+    {
+     "title": "用 AI 把零碎想法與舊筆記合成永久筆記",
+     "ref": "2026-11-15-h10",
+     "relation": "接續",
+     "why": "記憶庫建好後，可學怎麼用 AI 把新舊筆記合併"
+    }
+   ]
+  },
+  {
+   "topic": "人生方向與故事",
+   "title": "30、40 歲才學陌生的東西：數百位網友的轉變故事",
+   "summary": "Threads 上有人問，過了 30、40 歲才學完全陌生的事，結果改變人生了嗎？留言涵蓋運動、轉職證照、創業自媒體、AI 與語言興趣。多數人從一個小動機開始，過去累積的軟實力仍派得上用場，也有人提醒學新東西最難的是接受自己又變回菜鳥。",
+   "hint": "網友自述，未核實",
+   "tags": [
+    "中年轉職",
+    "學新技能",
+    "Threads"
+   ],
+   "note": "已統整/2026-11-10/2026-11-10-Threads問大家-30歲後學新東西.md",
+   "is_new": false,
+   "body_html": "<p>有人在 Threads 問：過了 30、40 歲才開始學完全陌生的東西，有沒有因此改變人生？這串討論收到數百則回應，發問的人幾乎每則都回覆鼓勵。內容大多是網友自述經歷，讀起來像一座「晚開始也可以」的故事庫，也讓人看到哪些領域最常被選、轉變是怎麼發生的。</p><figure class='diagram'><svg viewBox='0 0 720 323'><rect class='dg-box' x='140' y='10' width='440' height='60' rx='8'/><text class='dg-tb' x='360' y='36' text-anchor='middle'>提問：30、40 歲才學新東西</text><text class='dg-t' x='360' y='58' text-anchor='middle'>有人改變了人生嗎？</text><line class='dg-line' x1='360' y1='70' x2='360' y2='90'/><line class='dg-line' x1='78' y1='90' x2='642' y2='90'/><line class='dg-line' x1='78' y1='90' x2='78' y2='108'/><rect class='dg-box' x='12' y='108' width='131' height='93' rx='8'/><text class='dg-tb' x='78' y='134' text-anchor='middle'>運動與身體</text><text class='dg-t' x='78' y='159' text-anchor='middle' font-size='14'>健身房、潛水、</text><text class='dg-t' x='78' y='180' text-anchor='middle' font-size='14'>瑜伽、皮拉提斯</text><line class='dg-line' x1='219' y1='90' x2='219' y2='108'/><rect class='dg-box' x='153' y='108' width='131' height='93' rx='8'/><text class='dg-tb' x='219' y='134' text-anchor='middle'>轉職與證照</text><text class='dg-t' x='219' y='159' text-anchor='middle' font-size='14'>健身教練、法律、</text><text class='dg-t' x='219' y='180' text-anchor='middle' font-size='14'>縫紉、技術轉行</text><line class='dg-line' x1='360' y1='90' x2='360' y2='108'/><rect class='dg-box' x='294' y='108' width='131' height='93' rx='8'/><text class='dg-tb' x='360' y='134' text-anchor='middle'>創業與自媒體</text><text class='dg-t' x='360' y='159' text-anchor='middle' font-size='14'>一人品牌、民宿、</text><text class='dg-t' x='360' y='180' text-anchor='middle' font-size='14'>食品、手作</text><line class='dg-line' x1='501' y1='90' x2='501' y2='108'/><rect class='dg-box' x='436' y='108' width='131' height='93' rx='8'/><text class='dg-tb' x='501' y='134' text-anchor='middle'>AI 與數位</text><text class='dg-t' x='501' y='159' text-anchor='middle' font-size='14'>自學做網站、</text><text class='dg-t' x='501' y='180' text-anchor='middle' font-size='14'>app、音樂 MV</text><line class='dg-line' x1='642' y1='90' x2='642' y2='108'/><rect class='dg-box' x='577' y='108' width='131' height='93' rx='8'/><text class='dg-tb' x='642' y='134' text-anchor='middle'>語言與興趣</text><text class='dg-t' x='642' y='159' text-anchor='middle' font-size='14'>日文、法文、</text><text class='dg-t' x='642' y='180' text-anchor='middle' font-size='14'>樂器、繪畫、攝影</text><line class='dg-line' x1='78' y1='201' x2='78' y2='221'/><line class='dg-line' x1='642' y1='201' x2='642' y2='221'/><line class='dg-line' x1='78' y1='221' x2='642' y2='221'/><line class='dg-line' x1='360' y1='221' x2='360' y2='239'/><rect class='dg-hl' x='80' y='239' width='560' height='74' rx='8'/><text class='dg-ths' x='360' y='267' text-anchor='middle'>共通點</text><text class='dg-ths' x='360' y='291' text-anchor='middle'>從小動機開始，過去的累積仍有用</text></svg><figcaption>五個領域並列，沒有先後順序</figcaption></figure><h2>一、運動與身體</h2><ul><li>41 歲才進健身房、45 歲學跳舞、47 歲受訓，現在 54 歲，下班兼職團課老師</li><li>30 多歲以前 120 公斤、天天宅在家；32 歲發現三高開始減肥，34 歲重訓兩年瘦 50 公斤，35 歲學自由潛水，40 歲考到水舞教練</li><li>30 歲才學瑜伽，邊在科技業上班，15 年後辭職成為瑜伽老師</li><li>另有人 37 歲學游泳、再到空中瑜伽，也有人轉成皮拉提斯、匹克球、騎馬的教課或比賽</li></ul><h2>二、轉職與技能證照</h2><ul><li>32 歲從文職（研究助理、出版行銷、銀行櫃員）轉健身教練，半年薪資超越原本工作；他發現最大的資產是早年的軟實力，如業務、溝通、專案規劃，專業知識反而能靠後天學</li><li>36 歲開始學法律、37 歲專職做會計、38 歲準備考司法；50 歲的人剛結束律師實習</li><li>32 歲才學縫紉，花一年考到女裝丙級，現在剛成立自己的女裝品牌</li><li>其他還有 47 歲轉海巡、華語師資培訓後半年累積 400 小時授課，以及美容、按摩、照服員、焊接、水工等技術轉行</li></ul><h2>三、創業與自媒體</h2><ul><li>39 歲才開始學當創業者：前矽谷科技業工作者離職後，從銷售、產品設計到經營一人公司都重新學，他的體會是「不是從零開始，而是帶著過去累積的人生經驗重新出發」，也覺得「願意重新當個新手，本身就是珍貴的能力」</li><li>也有人經營民宿、食品品牌、手作；不少人坦承經營社群、剪片「好難」</li><li>30 歲後廣泛培養興趣（寫作、塔羅、花藝、催眠），如今自由接案第四年</li></ul><h2>四、AI 與數位</h2><p>有人自學 AI 做網站、app、音樂 MV；有人用 AI 練英文對話；一位 57 歲的留言者說過年期間開始自學 AI，兩個月後開始教課；還有很多人只回一個字：「AI」。</p><h2>五、語言與興趣</h2><p>日文、法文、俄文、泰文、西文，以及烏克麗麗、鋼琴、二胡、古琴、繪畫、插畫、攝影。例如 42 歲才開始畫畫，學日本和諧粉彩後開小班教學；35 歲自學烏克麗麗與吉他，小時候的古典鋼琴突然開竅，現在 45 歲在學室內樂編曲；30 歲到法國後從設計師轉職當廚師，今年在義大利合夥開店。</p><h2>留言裡的幾句觀察</h2><ul><li>「長大最難的不是學新東西，是接受自己又變回菜鳥。」</li><li>「年輕時怕學不會，長大後怕被看到還在學。」</li><li>「開始做這件事的那一刻，你就已經改變你的人生了。」</li><li>有人提醒創業常是被危機激出來的，過程很累，已經不是 30 歲的體力</li></ul><h2>這串討論的限制</h2><p>所有故事都是網友自述，沒有人核實；也有倖存者偏誤，沒成功的人比較不會留言。比較有參考價值的是「怎麼開始」的模式：多數人從一個小動機（健康、好奇、危機）開始，慢慢發展成可以教別人或賺錢的能力。</p><h2>把這些故事讀成幾個共通模式</h2><ul><li>多數人不是一開始就有大計畫，而是從健康警訊、好奇心或工作危機這類小動機起步，再一步步往下走。</li><li>轉變常發生在「過去的經驗搬到新領域」：業務、溝通、專案規劃這些早年累積的能力，在新行業裡依然派得上用場。</li><li>從學習到能教別人、能收入，時間差很大：有人兩個月就開始教課，有人花了十五年才辭職轉行，沒有統一的節奏。</li><li>留言也不全是鼓勵，有人坦承經營社群、剪片很難，有人提醒創業常是被危機推著走，體力已不是三十歲。</li></ul><h2>可以怎麼用</h2><p>想一個你一直覺得「太晚了」的東西，今天只做最小的一步：查一堂入門課，或約一個做這件事的人聊 15 分鐘。</p><p class=\"src\">來源與備註：Threads 帳號 bloom_withyumi 於 2026-11-03 發問，回應數百則；內容為網友自述，未逐一核實；部分留言為廣告，已略去。</p>",
+   "ai_cmd": null,
+   "label": "　舊文 11/10",
+   "related": [
+    {
+     "title": "聽起來厲害又不難考的證照？網友這樣推薦",
+     "ref": "2026-11-15-h8",
+     "relation": "補充",
+     "why": "同樣是網友經驗串，看大家在職涯上怎麼學新東西"
+    }
+   ]
+  }
+ ],
+ "headlines": [
+  {
+   "topic": "AI 協作與治理",
+   "title": "請 Claude 砍掉一半規則，一週後出錯沒變多",
+   "blurb": "作者請 Claude 挑出可砍的常駐規則、備份後刪除，一週後發現出錯沒變多、開場負擔少約兩成。但出錯率持平有一部分是新增攔截規則抵銷的結果，且只有單人一週樣本。",
+   "note": "已統整/2026-11-14/2026-11-14-砍掉AI規則的一週實驗-出錯沒變多.md",
+   "is_new": true,
+   "body_html": "<p>AI 常駐規則越寫越多，每次開場都要先讀一大堆。作者做了一個一週實驗：請 Claude 挑出可以砍的規則，先備份再砍，看出錯會不會變多。結果出乎意料地平順，值得規則寫太長的人參考。</p><figure class='diagram'><svg viewBox='0 0 720 352'><rect class='dg-box' x='40' y='10' width='640' height='66' rx='8'/><text class='dg-tb' x='360' y='38' text-anchor='middle'>① 請 Claude 判斷</text><text class='dg-t' x='360' y='62' text-anchor='middle'>哪些常駐規則可以砍</text><line class='dg-line' x1='360' y1='76' x2='360' y2='86'/><polygon class='dg-arrow' points='352,80 368,80 360,90'/><rect class='dg-box' x='40' y='98' width='640' height='66' rx='8'/><text class='dg-tb' x='360' y='126' text-anchor='middle'>② 先備份再砍</text><text class='dg-t' x='360' y='150' text-anchor='middle'>直接刪，但留一份</text><line class='dg-line' x1='360' y1='164' x2='360' y2='174'/><polygon class='dg-arrow' points='352,168 368,168 360,178'/><rect class='dg-box' x='40' y='186' width='640' height='66' rx='8'/><text class='dg-tb' x='360' y='214' text-anchor='middle'>③ 跑一週</text><text class='dg-t' x='360' y='238' text-anchor='middle'>掃對話紀錄看出錯率與成本</text><line class='dg-line' x1='360' y1='252' x2='360' y2='262'/><polygon class='dg-arrow' points='352,256 368,256 360,266'/><rect class='dg-hl' x='40' y='274' width='640' height='66' rx='8'/><text class='dg-ths' x='360' y='302' text-anchor='middle'>結果：出錯沒變多</text><text class='dg-ths' x='360' y='326' text-anchor='middle'>開場負擔少約兩成</text></svg><figcaption>三步驟與結果</figcaption></figure><h2>結果數字</h2><ul><li>每次對話開場要讀的內容少了約 20%</li><li>每場花費約增加 20%，但單一動作變便宜、總花費持平；作者推測是因為單場做的事變多</li><li>出錯率持平：真正失誤減少，但新增的攔截規則擋下次數增加，兩者相抵</li><li>外包給其他 AI 工具的成功率從 75% 升到 94%，其中 Codex 約 70% 最弱</li></ul><h2>想法</h2><p>作者的看法是「減規則比加規則好」。他也提到看過 Anthropic 員工說過類似的話：提示詞先砍一部分，漏了什麼再加回來（該貼文他沒有附出處）。</p><h2>要注意</h2><p>這是單人、一週的實驗；「出錯沒變多」有一部分是新增攔截規則抵銷的結果，不是單純砍了沒事，所以別把它當定論，砍之前一定要備份。</p><h2>可以怎麼用</h2><p>今天打開你的常駐規則檔，複製一份備份，請 Claude 標出最可能多餘的五條，砍掉後用一週，再看有沒有真的出問題。</p><p class='src'>來源與備註：Threads 帳號 dustin_gmat，2026-11-14 發文，完整文章發表於 2026-10-30；內含課程與電子報導流，已略去。</p>",
+   "ai_cmd": {
+    "when": "你的 CLAUDE.md 越寫越長、想瘦身時",
+    "prompt": "請先讀懂下面的需求，列出你打算讀哪些檔案、改哪些地方、步驟是什麼，等我說「好」再動手；不要直接修改或刪除任何檔案。\n\n請幫我審視 CLAUDE.md（和我說的其他常駐規則檔）。步驟：1. 先把原檔複製成備份檔（檔名加 .bak 與日期），確認備份存在後才繼續。2. 逐條列出所有規則，標出你判斷『可以砍』的，並各用一句話說理由（例如：新版模型本來就會做、與其他條重複、太籠統）。3. 先給我清單，不要直接刪；我同意後再刪。4. 刪完請列出每個檔案行數的前後差異，並提醒我一週後回來檢查哪些事變差了、需要加回來。"
+   },
+   "label": "",
+   "related": [
+    {
+     "title": "Thorsten Ball：和 AI agent 共事的十五條做法，最大的改變是「要證據」",
+     "ref": "2026-11-13-d1",
+     "relation": "補充",
+     "why": "同樣在談怎麼和 AI 共事，一邊減規則、一邊要證據"
+    },
+    {
+     "title": "使用 Agent 最常見的 8 大浪費 Token 行為",
+     "ref": "2026-11-14-d1",
+     "relation": "補充",
+     "why": "規則太多也是浪費，和浪費 Token 的行為互相呼應"
+    },
+    {
+     "title": "把 Obsidian 當 AI 的長期記憶：Codex＋Hermes 第二大腦做法",
+     "ref": "2026-11-15-d1",
+     "relation": "對照",
+     "why": "一邊替 AI 砍規則，一邊替 AI 建長期記憶"
+    }
+   ],
+   "quote": "留下來的規則，不一定都還在幫你",
+   "action": ""
+  },
+  {
+   "topic": "學習與研究",
+   "title": "花一個月學這 6 個主題，讓思考更有根據",
+   "blurb": "列出賽局、認知偏誤、哲學、制度經濟、藝術史、統計六個主題，各附一個生活例子，如降價競爭與原價錨定。目標不是精通，而是每天留一點時間讓好奇累積成見解。",
+   "note": "已統整/2026-11-14/2026-11-14-花一個月學6個主題-賽局認知偏誤哲學制度藝術史統計.md",
+   "is_new": true,
+   "body_html": "<p>想讓自己的觀點更有依據、思考更有深度，不一定要念很多書。這則整理列出六個值得花一個月探索的主題，每個都附一個生活例子，當作入門地圖很實用。</p><figure class='diagram'><svg viewBox='0 0 720 232'><rect class='dg-box' x='140' y='10' width='440' height='60' rx='8'/><text class='dg-tb' x='360' y='36' text-anchor='middle'>一個月，6 個主題</text><text class='dg-t' x='360' y='58' text-anchor='middle'>讓思考更有根據</text><line class='dg-line' x1='360' y1='70' x2='360' y2='90'/><line class='dg-line' x1='78' y1='90' x2='642' y2='90'/><line class='dg-line' x1='78' y1='90' x2='78' y2='108'/><rect class='dg-box' x='12' y='108' width='131' height='114' rx='8'/><text class='dg-tb' x='78' y='134' text-anchor='middle'>賽局理論</text><text class='dg-t' x='78' y='159' text-anchor='middle' font-size='14'>決策互相影響</text><line class='dg-line' x1='219' y1='90' x2='219' y2='108'/><rect class='dg-box' x='153' y='108' width='131' height='114' rx='8'/><text class='dg-tb' x='219' y='134' text-anchor='middle'>認知偏誤</text><text class='dg-t' x='219' y='159' text-anchor='middle' font-size='14'>大腦的捷徑</text><line class='dg-line' x1='360' y1='90' x2='360' y2='108'/><rect class='dg-box' x='294' y='108' width='131' height='114' rx='8'/><text class='dg-tb' x='360' y='134' text-anchor='middle'>哲學</text><text class='dg-t' x='360' y='159' text-anchor='middle' font-size='14'>先問清楚問題</text><line class='dg-line' x1='501' y1='90' x2='501' y2='108'/><rect class='dg-box' x='436' y='108' width='131' height='114' rx='8'/><text class='dg-tb' x='501' y='134' text-anchor='middle'>制度經濟學</text><text class='dg-t' x='501' y='159' text-anchor='middle' font-size='14'>遊戲規則</text><line class='dg-line' x1='642' y1='90' x2='642' y2='108'/><rect class='dg-box' x='577' y='108' width='131' height='114' rx='8'/><text class='dg-tb' x='642' y='134' text-anchor='middle'>藝術史、</text><text class='dg-tb' x='642' y='155' text-anchor='middle'>統計與機率</text><text class='dg-t' x='642' y='180' text-anchor='middle' font-size='14'>文化脈絡、</text><text class='dg-t' x='642' y='201' text-anchor='middle' font-size='14'>數字的解讀</text></svg><figcaption>六個主題並列（藝術史與統計並列），沒有學習順序</figcaption></figure><h2>六個主題與例子</h2><ul><li><strong>賽局理論</strong>：彼此決定會互相影響時如何選策略。例：兩家咖啡店互相降價，最後一起少賺。</li><li><strong>認知偏誤</strong>：理性有時只是大腦的捷徑。例：標示「原價 3,000、特價 1,500」讓人覺得划算，因為原價成了判斷起點。</li><li><strong>哲學</strong>：先問清楚問題、別急著回答。例：選工作時薪水高就一定比較好嗎？衡量自由與生活後，問題會變成「哪個工作讓我達到平衡」。</li><li><strong>制度經濟學</strong>：社會發展與遊戲規則有關。例：業者擔心合約無法執行，就會減少投資。</li><li><strong>藝術史</strong>：作品反映文化、科技與社會；有些時代畫神明與王侯，有些開始畫街頭與勞動者。</li><li><strong>統計與機率</strong>：數字給線索，解讀同樣重要。例：「使用者滿意度 95%」要問調查了多少人、誰回答了。</li></ul><h2>結語與限制</h2><p>作者說一個月不必精通，但可以是開始，每天留一點時間，讓好奇累積成自己的見解。貼文是通識入門概述，沒有附書單或資源，要自己找材料。有留言半開玩笑問：六個領域如果互相矛盾，是在逼近真相，還是替自己的偏見找理由？這個問題值得保留。</p><h2>可以怎麼用</h2><p>挑一個最有興趣的主題，今天花 20 分鐘找一篇入門文章，並用自己的生活例子寫一句話記下來。</p><p class='src'>來源與備註：Threads 帳號 the_insight_circle（思圈計劃），2026-11-13 發文；文中提到的「國外類似分享」未註明來源。</p>",
+   "ai_cmd": null,
+   "label": "",
+   "related": [
+    {
+     "title": "文獻回顧不是讀書心得：用文獻矩陣找研究缺口",
+     "ref": "2026-11-15-h7",
+     "relation": "補充",
+     "why": "都在教怎麼讓思考與研究更有根據"
+    },
+    {
+     "title": "情緒課筆記：情緒是大腦「建構」出來的，決策只能「滿足化」",
+     "ref": "2026-11-13-h7",
+     "relation": "補充",
+     "why": "認知偏誤與有限理性，正好對應學習清單裡的主題"
+    }
+   ],
+   "quote": "好奇心每天留一點，慢慢就長成見解",
+   "action": "挑一個主題，今天花十分鐘找一個生活例子。"
+  },
+  {
+   "topic": "心理與自我照顧",
+   "title": "棉花糖實驗被誤讀了：忍不住吃不一定是意志力弱",
+   "blurb": "串文認為孩子忍不住吃，可能是環境不可靠時的理性選擇；在匱乏中強迫克制會造成內耗。成年後的修復順序是先讓身體感到安全，再談自律。",
+   "note": "已統整/2026-11-14/2026-11-14-棉花糖實驗的真相-安全感是前額葉的燃料.md",
+   "is_new": true,
+   "body_html": "<p>棉花糖實驗常被拿來說「會忍的孩子比較成功」。這篇串文認為這是誤讀：孩子忍不住吃，可能只是環境讓「立刻吃」才是理性的選擇。</p><figure class='diagram'><svg viewBox='0 0 720 218'><rect class='dg-box' x='20' y='10' width='310' height='104' rx='8'/><text class='dg-tb' x='175' y='38' text-anchor='middle'>傳統解讀</text><text class='dg-t' x='175' y='66' text-anchor='middle' font-size='14'>忍得住＝前額葉強</text><rect class='dg-box' x='390' y='10' width='310' height='104' rx='8'/><text class='dg-tb' x='545' y='38' text-anchor='middle'>串文的看法</text><text class='dg-t' x='545' y='66' text-anchor='middle' font-size='14'>環境不可靠時，立刻吃才理性</text><text class='dg-t' x='545' y='87' text-anchor='middle' font-size='14'>強迫在匱乏中克制，會造成內耗與表面乖巧</text><text class='dg-tb' x='360' y='67' text-anchor='middle'>vs</text><line class='dg-line' x1='360' y1='114' x2='360' y2='134'/><rect class='dg-hl' x='80' y='134' width='560' height='74' rx='8'/><text class='dg-ths' x='360' y='162' text-anchor='middle'>成年修復順序</text><text class='dg-ths' x='360' y='186' text-anchor='middle'>先讓身體安全，再談自律</text></svg><figcaption>兩種解讀對照，最後是修復順序</figcaption></figure><h2>三個重點</h2><ul><li><strong>實驗被誤讀</strong>：作者引用後續研究，說環境不可預測時，立即吃是理性的策略；邊緣系統確認安全、豐足、可預測之後，才會把資源交給前額葉。在匱乏中強迫孩子「別急著吃」「要分享」，不是訓練前額葉，而是讓焦慮的大腦自我剝奪。</li><li><strong>留言延伸</strong>：幼童在恐懼中被迫「有禮貌」「大方」，可能形成表面克制、內在空虛的「虛假自體」；長期壓抑，壓力下可能報復性反撲（暴食、成癮、崩潰）。</li><li><strong>成年後怎麼做</strong>：由下而上，先安撫身體再談理性。留言列了四條路：①舊情緒記憶被喚起後的數小時內給相反的體驗；②調節呼吸（吸 4 秒、吐 6 到 8 秒）、溫水；③留意身體感覺並做推牆、甩手等動作；④把滿足感與「表現、乖巧」脫鉤，練習什麼都沒做也能享受休息。</li></ul><h2>可靠度</h2><p>經查，2013 年羅徹斯特大學的研究確實發現實驗者可靠與否會改變孩子等待時間（可靠組約 12 分鐘、不可靠組約 3 分鐘，但只有 28 名幼兒），2018 年的大樣本後續研究也顯示家庭背景影響很大。但串文語氣很肯定，神經與療法的細節沒有出處，視為參考即可。</p><h2>可以怎麼用</h2><p>下次覺得自己「又沒自制力」時，先問自己：我是不是睏了、餓了、很焦慮？先處理身體，再決定要不要責備自己。</p><p class='src'>來源與備註：Threads 帳號 jean.sibelius，2026-11-13 發文，個人論述。</p>",
+   "ai_cmd": null,
+   "hint": "非專業意見",
+   "label": "",
+   "related": [
+    {
+     "title": "你有哪個深信不疑、後來徹底改變的觀點？",
+     "ref": "2026-11-15-h9",
+     "relation": "補充",
+     "why": "同樣在問我們深信的說法，是否值得重新看"
+    },
+    {
+     "title": "你必須非常堅定，成為你想成為的人",
+     "ref": "2026-11-14-h8",
+     "relation": "對照",
+     "why": "一邊談堅定意志，一邊說忍不住不等於意志力弱"
+    }
+   ],
+   "quote": "忍不住，有時是環境教出來的聰明",
+   "action": ""
+  },
+  {
+   "topic": "個人系統與工具",
+   "title": "擺脫窮忙：假性工作、能量流向、減法清單",
+   "blurb": "作者一天工作 12 小時，核心目標卻沒進展。他的三個覆盤動作是：區分有產出與維持營運的事、用＋－標記能量流向、每週五刪掉兩件不重要的待辦。",
+   "note": "已統整/2026-11-14/2026-11-14-窮忙覆盤三步驟-假性工作能量流向減法清單.md",
+   "is_new": true,
+   "body_html": "<p>待辦全劃掉、回了 40 封信、開了 3 場會，核心目標的進度卻是 0。作者連續三個月窮忙之後，整理出三個覆盤動作。</p><figure class='diagram'><svg viewBox='0 0 720 264'><rect class='dg-box' x='40' y='10' width='640' height='66' rx='8'/><text class='dg-tb' x='360' y='38' text-anchor='middle'>動作一：抓出假性工作</text><text class='dg-t' x='360' y='62' text-anchor='middle'>分成「有產出」與「維持營運」</text><line class='dg-line' x1='360' y1='76' x2='360' y2='86'/><polygon class='dg-arrow' points='352,80 368,80 360,90'/><rect class='dg-box' x='40' y='98' width='640' height='66' rx='8'/><text class='dg-tb' x='360' y='126' text-anchor='middle'>動作二：看能量流向</text><text class='dg-t' x='360' y='150' text-anchor='middle'>標＋（充滿動力）或－（抽乾精力）</text><line class='dg-line' x1='360' y1='164' x2='360' y2='174'/><polygon class='dg-arrow' points='352,168 368,168 360,178'/><rect class='dg-box' x='40' y='186' width='640' height='66' rx='8'/><text class='dg-tb' x='360' y='214' text-anchor='middle'>動作三：週五減法清單</text><text class='dg-t' x='360' y='238' text-anchor='middle'>下週只能做 3 件，刪哪兩件</text></svg><figcaption>三個覆盤動作</figcaption></figure><h2>三個動作</h2><ul><li><strong>抓出假性工作</strong>：每天下班前把事情分成有產出與維持營運兩類；早上 9:30 到 11:00 斷網，只做唯一有產出的事。例：15 頁年度企劃，每天專心寫 2 頁，8 天交卷。</li><li><strong>覆盤看能量流向，不看耗費時間</strong>：每件事標＋或－，把「－」的雜事集中到下午 4 點後。作者說一週多出至少 6 小時有效專注。</li><li><strong>每週五做減法清單</strong>：問「若下週只能做 3 件事，哪兩件刪掉也不會怎樣？」砍掉兩件；作者舉例省下約 15 小時。</li></ul><h2>三個動作背後的想法</h2><p>作者提到，以前最常犯的錯，是一坐到電腦前就先回信、整理桌面檔案、把 Notion 看板的顏色換掉。這些事做起來很有成就感，大腦會誤以為自己很認真，其實是在逃避真正困難的核心任務，所以才需要在下班前劃兩條線，把事情分成兩類。</p><p>第二個動作的由來是：他以前用碼表精確記錄「讀書 45 分鐘、寫程式 1 小時」，兩週就放棄，因為太瑣碎，看著一堆數字也不知道能改善什麼。改成只記＋與－之後，他發現跟溝通成本極高的外包開 30 分鐘會，後面兩小時都無法專注，那件事就是很大的「－」。他的結論是：控制時間是假的，控制專注力存量才是真的。</p><p>第三個動作則針對多數人覆盤只想「下週還要多做什麼」的習慣。作者上個月原本排了重做個人網站首頁和手刻自動化報表，覆盤後發現網站轉換率不需要改版、報表一週看一次、手動貼只要 2 分鐘，兩項刪掉就省下至少 15 小時。他用修剪盆栽來比喻：定期剪掉雜亂、沒有養分的枝葉。</p><h2>可以怎麼用</h2><p>今天下班前花 3 分鐘，把今天做的事分成「有產出」和「維持營運」兩欄，看看比例；明早只鎖定一件核心任務。</p><p class='src'>來源與備註：Threads 帳號 superxinglin，2026-11-13 發文；文中的時間數字為作者自述，未見外部出處。</p>",
+   "ai_cmd": null,
+   "label": "",
+   "related": [
+    {
+     "title": "收入一直增加的人，會刻意保持的 7 種工作好習慣",
+     "ref": "2026-11-14-h3",
+     "relation": "對照",
+     "why": "一邊教人砍掉窮忙，一邊講高收入者的好習慣"
+    },
+    {
+     "title": "打九折要多賣兩成多：損益兩平算給你看",
+     "ref": "2026-11-15-h5",
+     "relation": "補充",
+     "why": "窮忙常是做白工，這篇用數字算賺不賺"
+    }
+   ],
+   "quote": "忙了一整天，不等於往前走了一步",
+   "action": "把今天待辦裡最不重要的兩件劃掉。"
+  },
+  {
+   "topic": "社會與商業",
+   "title": "打九折要多賣兩成多：損益兩平算給你看",
+   "blurb": "範例門市售價降一成，進貨成本不變，每位客人貢獻從 77 元掉到 63 元，每天客人數要從 102 增加到 125，也就是多賣 22.2%。算式可以自己驗證。",
+   "note": "已統整/2026-11-14/2026-11-14-損益兩平計算-打九折要多賣兩成.md",
+   "is_new": true,
+   "body_html": "<p>很多店家想用打折衝買氣，但沒算過要多賣多少才不虧。這篇用一間範例門市把數字算給你看：打九折，要多賣兩成多。</p><figure class='diagram'><svg viewBox='0 0 720 352'><rect class='dg-box' x='40' y='10' width='640' height='66' rx='8'/><text class='dg-tb' x='360' y='38' text-anchor='middle'>範例門市</text><text class='dg-t' x='360' y='62' text-anchor='middle'>月營收 38 萬、進貨 45%、固定成本 20.3 萬</text><line class='dg-line' x1='360' y1='76' x2='360' y2='86'/><polygon class='dg-arrow' points='352,80 368,80 360,90'/><rect class='dg-box' x='40' y='98' width='640' height='66' rx='8'/><text class='dg-tb' x='360' y='126' text-anchor='middle'>損益兩平</text><text class='dg-t' x='360' y='150' text-anchor='middle'>每天 102 位客人，每位貢獻 77 元</text><line class='dg-line' x1='360' y1='164' x2='360' y2='174'/><polygon class='dg-arrow' points='352,168 368,168 360,178'/><rect class='dg-box' x='40' y='186' width='640' height='66' rx='8'/><text class='dg-tb' x='360' y='214' text-anchor='middle'>售價降 10%</text><text class='dg-t' x='360' y='238' text-anchor='middle'>進貨成本不變，貢獻掉到 63 元</text><line class='dg-line' x1='360' y1='252' x2='360' y2='262'/><polygon class='dg-arrow' points='352,256 368,256 360,266'/><rect class='dg-hl' x='40' y='274' width='640' height='66' rx='8'/><text class='dg-ths' x='360' y='302' text-anchor='middle'>要打平</text><text class='dg-ths' x='360' y='326' text-anchor='middle'>每天 125 位，多賣 22.2%</text></svg><figcaption>打九折的代價</figcaption></figure><h2>算式拆解</h2><ul><li>毛利率 55%；固定成本 20.3 萬 ÷ 55% ≈ 36.9 萬，約為損益兩平的月營收。</li><li>打折後每位客人貢獻 126−63＝63 元，原本是 77 元。</li><li>77 ÷ 63 ≈ 1.222，所以量要多 22.2%。</li></ul><p>另外，範例工具畫面顯示安全邊際只有 2.8%，每月只賺 5,800 元；作者提醒老闆自己的薪水也要算進成本。</p><p>貼文附的是一張計算工具畫面：每月營業天數 26、客單價 140，變動成本率 45%、邊際貢獻率 55%，也就是每做 100 元，有 55 元拿去付固定成本。畫面上損益兩平營業額為 369,455 元，平均每天要做 14,210 元。</p><h2>可以怎麼用</h2><p>拿自己的店或服務，算出「售價降一成需多賣幾成」。固定成本越高、毛利率越低，這個比例越大。</p><p class='src'>來源與備註：Threads 帳號 jacky5453，2026-11-13 發文；數字為範例，非真實店家；貼文結尾的付費工具推銷已略去。</p>",
+   "ai_cmd": null,
+   "label": "",
+   "related": [
+    {
+     "title": "2026-11-03-創業定價五個公式",
+     "ref": null,
+     "relation": "補充",
+     "why": "定價公式和損益兩平一起讀，更懂怎麼訂價",
+     "note": "已統整/2026-11-03/2026-11-03-創業定價五個公式.md"
+    },
+    {
+     "title": "擺脫窮忙：假性工作、能量流向、減法清單",
+     "ref": "2026-11-15-h4",
+     "relation": "補充",
+     "why": "算清楚哪些事賺錢，與砍掉窮忙的思路相通"
+    }
+   ],
+   "quote": "便宜一成，要用多賣兩成才補得回來",
+   "action": ""
+  },
+  {
+   "topic": "表達與人際關係",
+   "title": "把魅力變成習慣：五個讓人舒服的職場細節",
+   "blurb": "作者認為魅力可以練習，舉出不過度點頭、安排對方座位、大方收下讚美、幫對方找理由、內外一致五個細節。重點是穩定、不急著討好。",
+   "note": "已統整/2026-11-14/2026-11-14-把魅力變成習慣-五個細節養出讓人舒服的氣場.md",
+   "is_new": true,
+   "body_html": "<p>魅力常被當成天生的氣質，但這篇認為它是可以練習的習慣。作者以職場情境，提出五個具體細節，內向的人也能用。</p><figure class='diagram'><svg viewBox='0 0 720 191'><rect class='dg-box' x='140' y='10' width='440' height='40' rx='8'/><text class='dg-tb' x='360' y='36' text-anchor='middle'>五個讓人舒服的職場細節</text><line class='dg-line' x1='360' y1='50' x2='360' y2='70'/><line class='dg-line' x1='78' y1='70' x2='642' y2='70'/><line class='dg-line' x1='78' y1='70' x2='78' y2='88'/><rect class='dg-box' x='12' y='88' width='131' height='93' rx='8'/><text class='dg-tb' x='78' y='114' text-anchor='middle'>戒掉過度點頭</text><text class='dg-t' x='78' y='139' text-anchor='middle' font-size='14'>等對方說完停兩秒</text><text class='dg-t' x='78' y='160' text-anchor='middle' font-size='14'>再開口</text><line class='dg-line' x1='219' y1='70' x2='219' y2='88'/><rect class='dg-box' x='153' y='88' width='131' height='93' rx='8'/><text class='dg-tb' x='219' y='114' text-anchor='middle'>安排對方的座位</text><text class='dg-t' x='219' y='139' text-anchor='middle' font-size='14'>背靠實牆、</text><text class='dg-t' x='219' y='160' text-anchor='middle' font-size='14'>不被日曬</text><line class='dg-line' x1='360' y1='70' x2='360' y2='88'/><rect class='dg-box' x='294' y='88' width='131' height='93' rx='8'/><text class='dg-tb' x='360' y='114' text-anchor='middle'>大方收下讚美</text><text class='dg-t' x='360' y='139' text-anchor='middle' font-size='14'>回「謝謝」，</text><text class='dg-t' x='360' y='160' text-anchor='middle' font-size='14'>信尾不寫反話</text><line class='dg-line' x1='501' y1='70' x2='501' y2='88'/><rect class='dg-box' x='436' y='88' width='131' height='93' rx='8'/><text class='dg-tb' x='501' y='114' text-anchor='middle'>幫對方找理由</text><text class='dg-t' x='501' y='139' text-anchor='middle' font-size='14'>用轉念解除防備</text><line class='dg-line' x1='642' y1='70' x2='642' y2='88'/><rect class='dg-box' x='577' y='88' width='131' height='93' rx='8'/><text class='dg-tb' x='642' y='114' text-anchor='middle'>內外一致</text><text class='dg-t' x='642' y='139' text-anchor='middle' font-size='14'>聽鼓舞的音樂、</text><text class='dg-t' x='642' y='160' text-anchor='middle' font-size='14'>對對方好奇</text></svg><figcaption>五個細節並列，沒有先後</figcaption></figure><h2>五個習慣</h2><ul><li><strong>戒掉過度點頭</strong>：猛點頭、急著接「對、沒錯」是在尋求認同。穩住脖子，等對方說完停兩秒，看著眼睛再開口。</li><li><strong>安排空間</strong>：人會把身體的不舒服算在眼前的人頭上。提早到場，讓對方坐不被日曬、背靠實牆、視野開闊的位置。</li><li><strong>大方收下讚美，別說反話</strong>：被稱讚別說「沒有啦運氣好」，回「謝謝，這個肯定讓人開心一整天」。信尾不寫「不用擔心」「別猶豫」，改寫「一切都在掌控中」「隨時聯繫」。</li><li><strong>幫對方找理由</strong>：被違規轉彎、被刁難時，叫自己冷靜沒用，不如編一個理由（駕駛趕著見親人）。作者坦承理由是假的，目的是保護自己的狀態。</li><li><strong>內外一致</strong>：硬裝會像機器人。進會議室前聽鼓舞的音樂，把難搞客戶當電影主角、產生好奇。</li></ul><p>結語：別拿「內向」當藉口，內向者更會觀察細節。有留言補充，把照片、證書、讚美存起來，是自信的來源。</p><h2>可以怎麼用</h2><p>今天開會時，試一次「對方說完先停兩秒再回」。</p><p class='src'>來源與備註：Threads 帳號 incense_alchemy_hkstory，2026-11-14 發文；個人經驗，無研究出處。</p>",
+   "ai_cmd": null,
+   "hint": "非專業意見",
+   "label": "",
+   "related": [
+    {
+     "title": "人在什麼狀態下有魅力：四種「忘掉自己」的狀態",
+     "ref": "2026-11-14-h12",
+     "relation": "補充",
+     "why": "魅力的另一面：忘掉自己時最自然"
+    },
+    {
+     "title": "職場表達：口頭禪換說法，加四步表達公式",
+     "ref": "2026-11-13-h3",
+     "relation": "補充",
+     "why": "同在職場，細節之外再加說話換法"
+    }
+   ],
+   "quote": "讓人舒服的氣場，是穩定練出來的",
+   "action": "今天聊天時，試著不急著點頭，先聽完對方講。"
+  },
+  {
+   "topic": "學習與研究",
+   "title": "文獻回顧不是讀書心得：用文獻矩陣找研究缺口",
+   "blurb": "把「一篇一篇讀」改成「放在一起比較」：找共同概念、建文獻矩陣、比較差異、找出缺口。沒被任何文獻涵蓋的欄位，就是缺口。",
+   "note": "已統整/2026-11-04/2026-11-04-文獻回顧不是讀書心得-用文獻矩陣找研究缺口.md",
+   "is_new": false,
+   "body_html": "<p>讀了很多文獻卻寫不出文獻回顧？作者認為問題在於把它當讀書心得。文獻回顧要讓讀者看見：這些研究放在一起，還缺什麼？</p><figure class='diagram'><svg viewBox='0 0 720 304'><rect class='dg-box' x='40' y='10' width='640' height='42' rx='8'/><text class='dg-tb' x='360' y='38' text-anchor='middle'>① 找共同概念</text><line class='dg-line' x1='360' y1='52' x2='360' y2='62'/><polygon class='dg-arrow' points='352,56 368,56 360,66'/><rect class='dg-box' x='40' y='74' width='640' height='66' rx='8'/><text class='dg-tb' x='360' y='102' text-anchor='middle'>② 建立文獻矩陣</text><text class='dg-t' x='360' y='126' text-anchor='middle'>橫軸概念、縱軸文獻</text><line class='dg-line' x1='360' y1='140' x2='360' y2='150'/><polygon class='dg-arrow' points='352,144 368,144 360,154'/><rect class='dg-box' x='40' y='162' width='640' height='42' rx='8'/><text class='dg-tb' x='360' y='190' text-anchor='middle'>③ 比較研究差異</text><line class='dg-line' x1='360' y1='204' x2='360' y2='214'/><polygon class='dg-arrow' points='352,208 368,208 360,218'/><rect class='dg-hl' x='40' y='226' width='640' height='66' rx='8'/><text class='dg-ths' x='360' y='254' text-anchor='middle'>④ 找出研究缺口</text><text class='dg-ths' x='360' y='278' text-anchor='middle'>沒有任何文獻涵蓋的欄位</text></svg><figcaption>文獻回顧四步驟</figcaption></figure><h2>做法</h2><ol><li>找出多篇文獻共同談到的概念（A、B、C）。</li><li>建立文獻矩陣：每篇文獻一列，用勾選標出涵蓋哪些概念。</li><li>比較各研究的差異。</li><li>沒有任何文獻勾到的欄位，就是研究缺口。</li></ol><h2>矩陣長什麼樣子</h2><p>作者附了一張資訊圖，標題是「把文獻變成能追問的研究筆記」。圖中間是一張表：橫軸是共同概念 A、B、C，縱軸是文獻 1、2、3，一路排到 20，每篇文獻涵蓋哪個概念就打勾。整張表裡，沒有任何文獻勾到的欄位，圖中用紅色虛線標示，那就是研究缺口。</p><p>這個做法的重點是視角的轉換：不再問「這篇講了什麼」，而是問「這些研究合起來，還缺什麼」。作者提醒先收藏起來，寫論文第二章時拿出來對照，更多整理方法放在他附的手冊連結。</p><h2>可以怎麼用</h2><p>下次讀完三篇論文，不要各寫一段心得，先畫一個 3×3 的表格看看共同概念。</p><p class='src'>來源與備註：Threads 帳號 vista（Vista Cheng）；原貼文附有資訊圖與手冊連結，連結內容未開啟。</p>",
+   "ai_cmd": null,
+   "label": "　舊文 11/04",
+   "related": [
+    {
+     "title": "2026-11-03-讀paper方法與聰明用AI",
+     "ref": null,
+     "relation": "補充",
+     "why": "讀論文的方法，正好接在文獻矩陣前後使用",
+     "note": "已統整/2026-11-03/2026-11-03-讀paper方法與聰明用AI.md"
+    },
+    {
+     "title": "2026-11-04-聽完難的學術演講-先寫下問題證據限制三句話",
+     "ref": null,
+     "relation": "補充",
+     "why": "同樣是把學術內容整理成自己看得懂的結構",
+     "note": "已統整/2026-11-04/2026-11-04-聽完難的學術演講-先寫下問題證據限制三句話.md"
+    }
+   ],
+   "quote": "放在一起比較，空白處才會浮現",
+   "action": ""
+  },
+  {
+   "topic": "人生方向與故事",
+   "title": "聽起來厲害又不難考的證照？網友這樣推薦",
+   "blurb": "留言最常推薦職業安全衛生類與各種技術士，也有廚師、救生員等技能證。但職安類好不好考意見分歧，網友經驗未必準確，實際通過率沒有官方數字。",
+   "note": "已統整/2026-11-10/2026-11-10-Threads問大家-好考又有用的證照.md",
+   "is_new": false,
+   "body_html": "<p>有人問：有沒有聽起來厲害、有用、又不難考的證照？留言多半推薦技術士類，但「好不好考」意見分歧。</p><figure class='diagram'><svg viewBox='0 0 720 303'><rect class='dg-box' x='140' y='10' width='440' height='40' rx='8'/><text class='dg-tb' x='360' y='36' text-anchor='middle'>網友推薦的證照</text><line class='dg-line' x1='360' y1='50' x2='360' y2='70'/><line class='dg-line' x1='125' y1='70' x2='595' y2='70'/><line class='dg-line' x1='125' y1='70' x2='125' y2='88'/><rect class='dg-box' x='12' y='88' width='225' height='93' rx='8'/><text class='dg-tb' x='125' y='114' text-anchor='middle'>職業安全衛生類</text><text class='dg-t' x='125' y='139' text-anchor='middle' font-size='14'>被提最多，但有人說算難考</text><line class='dg-line' x1='360' y1='70' x2='360' y2='88'/><rect class='dg-box' x='247' y='88' width='225' height='93' rx='8'/><text class='dg-tb' x='360' y='114' text-anchor='middle'>技術士與檢定</text><text class='dg-t' x='360' y='139' text-anchor='middle' font-size='14'>室內配線、就業服務、鍋爐、</text><text class='dg-t' x='360' y='160' text-anchor='middle' font-size='14'>製茶師</text><line class='dg-line' x1='595' y1='70' x2='595' y2='88'/><rect class='dg-box' x='483' y='88' width='225' height='93' rx='8'/><text class='dg-tb' x='595' y='114' text-anchor='middle'>技能證</text><text class='dg-t' x='595' y='139' text-anchor='middle' font-size='14'>廚師、救生員、急救、領隊、</text><text class='dg-t' x='595' y='160' text-anchor='middle' font-size='14'>教練證</text><line class='dg-line' x1='125' y1='181' x2='125' y2='201'/><line class='dg-line' x1='595' y1='181' x2='595' y2='201'/><line class='dg-line' x1='125' y1='201' x2='595' y2='201'/><line class='dg-line' x1='360' y1='201' x2='360' y2='219'/><rect class='dg-hl' x='80' y='219' width='560' height='74' rx='8'/><text class='dg-ths' x='360' y='247' text-anchor='middle'>提醒</text><text class='dg-ths' x='360' y='271' text-anchor='middle'>老闆在乎你能否帶來價值</text></svg><figcaption>留言的推薦分類</figcaption></figure><h2>留言重點</h2><ul><li><strong>職安類</strong>：乙級職業安全衛生管理技術士、甲級職安管理、甲種業務主管、職業衛生技師等。有人說職安類算前一二難考，實務題多、不是背就能過，連作者也很意外。</li><li><strong>其他技術士</strong>：室內配線（「考上工作源源不絕」）、就業服務乙級、印前製程乙級、乙級鍋爐、機電品管、丙級製茶師、營造甲（「背多分」）、喪禮服務禮儀。</li><li><strong>技能證</strong>：廚師、救生員、急救、汽車駕駛教練證、領隊、打字／TQC。</li><li>有人提醒乙級電腦硬體裝修「聽名字厲害其實沒用」。</li></ul><h2>可以怎麼用</h2><p>先想清楚想拿證照是為了轉職、加薪還是興趣，再去查該證照的報考資格與實際通過率。</p><p class='src'>來源與備註：Threads 帳號 anna.yayaya 於約 2026-11-09 發問；各證照難易為網友個人經驗，找不到官方通過率。</p>",
+   "ai_cmd": null,
+   "label": "　舊文 11/10",
+   "related": [
+    {
+     "title": "30、40 歲才學陌生的東西：數百位網友的轉變故事",
+     "ref": "2026-11-15-d2",
+     "relation": "補充",
+     "why": "兩篇都是網友分享，一個談證照、一個談學新東西"
+    }
+   ],
+   "quote": "別人的好考，不一定是你的好考",
+   "action": ""
+  },
+  {
+   "topic": "思考與決策",
+   "title": "你有哪個深信不疑、後來徹底改變的觀點？",
+   "blurb": "14 位網友分享改變的觀點：從多工到專注、從拚努力到看方向與數據、意義是創造而非尋找、書也會錯。發問者認為承認錯誤是獨立思考的一部分。",
+   "note": "已統整/2026-11-10/2026-11-10-Threads問大家-改變過的觀點.md",
+   "is_new": false,
+   "body_html": "<p>發問的人認為，能承認自己過去想法有錯，是獨立思考很重要的一部分，所以請大家分享「曾經深信不疑、後來徹底改變」的觀點。</p><figure class='diagram'><svg viewBox='0 0 720 191'><rect class='dg-box' x='140' y='10' width='440' height='40' rx='8'/><text class='dg-tb' x='360' y='36' text-anchor='middle'>14 位留言者的觀點轉變</text><line class='dg-line' x1='360' y1='50' x2='360' y2='70'/><line class='dg-line' x1='95' y1='70' x2='625' y2='70'/><line class='dg-line' x1='95' y1='70' x2='95' y2='88'/><rect class='dg-box' x='12' y='88' width='166' height='93' rx='8'/><text class='dg-tb' x='95' y='114' text-anchor='middle'>做事方式</text><text class='dg-t' x='95' y='139' text-anchor='middle' font-size='14'>多工→專注</text><text class='dg-t' x='95' y='160' text-anchor='middle' font-size='14'>努力→看方向與數據</text><line class='dg-line' x1='272' y1='70' x2='272' y2='88'/><rect class='dg-box' x='188' y='88' width='166' height='93' rx='8'/><text class='dg-tb' x='272' y='114' text-anchor='middle'>人生意義</text><text class='dg-t' x='272' y='139' text-anchor='middle' font-size='14'>意義是創造的，</text><text class='dg-t' x='272' y='160' text-anchor='middle' font-size='14'>不是找到的</text><line class='dg-line' x1='448' y1='70' x2='448' y2='88'/><rect class='dg-box' x='365' y='88' width='166' height='93' rx='8'/><text class='dg-tb' x='448' y='114' text-anchor='middle'>關係與自我</text><text class='dg-t' x='448' y='139' text-anchor='middle' font-size='14'>課題分離</text><line class='dg-line' x1='625' y1='70' x2='625' y2='88'/><rect class='dg-box' x='542' y='88' width='166' height='93' rx='8'/><text class='dg-tb' x='625' y='114' text-anchor='middle'>知識</text><text class='dg-t' x='625' y='139' text-anchor='middle' font-size='14'>書也會錯，要印證</text></svg><figcaption>四類觀點轉變，並列</figcaption></figure><h2>大家怎麼說</h2><ul><li><strong>做事方式</strong>：以前覺得多工是聰明，現在覺得專注當下才保護注意力；以前信「夠努力結果就會跟上」，後來懂得方向錯了比不努力更耗，要看數據與現實；做到 100 分的機會成本，是兩件事各做到 60 分。</li><li><strong>人生意義與價值</strong>：意義不是被找到，是自己創造；「人一定要有用」是商業社會建構的價值觀；要因為喜歡而追求，不為利益追求卓越。</li><li><strong>關係與自我</strong>：用阿德勒的課題分離看出軌事件，與其責怪旁人不如思考如何全身而退。</li><li><strong>知識</strong>：「書也是會錯的，讀了更要思考與印證」；另有人只提到一項營養研究，沒說明改變了什麼。</li></ul><h2>可以怎麼用</h2><p>寫下一個你這兩年改變的觀點，以及是什麼讓你改變。</p><p class='src'>來源與備註：Threads 帳號 adler_yu 於約 2026-11-09 發問；留言為網友個人經驗。</p>",
+   "ai_cmd": null,
+   "label": "　舊文 11/10",
+   "related": [
+    {
+     "title": "棉花糖實驗被誤讀了：忍不住吃不一定是意志力弱",
+     "ref": "2026-11-15-h3",
+     "relation": "補充",
+     "why": "同樣在說，常見的深信說法可能被誤讀"
+    },
+    {
+     "title": "年底自問十個問題",
+     "ref": "2026-11-15-h12",
+     "relation": "接續",
+     "why": "看完別人改變的觀點，可用十個問題問自己"
+    }
+   ],
+   "quote": "肯承認自己錯過，才算真的在思考",
+   "action": "寫下一個你以前深信、現在已經改變的想法。"
+  },
+  {
+   "topic": "個人系統與工具",
+   "title": "用 AI 把零碎想法與舊筆記合成永久筆記",
+   "blurb": "三步驟：把備忘錄的零碎想法丟給 AI、讓 AI 對照舊筆記合併、自己看初稿微調後放進 Obsidian。目的是降低寫筆記的阻力。",
+   "note": "已統整/2026-11-04/2026-11-04-Day30-用AI合併新舊筆記進Obsidian-三步驟.md",
+   "is_new": false,
+   "body_html": "<p>備忘錄累積很多零碎靈感，有些其實能和舊筆記結合，但下班後沒力氣一篇篇對。作者的解法是讓 AI 讀過去的筆記並模仿自己的風格，幫忙合併成新的永久筆記。</p><figure class='diagram'><svg viewBox='0 0 720 264'><rect class='dg-box' x='40' y='10' width='640' height='66' rx='8'/><text class='dg-tb' x='360' y='38' text-anchor='middle'>① 丟給 AI</text><text class='dg-t' x='360' y='62' text-anchor='middle'>把備忘錄裡零碎的想法</text><line class='dg-line' x1='360' y1='76' x2='360' y2='86'/><polygon class='dg-arrow' points='352,80 368,80 360,90'/><rect class='dg-box' x='40' y='98' width='640' height='66' rx='8'/><text class='dg-tb' x='360' y='126' text-anchor='middle'>② 讓 AI 對照舊筆記</text><text class='dg-t' x='360' y='150' text-anchor='middle'>合併新舊，產生永久筆記</text><line class='dg-line' x1='360' y1='164' x2='360' y2='174'/><polygon class='dg-arrow' points='352,168 368,168 360,178'/><rect class='dg-box' x='40' y='186' width='640' height='66' rx='8'/><text class='dg-tb' x='360' y='214' text-anchor='middle'>③ 看初稿、微調</text><text class='dg-t' x='360' y='238' text-anchor='middle'>放進 Obsidian</text></svg><figcaption>三步驟</figcaption></figure><h2>三個步驟</h2><ol><li>把備忘錄裡零碎的想法全部丟給 AI。</li><li>讓 AI 對照過去寫的筆記，把新舊合併成新的「永久筆記」。</li><li>看完 AI 初稿、稍微調整語句，放進 Obsidian。</li></ol><p>目的是降低寫筆記的阻力，適合「有新想法、又剛好有相關舊筆記」的情況。</p><p>作者的背景是：備忘錄累積很多新靈感，有些其實能和過去的 Notion 筆記結合，但下班後懶得一篇一篇翻。所以他讓 AI 讀過去的筆記並模仿自己的寫作風格，把 AI 接進筆記流程。作者自 2026 年 9 月 1 日起，用下班時間打造與 AI 協作的第二大腦，這篇是系列的第 30 天。</p><h2>可以怎麼用</h2><p>挑最近三則備忘錄，找一篇相關舊筆記，請 AI 合併成一篇，你只改語句。</p><p class='src'>來源與備註：Threads 帳號 hihi_eg（劉怡君），為 Day30 分享；作者自 2026-09-01 起用下班時間打造與 AI 協作的第二大腦。</p>",
+   "ai_cmd": {
+    "when": "你有一堆零碎備忘錄與舊筆記想整合時",
+    "prompt": "請先讀懂下面的需求，列出你打算讀哪些檔案、改哪些地方、步驟是什麼，等我說「好」再動手；不要直接修改或刪除任何檔案。\n\n我有一個資料夾放零碎想法（路徑請先問我）和一個資料夾放舊筆記。請：1. 讀零碎想法，找出每一則最相關的 1～2 篇舊筆記。2. 模仿舊筆記的語氣，把新想法與舊筆記合成一篇『永久筆記』草稿，另存成新檔，不要改動原檔。3. 草稿開頭用一句話寫重點，並列出你引用了哪些舊筆記。4. 全部做完後給我清單，讓我逐篇看過再決定要不要放進正式筆記。"
+   },
+   "label": "　舊文 11/04",
+   "related": [
+    {
+     "title": "2026-11-03-Obsidian架構-CLAUDE-md與llm-wiki",
+     "ref": null,
+     "relation": "補充",
+     "why": "合成筆記之前，先看整個庫怎麼架構",
+     "note": "已統整/2026-11-03/2026-11-03-Obsidian架構-CLAUDE-md與llm-wiki.md"
+    },
+    {
+     "title": "把 Obsidian 當 AI 的長期記憶：Codex＋Hermes 第二大腦做法",
+     "ref": "2026-11-15-d1",
+     "relation": "接續",
+     "why": "筆記合成後，可讓 AI 接上筆記當長期記憶"
+    }
+   ],
+   "quote": "寫筆記的阻力小一點，才寫得久",
+   "action": ""
+  },
+  {
+   "topic": "AI 協作與治理",
+   "title": "語音寫作累積到第 100 篇：輸出也是輸入",
+   "blurb": "作者散步時對 ChatGPT 口述，再整理成文字存進 Notion。他發現講不清楚的地方就是沒真懂，所以輸出本身也是一種學習。",
+   "note": "已統整/2026-11-08/2026-11-08-語音寫作累積100篇-散步口述與輸出變輸入.md",
+   "is_new": false,
+   "body_html": "<p>有人用散步時對 ChatGPT 口述的方式寫作，累積到第 100 篇。他的發現是：把概念講出來，會暴露自己沒真懂的地方，所以輸出本身也能當輸入。</p><figure class='diagram'><svg viewBox='0 0 720 264'><rect class='dg-box' x='40' y='10' width='640' height='66' rx='8'/><text class='dg-tb' x='360' y='38' text-anchor='middle'>散步時語音聊想法</text><text class='dg-t' x='360' y='62' text-anchor='middle'>不先寫講稿</text><line class='dg-line' x1='360' y1='76' x2='360' y2='86'/><polygon class='dg-arrow' points='352,80 368,80 360,90'/><rect class='dg-box' x='40' y='98' width='640' height='66' rx='8'/><text class='dg-tb' x='360' y='126' text-anchor='middle'>請 ChatGPT 整理成文字</text><text class='dg-t' x='360' y='150' text-anchor='middle'>存進 Notion，每篇約兩千字</text><line class='dg-line' x1='360' y1='164' x2='360' y2='174'/><polygon class='dg-arrow' points='352,168 368,168 360,178'/><rect class='dg-hl' x='40' y='186' width='640' height='66' rx='8'/><text class='dg-ths' x='360' y='214' text-anchor='middle'>發現理解盲點</text><text class='dg-ths' x='360' y='238' text-anchor='middle'>輸出也成為輸入</text></svg><figcaption>語音寫作的流程</figcaption></figure><h2>做法</h2><ol><li>散步時用語音和 ChatGPT 討論正在想的事，不先寫講稿，用說話整理觀點。</li><li>講完請 ChatGPT 整理成文字，保存到 Notion，累積成自己的寫作資料庫。</li><li>在輸出中發現原本以為理解的地方其實有問題，等於重新學一次。</li></ol><p>一般說「輸入是輸出的基礎」，作者練習後覺得輸出也能成為很好的輸入。</p><p>作者說每篇約兩千字，累積下來逐漸形成自己的寫作資料庫。他特別提到一個有趣的現象：試著把一個概念講清楚時，常發現原本以為理解的地方其實還有許多問題，說出來的過程就成了重新學習的機會。這和「想說的先講出來、錄音回聽」的練習同一個方向：靠說出口整理思考。</p><h2>可以怎麼用</h2><p>今天散步 10 分鐘，用手機錄下你對一件事的想法，回家看看哪裡講不下去。</p><p class='src'>來源與備註：作者與出處不明，第 100 篇等數字無法確認；做法本身可行。</p>",
+   "ai_cmd": null,
+   "label": "　舊文 11/08",
+   "related": [
+    {
+     "title": "文獻回顧不是讀書心得：用文獻矩陣找研究缺口",
+     "ref": "2026-11-15-h7",
+     "relation": "補充",
+     "why": "都在講把讀到的東西轉成自己的輸出"
+    }
+   ],
+   "quote": "講不清楚的地方，就是還沒真懂的地方",
+   "action": "挑一件今天學到的事，用一分鐘對自己口述一遍。"
+  },
+  {
+   "topic": "思考與決策",
+   "title": "年底自問十個問題",
+   "blurb": "從方向、行動阻礙、生活安排，到信任、時間資金、失敗情境與最值得持續的行動，十題做年終覆盤。後半偏向服務與產品情境。",
+   "note": "已統整/2026-11-04/2026-11-04-年底自問十個問題.md",
+   "is_new": false,
+   "body_html": "<p>每年年底用十個問題做覆盤與展望。這份清單從方向、阻礙、生活安排，一路問到失敗情境與最值得持續的行動。</p><figure class='diagram'><svg viewBox='0 0 720 324'><rect class='dg-box' x='140' y='10' width='440' height='40' rx='8'/><text class='dg-tb' x='360' y='36' text-anchor='middle'>年底自問十個問題</text><line class='dg-line' x1='360' y1='50' x2='360' y2='70'/><line class='dg-line' x1='95' y1='70' x2='625' y2='70'/><line class='dg-line' x1='95' y1='70' x2='95' y2='88'/><rect class='dg-box' x='12' y='88' width='166' height='114' rx='8'/><text class='dg-tb' x='95' y='114' text-anchor='middle'>方向與行動</text><text class='dg-t' x='95' y='139' text-anchor='middle' font-size='14'>① 往哪裡</text><text class='dg-t' x='95' y='160' text-anchor='middle' font-size='14'>② 為何沒行動</text><line class='dg-line' x1='272' y1='70' x2='272' y2='88'/><rect class='dg-box' x='188' y='88' width='166' height='114' rx='8'/><text class='dg-tb' x='272' y='114' text-anchor='middle'>生活與思考</text><text class='dg-t' x='272' y='139' text-anchor='middle' font-size='14'>③ 放進什麼</text><text class='dg-t' x='272' y='160' text-anchor='middle' font-size='14'>④ 用什麼框架</text><line class='dg-line' x1='448' y1='70' x2='448' y2='88'/><rect class='dg-box' x='365' y='88' width='166' height='114' rx='8'/><text class='dg-tb' x='448' y='114' text-anchor='middle'>定位與價值</text><text class='dg-t' x='448' y='139' text-anchor='middle' font-size='14'>⑤ 位置</text><text class='dg-t' x='448' y='160' text-anchor='middle' font-size='14'>⑥ 價值</text><text class='dg-t' x='448' y='181' text-anchor='middle' font-size='14'>⑦ 信任</text><line class='dg-line' x1='625' y1='70' x2='625' y2='88'/><rect class='dg-box' x='542' y='88' width='166' height='114' rx='8'/><text class='dg-tb' x='625' y='114' text-anchor='middle'>資源與風險</text><text class='dg-t' x='625' y='139' text-anchor='middle' font-size='14'>⑧ 時間金錢</text><text class='dg-t' x='625' y='160' text-anchor='middle' font-size='14'>⑨ 失敗情境</text><line class='dg-line' x1='95' y1='202' x2='95' y2='222'/><line class='dg-line' x1='625' y1='202' x2='625' y2='222'/><line class='dg-line' x1='95' y1='222' x2='625' y2='222'/><line class='dg-line' x1='360' y1='222' x2='360' y2='240'/><rect class='dg-hl' x='80' y='240' width='560' height='74' rx='8'/><text class='dg-ths' x='360' y='268' text-anchor='middle'>⑩ 最後一題</text><text class='dg-ths' x='360' y='292' text-anchor='middle'>最值得持續的行動</text></svg><figcaption>十題分成四組，最後一題收尾</figcaption></figure><h2>十個問題</h2><ol><li>我未來要往哪裡？想過的生活是哪一幀畫面？</li><li>我為什麼還沒行動？卡在害怕、資源，還是不知道怎麼做？</li><li>我要把哪些事放進生活，才能成為更想要的自己？</li><li>我用什麼原則與框架思考？哪些只是過去的習慣？</li><li>我在世界上的位置是什麼？別人為什麼需要我？</li><li>我想創造的價值，具體發生在哪一幀畫面？</li><li>別人為什麼要相信我？有哪些成果可證明？</li><li>我需要多少時間與金錢走到下一階段？</li><li>如果失敗，最可能怎麼發生？最壞結果承受得起嗎？</li><li>哪個行動最值得持續？最小的一步是什麼、何時檢查？</li></ol><p>⑤到⑧偏向提供服務或做產品的情境，有定價、交付、口碑；一般上班族可以只回答①②③④⑨⑩。</p><h2>可以怎麼用</h2><p>今天先挑第 10 題寫下答案，並寫上何時回來檢查。</p><p class='src'>來源與備註：出處為 Threads，作者不明；結尾的社群邀請已略去。</p>",
+   "ai_cmd": null,
+   "label": "　舊文 11/04",
+   "related": [
+    {
+     "title": "2026-11-03-奧德賽計畫-五年三劇本與用AI問答梳理",
+     "ref": null,
+     "relation": "補充",
+     "why": "同樣是自我盤點，這篇往後規劃五年",
+     "note": "已統整/2026-11-03/2026-11-03-奧德賽計畫-五年三劇本與用AI問答梳理.md"
+    },
+    {
+     "title": "2026-11-03-個人SOP-每日到每年與三原則",
+     "ref": null,
+     "relation": "接續",
+     "why": "問完自己後，可把答案排進日常與年度流程",
+     "note": "已統整/2026-11-03/2026-11-03-個人SOP-每日到每年與三原則.md"
+    }
+   ],
+   "quote": "年底回頭問自己，比往前衝更重要",
+   "action": ""
+  }
+ ],
+ "also": [
+  "AI Agent 每日站會（兩個助理同步記憶）",
+  "AI 模型分工：按額度派工",
+  "AI 虛擬團隊不卡死：Orchestrator 加 Watchdog",
+  "Claude Code Skill 設計風格圖鑑",
+  "四種筆記法比較：康乃爾、子彈、心智圖、ORID",
+  "情緒量表 Mood Meter：100 個情緒詞彙",
+  "拆解 15 位寫作高手的電子報",
+  "閱讀筆記 5 步驟",
+  "研究生時間排序：論文先做",
+  "腦區中心論的反思",
+  "Stock AI Research：讓 AI 自己決定研究下一步",
+  "精緻窮與精緻富",
+  "一人公司新手先選的 4 個方向",
+  "Gemini Decisions API：只回機率"
+ ],
+ "question": "如果要給 AI 寫第一條「做錯過就不要再犯」的規則，你會寫哪一件事？",
+ "question_note": "已統整/2026-11-14/2026-11-14-Obsidian接AI-Agent-Codex加Hermes當第二大腦.md",
+ "date": "2026-11-15",
+ "answer_uri": "obsidian://open?vault=%E7%9F%A5%E8%AD%98%E5%BA%AB&file=%E9%96%B1%E8%AE%80%E5%A0%B1%E5%91%8A/%E9%9B%BB%E5%AD%90%E5%A0%B1/%E5%9B%9E%E7%AD%94/2026-11-15-%E5%9B%9E%E7%AD%94"
+}
