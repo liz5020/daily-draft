@@ -261,5 +261,11 @@
  "question": "如果基本生活有保障、也不用符合別人期待，五年後你最想把時間花在哪裡？",
  "question_note": "已統整/2026-11-17/2026-11-17-別急著選人生先寫三種五年後的生活-yinglifetelling.md",
  "date": "2026-11-18",
- "answer_uri": "obsidian://open?vault=%E7%9F%A5%E8%AD%98%E5%BA%AB&file=%E9%96%B1%E8%AE%80%E5%A0%B1%E5%91%8A/%E9%9B%BB%E5%AD%90%E5%A0%B1/%E5%9B%9E%E7%AD%94/2026-11-18-%E5%9B%9E%E7%AD%94"
+ "answer_uri": "obsidian://open?vault=%E7%9F%A5%E8%AD%98%E5%BA%AB&file=%E9%96%B1%E8%AE%80%E5%A0%B1%E5%91%8A/%E9%9B%BB%E5%AD%90%E5%A0%B1/%E5%9B%9E%E7%AD%94/2026-11-18-%E5%9B%9E%E7%AD%94",
+ "question_options": [
+  "做出一個屬於自己的作品或事業",
+  "陪伴重要的人，把生活過慢一點",
+  "學一個全新的領域，換一條路走"
+ ],
+ "focus_action": "挑 A、B、C 裡最難寫的那一個，只回答第一題，寫三行就停"
 }
