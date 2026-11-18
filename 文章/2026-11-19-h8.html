@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>文獻小助理：用 Claude 做段落搜尋，並匯出證據</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../站台/style.css">
+</head>
+<body>
+<header class="wrap mast small">
+ <div class="rule1"></div>
+ <div class="dateline"><span>2026年11月19日　星期四</span><span class="mid">第 10 期</span>
+  <div class="theme" role="group" aria-label="顏色模式"><button type="button" data-mode="auto">自動</button><button type="button" data-mode="light">淺色</button><button type="button" data-mode="dark">深色</button></div></div>
+ <h1><a href="../index.html">今日草稿</a></h1>
+ <p class="en">TODAY'S DRAFT</p>
+ 
+ 
+ <nav aria-label="主題"><ul><li><a href="../index.html">首頁</a></li><li><a href="../主題/心理與自我照顧.html">心理與自我照顧</a></li><li><a href="../主題/人生方向與故事.html">人生方向與故事</a></li><li><a href="../主題/思考與決策.html">思考與決策</a></li><li><a href="../主題/學習與研究.html" aria-current=page>學習與研究</a></li><li><a href="../主題/表達與人際關係.html">表達與人際關係</a></li><li><a href="../主題/社會與商業.html">社會與商業</a></li><li><a href="../主題/寫作與設計.html">寫作與設計</a></li><li><a href="../主題/其他.html">其他</a></li><li><a href="../主題/個人系統與工具.html">個人系統與工具</a></li><li><a href="../主題/AI 協作與治理.html">AI 協作與治理</a></li><li><a href="../往期.html">往期</a></li></ul></nav>
+</header>
+
+<div class="crumb wrap"><a href="../各期/2026-11-19.html">← 回到 2026-11-19 這一期</a></div>
+<main class="wrap"><article class="article"><div class="kick">約 1 分鐘　頭條　學習與研究　舊文 11/08</div><h1>文獻小助理：用 Claude 做段落搜尋，並匯出證據</h1><p>寫論文或報告時，最累的是「我記得哪裡看過，但找不到出處」。作者請 Claude 幫她做了一個「段落搜尋」小工具：丟一句話，它到 PDF 文獻庫逐頁翻，標好相關度與頁碼，最後把證據整理好，寫 Word 時一鍵引用。她最在意的一點是：每個結果都能回頭核對，而不是只相信 AI 的轉述。</p><figure class="diagram"><svg viewBox="0 0 720 140"><rect class="dg-box" x="20" y="20" width="200" height="100" rx="10"/><text class="dg-t" x="120" y="64" text-anchor="middle">1 搜尋</text><text class="dg-t" x="120" y="88" text-anchor="middle">丟一句話找段落</text><line class="dg-line" x1="220" y1="70" x2="246" y2="70"/><polygon class="dg-arrow" points="246,62 260,70 246,78"/><rect class="dg-box" x="260" y="20" width="200" height="100" rx="10"/><text class="dg-t" x="360" y="64" text-anchor="middle">2 匯出</text><text class="dg-t" x="360" y="88" text-anchor="middle">說「匯出」歸檔</text><line class="dg-line" x1="460" y1="70" x2="486" y2="70"/><polygon class="dg-arrow" points="486,62 500,70 486,78"/><rect class="dg-hl" x="500" y="20" width="200" height="100" rx="10"/><text class="dg-ths" x="600" y="52" text-anchor="middle">3 引用</text><text class="dg-ths" x="600" y="76" text-anchor="middle">Word 一鍵插入</text><text class="dg-ths" x="600" y="100" text-anchor="middle">證據註解</text></svg><figcaption>三步流程：找到、整理、引用，並保留可回頭核對的原文頁</figcaption></figure><h2>步驟一：搜尋</h2><ul><li>問一句話，從整個 PDF 文獻庫逐頁比對。</li><li>結果標出證據編號、相關度、作者（年份）與頁碼，以及一句判斷（例如「直接回答問題的實證結果」）。</li><li>外文段落自動附繁體中文翻譯，僅供理解；可以直接開 PDF 到該段，並有原文反白截圖對照。</li></ul><h2>步驟二：匯出</h2><p>確認要用才產生檔案。資料夾依日期與提問命名，裡面有：每段一頁的證據 PDF（頁首標好引用與頁碼）、反白截圖、附書籤的合併 PDF，以及總表。證據編號像「26110701E0001」，讀法是：日期、當天第幾次搜尋、第幾段。</p><h2>步驟三：引用</h2><p>寫 Word 時選一句話、按快速鍵、輸入編號，旁邊就跳出註解，內含編號、作者（年份）、頁碼與證據連結，點一下就回到原文那頁；可選擇把截圖放進文末附錄，定稿時可一鍵刪除所有註解。</p><h2>可以怎麼用</h2><p>不必先做完整工具。今天先挑 3 份 PDF，請 AI 回答一個問題，並要求它「每個答案都附頁碼與原文句子」，自己抽一個回去核對，感受這個流程。</p><p class="src">來源與備註：Threads 帳號 niensvlog_127 於 2026-11-07 分享，屬作者自製的個人工具，沒有附程式碼；AI 仍可能漏找或誤判相關度，所以要保留原文截圖核對。</p><section class="cmd"><h2>給 Claude Code 的指令</h2><p class="when"><strong>適合情境：</strong>你有一批 PDF 文獻，寫報告時想快速找原文段落、保留頁碼好回頭核對時</p><pre id="cmdtext">請先讀懂下面的需求，列出你打算讀哪些檔案、改哪些地方、步驟是什麼，等我說「好」再動手；不要直接修改或刪除任何檔案。
+
+請幫我在這個資料夾的 PDF 文獻裡做「段落搜尋」。我會丟一句問題給你。你要：1) 先想出相近的同義詞一起搜；2) 逐份 PDF 找出相關段落；3) 每個結果列出：編號（日期＋當天第幾次搜尋＋第幾段）、作者（年份）、頁碼、原文段落、相關度（高／中／低）與一句判斷理由；4) 外文段落附繁體中文翻譯，標明僅供理解；5) 找不到就直接說找不到，不要編。等我說「匯出」，再把結果整理成一個新資料夾裡的 Markdown 總表（只新增檔案，不修改或刪除我原有的任何檔案）。</pre><button type="button" class="btn copy" id="copybtn">一鍵複製</button><p class="sub">貼進 Claude Code 後，它會先列出要改什麼、等你說「好」才動手。同一份指令也存在原筆記的「給 AI 的指令」。</p></section><section class="rel"><h2>延伸閱讀</h2><p class="sub">以下是別篇的內容，和這篇的重點分開看。</p><ul><li><span class="rl">補充</span><a href="obsidian://open?vault=%E7%9F%A5%E8%AD%98%E5%BA%AB&amp;file=%E5%B7%B2%E7%B5%B1%E6%95%B4/2026-11-05/2026-11-05-%E7%94%A8AI%E8%BC%94%E5%8A%A9%E9%96%B1%E8%AE%80-%E4%B8%8D%E5%8F%96%E4%BB%A3%E7%90%86%E8%A7%A3" title="在 Obsidian 打開">2026-11-05-用AI輔助閱讀-不取代理解</a><span class="why">用 AI 找文獻時，別忘了自己要真正讀懂</span></li><li><span class="rl">補充</span><a href="2026-11-10-h4.html">用 Claude 做 Obsidian 文獻地圖：引用關係加 OpenAlex 推薦</a><span class="why">同樣用 Claude 處理文獻，做法不同可互補</span></li><li><span class="rl">接續</span><a href="obsidian://open?vault=%E7%9F%A5%E8%AD%98%E5%BA%AB&amp;file=%E5%B7%B2%E7%B5%B1%E6%95%B4/2026-11-08/2026-11-08-%E7%A0%94%E7%A9%B6%E8%80%85%E7%9A%84%E6%95%B8%E4%BD%8D%E5%9F%BA%E7%A4%8E%E5%BB%BA%E8%A8%AD-Obsidian-Notion-GitHub" title="在 Obsidian 打開">2026-11-08-研究者的數位基礎建設-Obsidian-Notion-GitHub</a><span class="why">搜到的證據，可接著存進筆記系統</span></li></ul></section><p class="src">原筆記：2026-11-08-文獻小助理-用Claude做段落搜尋與證據匯出　<a href="obsidian://open?vault=%E7%9F%A5%E8%AD%98%E5%BA%AB&amp;file=%E5%B7%B2%E7%B5%B1%E6%95%B4/2026-11-08/2026-11-08-%E6%96%87%E7%8D%BB%E5%B0%8F%E5%8A%A9%E7%90%86-%E7%94%A8Claude%E5%81%9A%E6%AE%B5%E8%90%BD%E6%90%9C%E5%B0%8B%E8%88%87%E8%AD%89%E6%93%9A%E5%8C%AF%E5%87%BA" style="border-bottom:1.5px solid var(--hl)">在 Obsidian 打開</a></p></article>
+<div class="pn"><a href="2026-11-19-h7.html" style="border-bottom:1.5px solid var(--hl)">← 上一則</a><a href="2026-11-19-h9.html" style="border-bottom:1.5px solid var(--hl)">下一則 →</a></div></main>
+<footer class="wrap">今日草稿 ・ 內容整理自你的知識庫筆記，出處與細節都留在原筆記</footer>
+<script src="../站台/theme.js"></script>
+</body>
+</html>
