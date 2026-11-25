@@ -1,0 +1,438 @@
+{
+ "one_line": "先安靜離開一下，才聽得見自己真正的聲音",
+ "deep": [
+  {
+   "topic": "個人系統與工具",
+   "title": "老 P 常談：這工作在我不在後，還剩下什麼？",
+   "summary": "專案經理老 P 反思：以前出事就「我來處理」，但如果自己不在，團隊怎麼辦？他的做法是少給答案、多留下思考方法：先問影響、決策者、允收條件，把案例整理成原則，再變成框架與 SOP，最後打造系統。真正的影響力，是你不在場，方法還在場。",
+   "hint": "",
+   "tags": [
+    "傳承",
+    "領導",
+    "專案管理",
+    "判斷框架"
+   ],
+   "note": "已統整/2026-11-24/2026-11-24-我不在後還剩什麼-PM傳承-kiwisobest.md",
+   "is_new": true,
+   "body_html": "<p>專案經理老 P 說，以前專案一出事，他最快的做法就是「我來處理」，也最有成就感。直到有一天他想到：如果我不在，團隊會怎麼辦？這篇是他的反思：成長是讓自己變強，傳承是讓你不在場時，事情還能往前走。不管你是不是專案經理，只要你是「大家第一個會問的人」，都值得讀。</p><figure class='diagram'><svg viewBox='0 0 720 150'><rect class='dg-box' x='10.0' y='20' width='152.5' height='110' rx='8'/><text class='dg-tb' x='86.25' y='58.0' text-anchor='middle'>我來處理</text><text class='dg-t' x='86.25' y='80.0' text-anchor='middle'>所有判斷都</text><text class='dg-t' x='86.25' y='102.0' text-anchor='middle'>留在自己腦中</text><line class='dg-line' x1='164.5' y1='75' x2='184.5' y2='75'/><polygon class='dg-arrow' points='182.5,67 191.5,75 182.5,83'/><rect class='dg-box' x='192.5' y='20' width='152.5' height='110' rx='8'/><text class='dg-tb' x='268.75' y='58.0' text-anchor='middle'>留下方法</text><text class='dg-t' x='268.75' y='80.0' text-anchor='middle'>案例→原則</text><text class='dg-t' x='268.75' y='102.0' text-anchor='middle'>→框架</text><line class='dg-line' x1='347.0' y1='75' x2='367.0' y2='75'/><polygon class='dg-arrow' points='365.0,67 374.0,75 365.0,83'/><rect class='dg-box' x='375.0' y='20' width='152.5' height='110' rx='8'/><text class='dg-tb' x='451.25' y='58.0' text-anchor='middle'>打造系統</text><text class='dg-t' x='451.25' y='80.0' text-anchor='middle'>案例庫、框架</text><text class='dg-t' x='451.25' y='102.0' text-anchor='middle'>SOP、同儕檢視</text><line class='dg-line' x1='529.5' y1='75' x2='549.5' y2='75'/><polygon class='dg-arrow' points='547.5,67 556.5,75 547.5,83'/><rect class='dg-hl' x='557.5' y='20' width='152.5' height='110' rx='8'/><text class='dg-ths' x='633.75' y='58.0' text-anchor='middle'>方法被使用</text><text class='dg-ths' x='633.75' y='80.0' text-anchor='middle'>你不在場</text><text class='dg-ths' x='633.75' y='102.0' text-anchor='middle'>方法還在場</text></svg><figcaption>四個轉變：從自己扛，到讓方法替你在場</figcaption></figure><h2>起點：被需要很有成就感，但也是瓶頸</h2>\n<p>客戶改需求、團隊卡住、風險冒出來，自己出手處理最快。但案子做完、客戶滿意之後，如果所有判斷都還在你腦袋裡，代表組織還沒有真的長出能力。作者的底線是一句話：<strong>你很重要，不代表你的能力已經被留下來。</strong></p>\n<h2>第一個轉變：從「我來處理」到「這件事以後怎麼處理」</h2>\n<p>文中的情境是客戶又改需求。老 P 不直接替團隊決定，而是要同事先找出三件事，再帶方案回來：</p>\n<ol><li>這個改動影響什麼？</li><li>誰要做決定？</li><li>允收條件是什麼？</li></ol>\n<p>以前的模式是「我來改、我來跟客戶談」，短期很快，但所有問題最後都回到自己。現在的模式是團隊用同一套思考方式找解法，不再只有一個人會處理。關鍵提醒：<strong>不要只留下答案，要留下判斷答案的方法。</strong></p>\n<h2>第二個轉變：把經驗從腦袋搬出來</h2>\n<p>新人同事 Nora 說：「這些東西很難寫成 SOP 啊。」作者的回應是：值錢的不是你知道很多，而是你能不能把它變成框架。流程是：案例 → 原則 → 框架 → 可重複使用。例如判斷臨時需求變更，可以固定問四個面向：</p>\n<ul><li><strong>來源</strong>：需求從哪裡來？</li><li><strong>影響</strong>：會影響誰？</li><li><strong>風險</strong>：不處理的風險是什麼？</li><li><strong>決策權</strong>：誰有最後決定權？</li></ul>\n<p>很多組織做知識傳承只留下「操作」、沒留下「判斷」，所以新人看完 50 頁文件，遇到現場狀況還是問「那現在到底怎麼辦？」</p>\n<h2>第三個轉變：不只培養人，要打造系統</h2>\n<p>最高級的放大，不是你帶更多人，而是系統開始幫你帶人。以前 RD 的技術問題、業務的客戶需求、QA 的測試狀況、新人不懂流程，全都繞回自己，你變成瓶頸。現在用四樣東西分擔：</p>\n<ul><li>案例庫：看過去怎麼做</li><li>判斷框架：遇到狀況怎麼想</li><li>SOP 流程：標準化步驟</li><li>同儕檢視（Peer Review）：先互相確認</li></ul>\n<p>文中把可擴大的結構分三層：<strong>系統</strong>（沒有我也能運作）、<strong>方法</strong>（怎麼判斷與處理）、<strong>人</strong>（能不能接下來做）。建好之後，新人上手更快、團隊判斷更一致、你的時間可以放在更高價值的事。作者說：領導不是讓大家需要你，而是降低所有事情都需要你的程度。</p>\n<h2>真正的影響力：方法被使用</h2>\n<p>作者把影響力寫成公式：洞察（看見別人沒看到的規律）×系統（把洞察變成可複製的方法）×信任（讓人願意持續用）。他也列出常見誤解：追蹤人數多、會講課、自己很忙、大家都來問我，都不等於影響力；真正的跡象是方法被團隊採用、你不在也能持續運作、團隊開始自己做判斷。畫面是這樣的：工程師問「這個需求的允收條件是什麼？」同事答「用我們的判斷框架來看：影響、風險、決策權、允收標準。」老 P 沒有出席，方法還在場。</p>\n<h2>為什麼這件事難</h2>\n<p>作者在文中自己也承認，「我來處理」是最有成就感的做法：客戶改需求、團隊卡住、風險冒出來，你一出手問題就解掉。可是這份成就感有代價，因為每一次替團隊解決，團隊就少一次練習判斷的機會。久了，大家遇到事情第一句就是「問老 P」，專案能不能前進，變成取決於他今天在不在。作者說他是有一天突然想到「如果我不在呢」，才開始改變做法。他的第一步很小：少給答案，多留下思考方法。</p>\n<h2>第一步怎麼做：先寫下三行</h2>\n<p>文中的圖提到，同事 Nora 一開始覺得「這些東西很難寫成 SOP」。作者的回應不是要她馬上寫一份五十頁的文件，而是先把一次處理過的案例，濃縮成幾句原則：這件事影響什麼、誰有最後決定權、做到什麼程度算完成。接著，這些原則再慢慢長成框架與流程。他特別提醒，很多組織做知識傳承時，只留下「怎麼操作」，沒有留下「怎麼判斷」，所以新人看完很厚的文件，碰到現場狀況還是不知道怎麼辦。</p>\n<h2>最後的轉變：留下會持續運作的東西</h2>\n<p>作者把整個過程畫成一座階梯：先培養團隊，再留下方法，接著建立系統，最後才是影響更多人。專案會結束、團隊會換人，但思考方式（遇到問題先想什麼）、工作方法（怎麼判斷與決策）、管理原則（風險、資源、優先序）若被留下來，就能繼續運作。他給的傳承地圖有三件事：整理自己的方法與案例，打造可運作的系統，建立傳承的管道，例如團隊訓練或分享。</p>\n<h2>留言補充：還要留下「為什麼沒選」</h2>\n<p>有讀者說，交接文件最想看到的是「當初還考慮過什麼、為什麼沒選」，否則半年後條件一變，接手的人還是得重猜。作者回覆這很難，因為思考過程多半在腦裡做完，留下的只有決議，要把前因後果說清楚不是一朝一夕。這提醒我們：傳承不只留結論，也要留取捨。</p>\n<h2>可以怎麼用</h2>\n<p>挑一件最近「只有你會處理」的事。下次別直接給答案，改問對方三個問題（影響什麼、誰決定、條件是什麼），然後把你自己的判斷過程用三行字寫下來，放進共用文件。十分鐘就能開始你的第一張「判斷框架」。</p><p class=\"src\">來源與備註：Threads @kiwisobest（老 P 常談系列），2026-11-24 發文；內容是作者個人的管理經驗（單方主張），文中情境人物為虛構示範，沒有數據，也沒有外部資料可對照。</p>",
+   "ai_cmd": null,
+   "label": "",
+   "related": [
+    {
+     "title": "用 Claude 做專案工作面板：對話變任務卡＋Skill",
+     "ref": "2026-11-10-h2",
+     "note": "已統整/2026-11-09/2026-11-09-用Claude做專案工作面板-對話變任務卡Skill-rfyao5083.md",
+     "relation": "補充",
+     "why": "把工作脈絡變成任務卡，正是讓工作離開你後還留得下來的做法"
+    },
+    {
+     "title": "把 Obsidian 當 AI 的長期記憶：Codex＋Hermes 第二大腦做法",
+     "ref": "2026-11-15-d1",
+     "note": "已統整/2026-11-14/2026-11-14-Obsidian接AI-Agent-Codex加Hermes當第二大腦.md",
+     "relation": "補充",
+     "why": "把知識存成 AI 能讀的長期記憶，是傳承的另一種工具"
+    }
+   ]
+  },
+  {
+   "topic": "心理與自我照顧",
+   "title": "我看到的花，你永遠看不到：一花一世界，一人一人生",
+   "summary": "作者認為每個人都是透過自己的經歷認識世界，同一朵花、同一件事，每個人看到的都不同。所以不要輕易評斷別人的人生，要尊重差異、放下不必要的執著，並看懂自己認知的侷限。結尾送給自己四句：眼界、覺察、修養、智慧。",
+   "hint": "非專業意見",
+   "tags": [
+    "認知",
+    "包容",
+    "成熟"
+   ],
+   "note": "已統整/2026-11-18/2026-11-18-我看到的花你永遠看不到-一花一世界一人一人生-molly_k_molly_k.md",
+   "is_new": false,
+   "body_html": "<p>這是一篇長散文，從「我看到的花，你永遠看不到」出發，談每個人都是用自己的經歷在認識世界，所以不要輕易評斷別人，也要看懂自己的侷限。它沒有艱深理論，但很適合在跟人意見不合、或覺得別人「怎麼這樣」的時候讀。</p><figure class='diagram'><svg viewBox='0 0 720 230'><rect class='dg-box' x='180' y='10' width='360' height='56' rx='8'/><text class='dg-tb' x='360.0' y='32.0' text-anchor='middle'>一花一世界</text><text class='dg-t' x='360.0' y='54.0' text-anchor='middle'>一人一人生</text><line class='dg-line' x1='360' y1='66' x2='360' y2='90'/><line class='dg-line' x1='90.0' y1='90' x2='630.0' y2='90'/><line class='dg-line' x1='90.0' y1='90' x2='90.0' y2='110'/><rect class='dg-box' x='10.0' y='110' width='160.0' height='100' rx='8'/><text class='dg-tb' x='90.0' y='143.0' text-anchor='middle'>看懂世界</text><text class='dg-t' x='90.0' y='165.0' text-anchor='middle'>不同</text><text class='dg-t' x='90.0' y='187.0' text-anchor='middle'>＝眼界</text><line class='dg-line' x1='270.0' y1='90' x2='270.0' y2='110'/><rect class='dg-box' x='190.0' y='110' width='160.0' height='100' rx='8'/><text class='dg-tb' x='270.0' y='143.0' text-anchor='middle'>看見自己</text><text class='dg-t' x='270.0' y='165.0' text-anchor='middle'>的不足</text><text class='dg-t' x='270.0' y='187.0' text-anchor='middle'>＝覺察</text><line class='dg-line' x1='450.0' y1='90' x2='450.0' y2='110'/><rect class='dg-box' x='370.0' y='110' width='160.0' height='100' rx='8'/><text class='dg-tb' x='450.0' y='143.0' text-anchor='middle'>尊重別人</text><text class='dg-t' x='450.0' y='165.0' text-anchor='middle'>的人生</text><text class='dg-t' x='450.0' y='187.0' text-anchor='middle'>＝修養</text><line class='dg-line' x1='630.0' y1='90' x2='630.0' y2='110'/><rect class='dg-hl' x='550.0' y='110' width='160.0' height='100' rx='8'/><text class='dg-ths' x='630.0' y='143.0' text-anchor='middle'>放下不必</text><text class='dg-ths' x='630.0' y='165.0' text-anchor='middle'>要的執著</text><text class='dg-ths' x='630.0' y='187.0' text-anchor='middle'>＝智慧</text></svg><figcaption>作者送給自己的四句話</figcaption></figure><h2>一、每個人眼中的世界都不一樣</h2>\n<p>作者說，即使站在同一個地方看同一朵花，每個人感受到的美、產生的情緒、浮現的回憶都可能完全不同。我們可以分享彼此的故事，卻無法真正交換彼此的人生。有些事沒有親身經歷就很難體會，有些感受說得再多也不一定能讓別人明白。因為我們看到的，往往只是自己所理解的世界。</p>\n<h2>二、每個人都活在自己的認知裡</h2>\n<p>我們常以為大家生活在同一個世界，看到的應該差不多。但家庭背景、成長環境、教育程度、生活經歷不同，就像幾個人同時走進一座城市：有人看見美麗的建築，有人注意街上的人，有人感受到繁華，也有人感受到孤單。這些經歷慢慢累積成不同的思想、習慣與價值觀，所以即使是最親近的人，也不代表彼此能完全理解。</p>\n<h2>三、為什麼看到的事情不一樣</h2>\n<p>因為我們用過去的經驗來理解眼前的事。作者舉了幾個例子：</p>\n<ul><li>同一杯水：有人想到解渴，有人想到生命，有人想起某段回憶。</li><li>同一件事：有人看到機會，有人看到風險；有人感受到希望，有人想起過去的傷痛。</li><li>同一個人：有人覺得值得信任，有人有所保留，有人沒特別感受。</li></ul>\n<p>不是誰對誰錯，所以不要以為自己的看法就是全部，也不要因為別人想得不一樣，就認定對方不合理。<strong>真正成熟的人，懂得自己的認知也有侷限。</strong></p>\n<h2>四、不要輕易評斷別人的人生</h2>\n<p>你覺得很簡單的事，對別人可能很困難；你覺得沒什麼的挫折，可能是別人花了很多年才走出來。你看到的是一個人的現在，卻不一定知道他經歷過什麼。一個人的沉默、一個人的選擇，都可能有你不了解的背景。我們可以有自己的立場，但不必用自己的標準衡量所有人。作者說：少一點批判，多一點理解；少一點成見，多一點包容。</p>\n<h2>五、尊重不同，是一種修養</h2>\n<p>不是所有事情都要爭出對錯。成熟的人不需要否定別人來證明自己是對的；格局不是說服多少人，而是能不能接納不同的聲音。</p>\n<h2>六、放下執著，才能看清自己</h2>\n<p>人的疲憊常來自太多期待與執著。作者特別說明，放下執著不是放棄努力，而是做好自己能做的，接受無法控制的。成長，是從向外看開始轉向反觀自己。</p>\n<h2>七、人生的智慧：看懂世界，也看懂自己</h2>\n<p>與其評斷別人，不如把心思放回自己：多一點覺察、善意與感恩，保持好奇、願意修正自己的認知；不必急著證明自己，也不必勉強改變別人。</p>\n<blockquote>看懂世界的不同，是眼界；看見自己的不足，是覺察；尊重別人的人生，是修養；放下不必要的執著，是智慧。</blockquote>\n<p>結語：一花一世界，一人一人生；願我們在認識世界的過程中也認識自己，不急、不爭、不執著。</p>\n<h2>補充：作者續文裡的幾句話</h2>\n<p>這篇散文分成主貼文與五則作者續文。續文把前面的想法說得更具體：我們可以分享彼此的故事，卻無法真正交換彼此的人生；即使是最親近的人，也不代表能完全理解，因為有些事只有自己明白、有些路只有自己真正走過。作者要說的不是「所以別人都不懂我」，而是提醒我們，看不懂對方時，多半是因為經歷不同，不一定是對方不合理。</p>\n<h2>放下執著，不等於放棄</h2>\n<p>第六段談的是疲憊的來源。作者認為，讓人累的常常不是事情本身，而是內心太多期待：期待事情照自己的想法發展、期待別人理解自己的立場、期待生活給出想要的答案。可是人生不會永遠照期待走，努力了也不一定馬上有結果。所以他說放下執著，是盡力做好自己能做的事，接受自己無法控制的部分；不因為別人的評價否定自己，不因為一時得失失去方向，也不忘記自己真正想成為什麼樣的人。</p>\n<h2>經歷世事，也保有善良</h2>\n<p>第七段的收尾有一個很有畫面的描述：經歷過不同的人事物之後，依然保有善良，卻也懂得保護自己；看過人生的複雜，依然願意相信美好；明白世事無常，也更懂得珍惜當下。作者認為人生最重要的，不是讓所有人都認同自己，而是在變動的世界裡找到內心的平衡。他也給自己三句提醒：不要用自己的眼睛，要求所有人看見相同的風景；不要用自己的經歷，評斷別人的人生；不要因為別人與自己不同，就否定不同的存在。</p>\n<h2>讀的時候可以留意</h2>\n<p>這是一篇價值觀散文，沒有引用研究，也沒有具體案例，讀起來比較像一段寫給自己的提醒。它的好處是簡單、容易記住；限制是沒有告訴你「意見真的衝突、需要做決定」時該怎麼辦。所以比較適合拿來調整心態，而不是當作處理衝突的方法。</p>\n<h2>可以怎麼用</h2>\n<p>下次聽到別人的做法讓你皺眉，先在心裡補一句：「他可能有我不知道的背景。」然後問對方一個好奇的問題，例如「你當時是怎麼想的？」只問、不評，一個問題就夠。</p><p class=\"src\">來源與備註：Threads @molly_k_molly_k，2026-11-17 發文，是個人散文與心得，不是專業意見；全文分成主貼文與五則作者續文；文中沒有數據或外部資料可查證，屬於價值觀與感想。</p>",
+   "ai_cmd": null,
+   "label": "　舊文 11/18",
+   "related": [
+    {
+     "title": "2026-11-18-本體論與認識論-世界是什麼我們憑什麼知道-singersiao",
+     "ref": null,
+     "note": "已統整/2026-11-18/2026-11-18-本體論與認識論-世界是什麼我們憑什麼知道-singersiao.md",
+     "relation": "補充",
+     "why": "從哲學角度解釋，為什麼每個人看到的世界不一樣"
+    },
+    {
+     "title": "情緒課筆記：情緒是大腦「建構」出來的，決策只能「滿足化」",
+     "ref": "2026-11-13-h7",
+     "note": "已統整/2026-11-04/2026-11-04-情緒課-情緒是大腦建構的與有限理性.md",
+     "relation": "補充",
+     "why": "大腦自己建構情緒，說明為何同一朵花各人感受不同"
+    }
+   ]
+  }
+ ],
+ "headlines": [
+  {
+   "topic": "心理與自我照顧",
+   "title": "為甚麼有些瞬間特別難忘？峰終定律",
+   "quote": "人記得的不是全部，而是最強烈的那一刻和最後一刻",
+   "action": "今天結束一次對話時，多加一句真心的感謝。",
+   "blurb": "我們回顧一段經歷，印象特別受「情緒最強的時刻」和「結束時的感受」影響，跟時間長短關係不大。知道這點，就能更用心安排每次互動的結尾。",
+   "note": "已統整/2026-11-24/2026-11-24-峰終定律-mindvoice.psychotherapy.md",
+   "is_new": true,
+   "body_html": "<p>為什麼一趟旅行中間塞車很久，你卻只記得最後那場日落？這就是「峰終定律」。這篇用三張圖說明它是什麼、生活裡怎麼出現，以及怎麼用。</p><figure class='diagram'><svg viewBox='0 0 720 172'><rect class='dg-hl' x='60' y='15' width='600' height='142' rx='12'/><text class='dg-ths' x='360' y='58' text-anchor='middle' font-size='26'>峰（最強烈的那刻）</text><text class='dg-ths' x='360' y='92' text-anchor='middle' font-size='26'>＋終（結束的感受）</text><text class='dg-ths' x='360' y='126' text-anchor='middle' font-size='26'>決定整體印象</text></svg><figcaption>回顧經歷時，印象特別受這兩個時刻影響</figcaption></figure><h2>它在說什麼</h2>\n<p>心理學家 Daniel Kahneman 與同事發現，人回顧一段經歷時，整體評價特別受兩個時刻影響：<strong>峰（Peak）</strong>，也就是情緒最強烈的那一刻；以及<strong>終（End）</strong>，也就是結束時的感受。另外還有「時長忽視」：事後的評價不完全取決於事情持續多久。</p>\n<h2>生活裡的例子</h2>\n<ul><li>朋友聚會：中間有些冷場，但最後一段溫暖的對話，讓人留下好印象。</li><li>旅行：交通延誤，但最後一天的日落成為最深的回憶。</li><li>人際衝突：如果最後能互相理解、平靜收尾，可能改善你對整段對話的印象。</li></ul>\n<h2>四個運用方式</h2>\n<ol><li>創造有意義的時刻：真誠的對話、小驚喜、一起完成的活動。</li><li>重視每次互動的結尾：一句感謝、關心，或真誠的道別。</li><li>為困難的經歷安排溫和的收尾：例如結束後散個步、休息一下。</li><li>不要只用某個瞬間評價整段經歷：留意不突出、卻很重要的日常片段。</li></ol>\n<h2>要小心的地方</h2>\n<p>貼文特別提醒：峰終定律不代表有美好的結尾就能抵消過程中的傷害。重要的是，也要照顧整段經歷裡自己和別人的真實感受。</p>\n<h2>可以怎麼用</h2>\n<p>今天挑一次對話、會議或訊息往來，在結尾加一句具體的話，例如「謝謝你剛剛幫我把那件事講清楚」。十分鐘內就做得完。</p><p class='src'>來源與備註：Threads @mindvoice.psychotherapy（心理治療機構帳號），2026-11-23 發文；峰終定律是 Kahneman 等人提出的知名現象，貼文的生活例子與運用方式是機構自行延伸。非專業意見。</p>",
+   "ai_cmd": null,
+   "label": "",
+   "related": [
+    {
+     "title": "情緒課筆記：情緒是大腦「建構」出來的，決策只能「滿足化」",
+     "ref": "2026-11-13-h7",
+     "note": "已統整/2026-11-04/2026-11-04-情緒課-情緒是大腦建構的與有限理性.md",
+     "relation": "補充",
+     "why": "都在講大腦如何建構、記住情緒體驗"
+    }
+   ]
+  },
+  {
+   "topic": "心理與自我照顧",
+   "title": "悲傷後不是一路變好，而是擺盪",
+   "quote": "好起來從來不是直線，來回擺盪也是在往前走",
+   "action": "",
+   "blurb": "走過失落的人常覺得自己「又退步了」。這個模型說明：忽然好、忽然又難過，是正常的來回，不是失敗。",
+   "note": "已統整/2026-11-24/2026-11-24-悲傷的雙歷程模式-little.fulfillment.project.md",
+   "is_new": true,
+   "body_html": "<p>很多人以為悲傷會一天比一天輕，結果某天明明已經好多了，卻又突然難過起來，就懷疑自己是不是沒進步。這篇用一張圖介紹「悲傷的雙歷程模式」，告訴你這種來回其實很常見。</p><figure class='diagram'><svg viewBox='0 0 720 232'><rect class='dg-box' x='10' y='10' width='340' height='44' rx='8'/><text class='dg-tb' x='180.0' y='37.0' text-anchor='middle'>失落導向</text><rect class='dg-hl' x='370' y='10' width='340' height='44' rx='8'/><text class='dg-ths' x='540.0' y='37.0' text-anchor='middle'>復原導向</text><rect class='dg-box' x='10' y='64' width='340' height='44' rx='8'/><text class='dg-tb' x='180.0' y='91.0' text-anchor='middle'>悲傷佔據身心</text><rect class='dg-box' x='370' y='64' width='340' height='44' rx='8'/><text class='dg-tb' x='540.0' y='91.0' text-anchor='middle'>關注生活轉變</text><rect class='dg-box' x='10' y='118' width='340' height='44' rx='8'/><text class='dg-tb' x='180.0' y='145.0' text-anchor='middle'>斷開連結、情感侵入</text><rect class='dg-box' x='370' y='118' width='340' height='44' rx='8'/><text class='dg-tb' x='540.0' y='145.0' text-anchor='middle'>嘗試新事物</text><rect class='dg-box' x='10' y='172' width='340' height='44' rx='8'/><text class='dg-tb' x='180.0' y='199.0' text-anchor='middle'>否認、逃避改變</text><rect class='dg-box' x='370' y='172' width='340' height='44' rx='8'/><text class='dg-tb' x='540.0' y='199.0' text-anchor='middle'>建立新身分與新關係</text></svg><figcaption>兩側之間來回「擺盪」，而不是單向復原</figcaption></figure><h2>兩種狀態</h2>\n<ul><li><strong>失落導向</strong>：悲傷佔據身心、與人斷開連結、情感不斷侵入，也可能否認或逃避改變。</li><li><strong>復原導向</strong>：關注生活的轉變、嘗試新的事物、讓注意力暫時離開悲傷，並慢慢建立新的身分與新的關係。</li></ul>\n<h2>擺盪才是常態</h2>\n<p>圖的重點是「擺盪」（oscillation）：人會在這兩側之間來回，忽然覺得好了、又忽然悲傷，往返幾次之後才慢慢復原。也就是說，復原不是一條向上的直線。圖下方引用的是 Stroebe 與 Schut 在 1999 年發表的論文，討論如何面對喪親之痛。</p>\n<h2>這帶來的提醒</h2>\n<p>當你某天又掉進低潮，不必立刻判定「我退步了」。那可能只是擺盪到了另一側。兩側都是過程的一部分：需要時間感受失落，也需要時間喘口氣、做點別的事。</p>\n<h2>可以怎麼用</h2>\n<p>如果你正在經歷失落，今天不用逼自己「該好了」。留一小段時間讓難過存在，也留一小段時間做點讓自己喘息的事，兩邊都算數。</p><p class='src'>來源與備註：Threads @little.fulfillment.project（視覺化生涯教練），2026-11-23 發文；是常見心理學模型的簡化圖，圖中四項歸類為作者簡化。若持續情緒低落、睡不好或有傷害自己的念頭，請找專業人員。非專業意見。</p>",
+   "ai_cmd": null,
+   "label": "",
+   "related": [
+    {
+     "title": "心理師教的八個對付反覆思考的小撇步",
+     "ref": "2026-11-14-h7",
+     "note": "已統整/2026-11-12-心理師的八個反覆思考小撇步-liubai.md",
+     "relation": "補充",
+     "why": "悲傷常伴隨反覆思考，這篇有具體對付方法"
+    },
+    {
+     "title": "周慕姿〈停止內耗〉：四個金句與五個啟發",
+     "ref": "2026-11-18-h1",
+     "note": "已統整/2026-11-17/2026-11-17-周慕姿TEDx停止內耗-四個金句與五個啟發-a_cup_of_woolongtea.md",
+     "relation": "接續",
+     "why": "了解擺盪是正常後，可接著學怎麼停止內耗"
+    }
+   ]
+  },
+  {
+   "topic": "人生方向與故事",
+   "title": "《你必須先消失，才能做真正的自己》",
+   "quote": "先安靜離開一下，才聽得見自己真正的聲音",
+   "action": "今天花十分鐘散步，不看手機，只留意呼吸。",
+   "blurb": "太在意別人眼光，久了會忘記自己要什麼。這篇談的「消失」不是逃避，而是暫時離開期待，給自己空間，再用不委屈的方式回到人群。",
+   "note": "已統整/2026-11-24/2026-11-24-你必須先消失才能做真正的自己-tifff_wk.md",
+   "is_new": true,
+   "body_html": "<p>你有沒有過這種感覺：一直在迎合別人、隱藏想法、放低邊界，最後卻不知道自己真正想要什麼？這篇長文說，答案可能是先暫時「消失」。</p><figure class='diagram'><svg viewBox='0 0 720 150'><rect class='dg-box' x='10.0' y='20' width='152.5' height='110' rx='8'/><text class='dg-tb' x='86.25' y='58.0' text-anchor='middle'>太在意眼光</text><text class='dg-t' x='86.25' y='80.0' text-anchor='middle'>迎合、隱藏</text><text class='dg-t' x='86.25' y='102.0' text-anchor='middle'>放低邊界</text><line class='dg-line' x1='164.5' y1='75' x2='184.5' y2='75'/><polygon class='dg-arrow' points='182.5,67 191.5,75 182.5,83'/><rect class='dg-box' x='192.5' y='20' width='152.5' height='110' rx='8'/><text class='dg-tb' x='268.75' y='58.0' text-anchor='middle'>暫時消失</text><text class='dg-t' x='268.75' y='80.0' text-anchor='middle'>離開熟悉的</text><text class='dg-t' x='268.75' y='102.0' text-anchor='middle'>人與期待</text><line class='dg-line' x1='347.0' y1='75' x2='367.0' y2='75'/><polygon class='dg-arrow' points='365.0,67 374.0,75 365.0,83'/><rect class='dg-box' x='375.0' y='20' width='152.5' height='110' rx='8'/><text class='dg-tb' x='451.25' y='58.0' text-anchor='middle'>獨處重識自己</text><text class='dg-t' x='451.25' y='80.0' text-anchor='middle'>散步、閱讀</text><text class='dg-t' x='451.25' y='102.0' text-anchor='middle'>寫字、運動</text><line class='dg-line' x1='529.5' y1='75' x2='549.5' y2='75'/><polygon class='dg-arrow' points='547.5,67 556.5,75 547.5,83'/><rect class='dg-hl' x='557.5' y='20' width='152.5' height='110' rx='8'/><text class='dg-ths' x='633.75' y='58.0' text-anchor='middle'>溫和不委屈</text><text class='dg-ths' x='633.75' y='80.0' text-anchor='middle'>可回人群</text><text class='dg-ths' x='633.75' y='102.0' text-anchor='middle'>不用舊模式</text></svg><figcaption>從迎合到做自己的四個階段</figcaption></figure><h2>問題在哪裡</h2>\n<p>作者認為，太在意別人的眼光，不知不覺就會迎合他人、隱藏想法、放低邊界，久了忘記自己真正想要什麼。消失不是逃避，而是給自己一個空間。</p>\n<h2>獨處時可以做什麼</h2>\n<ul><li>散步時留意自己的呼吸。</li><li>閱讀時，重新選擇自己真正想看的書。</li><li>寫字，把真心話寫出來。</li><li>運動時，聽聽身體的界線。</li></ul>\n<p>你也不必急著向所有人解釋每一次的改變。</p>\n<h2>關係會跟著改變</h2>\n<p>有些關係，在你不再主動、不再遷就之後會變淡。這不一定是你做錯，而可能是讓你看清楚，到底是誰在支撐這段關係。文中有一句話：「一段關係讓你疲憊，是因為它消耗的是你的界線，而不是你的能力。」</p>\n<h2>獨處時的感受</h2>\n<p>作者也提到，剛開始可能會覺得孤獨、空白，尤其是習慣隨時回應別人之後突然停下來。這時不必急著填滿，把精力收回來，本身就是重新與自己相處的開始。</p>\n<h2>兩個提醒</h2>\n<ol><li>不要急著用新的討好填滿空白，先學會接受並保護自己。</li><li>不必永遠消失，你也可以再回到人群，只是不必再用舊的模式要求自己，做到「溫和卻不委屈」。</li></ol>\n<p>結語：做自己，不只是知道自己喜歡什麼，而是更有勇氣放下不屬於你的期待。</p>\n<h2>可以怎麼用</h2>\n<p>今天挑一件你其實不想答應的小邀約或小請求，練習溫和地說「這次我先不了」，不必附上長長的理由。</p><p class='src'>來源與備註：Threads @tifff_wk，2026-11-23 發文，分三則貼文接續；文章作者與原出處未註明，內容是散文式的個人看法，非專業意見。</p>",
+   "ai_cmd": null,
+   "label": "",
+   "related": [
+    {
+     "title": "人在什麼狀態下有魅力：四種「忘掉自己」的狀態",
+     "ref": "2026-11-14-h12",
+     "note": "已統整/2026-11-08-人在什麼狀態下有魅力-四種忘我狀態.md",
+     "relation": "補充",
+     "why": "忘掉自己的狀態，正好呼應先消失才做自己"
+    },
+    {
+     "title": "你必須非常堅定，成為你想成為的人",
+     "ref": "2026-11-14-h8",
+     "note": "已統整/2026-11-06-你必須非常堅定-成為你想成為的人.md",
+     "relation": "補充",
+     "why": "一樣談怎麼成為真正想成為的人"
+    },
+    {
+     "title": "別急著選人生，先寫三種五年後的生活（奧德賽計畫輕量版）",
+     "ref": "2026-11-18-d1",
+     "note": "已統整/2026-11-17/2026-11-17-別急著選人生先寫三種五年後的生活-yinglifetelling.md",
+     "relation": "接續",
+     "why": "想清楚自己後，可用三種五年生活具體試想"
+    }
+   ]
+  },
+  {
+   "topic": "學習與研究",
+   "title": "課堂心得：模仿、變色龍效應與同理心",
+   "quote": "越親近的人越難模仿，因為你看見的面向太多",
+   "action": "",
+   "blurb": "從「模仿」切入同理心：好的模仿者通常也有同理心，但越親近的人越模仿不來，因為對方有太多面向。這是一位學生的課堂筆記與心得。",
+   "note": "已統整/2026-11-24/2026-11-24-認知神經科學-模仿與同理心-課程心得-brainandmind75.md",
+   "is_new": true,
+   "body_html": "<p>為什麼我們會不自覺學身邊人說話的口氣？這跟同理心有什麼關係？這是一位學生上「當代認知神經科學：腦與心智」第 11 週（同理心）的筆記與自己的想法。</p><figure class='diagram'><svg viewBox='0 0 720 230'><rect class='dg-box' x='180' y='10' width='360' height='56' rx='8'/><text class='dg-tb' x='360.0' y='43.0' text-anchor='middle'>模仿與同理心</text><line class='dg-line' x1='360' y1='66' x2='360' y2='90'/><line class='dg-line' x1='90.0' y1='90' x2='630.0' y2='90'/><line class='dg-line' x1='90.0' y1='90' x2='90.0' y2='110'/><rect class='dg-box' x='10.0' y='110' width='160.0' height='100' rx='8'/><text class='dg-tb' x='90.0' y='143.0' text-anchor='middle'>課堂內容</text><text class='dg-t' x='90.0' y='165.0' text-anchor='middle'>變色龍效應</text><text class='dg-t' x='90.0' y='187.0' text-anchor='middle'>好模仿者有同理</text><line class='dg-line' x1='270.0' y1='90' x2='270.0' y2='110'/><rect class='dg-box' x='190.0' y='110' width='160.0' height='100' rx='8'/><text class='dg-tb' x='270.0' y='143.0' text-anchor='middle'>心得一</text><text class='dg-t' x='270.0' y='165.0' text-anchor='middle'>陌生人冷漠</text><text class='dg-t' x='270.0' y='187.0' text-anchor='middle'>是自我保護</text><line class='dg-line' x1='450.0' y1='90' x2='450.0' y2='110'/><rect class='dg-box' x='370.0' y='110' width='160.0' height='100' rx='8'/><text class='dg-tb' x='450.0' y='143.0' text-anchor='middle'>心得二</text><text class='dg-t' x='450.0' y='165.0' text-anchor='middle'>愛屋及烏</text><text class='dg-t' x='450.0' y='187.0' text-anchor='middle'>模仿本質是同理</text><line class='dg-line' x1='630.0' y1='90' x2='630.0' y2='110'/><rect class='dg-hl' x='550.0' y='110' width='160.0' height='100' rx='8'/><text class='dg-ths' x='630.0' y='143.0' text-anchor='middle'>心得三</text><text class='dg-ths' x='630.0' y='165.0' text-anchor='middle'>越親近越難</text><text class='dg-ths' x='630.0' y='187.0' text-anchor='middle'>模仿，面向太多</text></svg><figcaption>課堂重點與作者的四個心得</figcaption></figure><h2>課堂內容</h2>\n<ul><li>嬰兒有模仿的本能；成人的模仿讓行為代代相傳（基因與迷因的對照）。</li><li>模仿分成擬態模仿與鏡像模仿；關係越親密，鏡像模仿越高，這叫「變色龍效應」。</li><li>好的模仿者，也是有同理心的人。課堂提到三個實驗：不自覺地模仿，被模仿的人會比較喜歡模仿者，同理心傾向與模仿程度正相關。</li><li>同理不只是本能，還需要後天環境，例如受虐兒的同理腦區關閉，以及 Harlow 的猴子研究。</li></ul>\n<h2>作者的心得</h2>\n<ol><li>在街上觀察陌生人，覺得大家冷漠的底色是自我保護，但同理心確實跟親密程度有關。</li><li>「愛屋及烏」，模仿的本質就是同理心。</li><li>喜歡模仿別人是一種善意，因為模仿前必須先理解對方在意什麼、喜歡什麼。</li><li>越親近的人越模仿不了，因為親近的人面向越多，「瞭解的越多，瞭解的越少」，複雜的個體沒有被拆解的可能。</li></ol>\n<p>作者由此推論：對方的價值觀是由無數經歷構成的，所以被冒犯時，不會完全否定對方。</p>\n<h2>可以怎麼用</h2>\n<p>今天跟人聊天時，注意一下自己有沒有不自覺跟著對方的語速或口氣。那往往是你正在對他產生同理的小訊號。</p><p class='src'>來源與備註：Threads @brainandmind75，2026-11-24 發文，是學生的上課心得；投影片內容為講者教材，部分實驗與說法未對照原研究。</p>",
+   "ai_cmd": null,
+   "label": "",
+   "related": []
+  },
+  {
+   "topic": "表達與人際關係",
+   "title": "心理學筆記：Gottman 的「末日四騎士」與輕蔑",
+   "quote": "輕蔑不是突然出現，是委屈累積太久後的盔甲",
+   "action": "",
+   "blurb": "心理學家 Gottman 指出四種預測關係破裂的互動，其中「輕蔑」最傷人。這篇說明它怎麼來，也給了降溫的做法。",
+   "note": "已統整/2026-11-24/2026-11-24-Gottman末日四騎士與輕蔑-richroo.o.md",
+   "is_new": true,
+   "body_html": "<p>吵架時最傷人的，常常不是音量，而是那個白眼或一句「你真的很可笑」。這篇整理 John Gottman 的「末日四騎士」，並特別談輕蔑為什麼最危險。</p><figure class='diagram'><svg viewBox='0 0 720 150'><rect class='dg-box' x='10.0' y='20' width='152.5' height='110' rx='8'/><text class='dg-tb' x='86.25' y='58.0' text-anchor='middle'>批評</text><text class='dg-t' x='86.25' y='80.0' text-anchor='middle'>針對人格</text><text class='dg-t' x='86.25' y='102.0' text-anchor='middle'>而非事件</text><line class='dg-line' x1='164.5' y1='75' x2='184.5' y2='75'/><polygon class='dg-arrow' points='182.5,67 191.5,75 182.5,83'/><rect class='dg-hl' x='192.5' y='20' width='152.5' height='110' rx='8'/><text class='dg-ths' x='268.75' y='58.0' text-anchor='middle'>輕蔑</text><text class='dg-ths' x='268.75' y='80.0' text-anchor='middle'>覺得對方</text><text class='dg-ths' x='268.75' y='102.0' text-anchor='middle'>低自己一等</text><line class='dg-line' x1='347.0' y1='75' x2='367.0' y2='75'/><polygon class='dg-arrow' points='365.0,67 374.0,75 365.0,83'/><rect class='dg-box' x='375.0' y='20' width='152.5' height='110' rx='8'/><text class='dg-tb' x='451.25' y='58.0' text-anchor='middle'>辯護</text><text class='dg-t' x='451.25' y='80.0' text-anchor='middle'>急著證明</text><text class='dg-t' x='451.25' y='102.0' text-anchor='middle'>自己沒錯</text><line class='dg-line' x1='529.5' y1='75' x2='549.5' y2='75'/><polygon class='dg-arrow' points='547.5,67 556.5,75 547.5,83'/><rect class='dg-box' x='557.5' y='20' width='152.5' height='110' rx='8'/><text class='dg-tb' x='633.75' y='58.0' text-anchor='middle'>築牆</text><text class='dg-t' x='633.75' y='80.0' text-anchor='middle'>冷戰、沉默</text><text class='dg-t' x='633.75' y='102.0' text-anchor='middle'>拒絕溝通</text></svg><figcaption>四個預測關係走向破裂的互動指標</figcaption></figure><h2>四個指標</h2>\n<p>依序是：批評（Criticism）、輕蔑（Contempt）、辯護（Defensiveness）、築牆／冷戰（Stonewalling）。其中輕蔑被稱為「關係中的硫酸」，作者說它是預測分手或離婚準確率最高的單一指標。</p>\n<h2>輕蔑是怎麼來的</h2>\n<p>文中說，輕蔑很少憑空出現，多半是長期未解決的負面情緒發酵而成：</p>\n<ol><li>長期需求被忽視，或一直過度承擔，累積無力感與憤怒。</li><li>防衛機制啟動：把「我好累、我好失望」轉成「他根本不值得我尊重」。</li><li>心理抽離：把對方定義為「低自己一等」，就不再期待，也不再受傷。</li></ol>\n<p>也就是說，輕蔑是保護自己不再心軟的最後一道防線。</p>\n<h2>解藥：建立欣賞與讚美的文化</h2>\n<ul><li><strong>短期止血</strong>：停止評價對方，改為直接說出自己的脆弱與需求。</li><li><strong>長期修復</strong>：日常刻意看見伴侶的優點與付出，每天表達具體的感謝，在心理帳戶累積「正面存款」。</li></ul>\n<h2>可以怎麼用</h2>\n<p>今天對身邊重要的人說一句具體的感謝，例如「謝謝你昨天幫我把垃圾拿出去」。不用長篇，具體就好。</p><p class='src'>來源與備註：Threads @richroo.o（心理學筆記系列），2026-11-22 發文，分三則貼文；是二手科普，成因的三點是作者的詮釋，「90% 以上」的準確率數字部分未查到出處。非專業意見。</p>",
+   "ai_cmd": null,
+   "label": "",
+   "related": [
+    {
+     "title": "信任的五大關鍵元素",
+     "ref": "2026-11-16-h2",
+     "note": "已統整/2026-11-15/2026-11-15-信任的五大關鍵元素-小實現圖卡.md",
+     "relation": "補充",
+     "why": "輕蔑會毀掉信任，兩篇可對照看關係怎麼壞、怎麼建"
+    }
+   ]
+  },
+  {
+   "topic": "表達與人際關係",
+   "title": "習慣 201：等別人把話講完再說話",
+   "quote": "聽是為了理解，不是為了準備下一句回應",
+   "action": "對方說完後，先在心裡默數「1、2、3」再開口。",
+   "blurb": "很多人打斷別人，是怕忘記好點子，或急著證明自己對。這篇提醒：重點常放在最後幾句，等一等，你才聽得到。",
+   "note": "已統整/2026-11-24/2026-11-24-習慣201-等別人把話講完再說-lifeworkbook.md",
+   "is_new": true,
+   "body_html": "<p>你有沒有在別人說到一半時，忍不住插話？這是「習慣養成」系列的第 201 則，主題很小：等別人把話講完再說。</p><figure class='diagram'><svg viewBox='0 0 720 150'><rect class='dg-box' x='10.0' y='20' width='152.5' height='110' rx='8'/><text class='dg-tb' x='86.25' y='69.0' text-anchor='middle'>對方說話</text><text class='dg-t' x='86.25' y='91.0' text-anchor='middle'>不打斷</text><line class='dg-line' x1='164.5' y1='75' x2='184.5' y2='75'/><polygon class='dg-arrow' points='182.5,67 191.5,75 182.5,83'/><rect class='dg-box' x='192.5' y='20' width='152.5' height='110' rx='8'/><text class='dg-tb' x='268.75' y='58.0' text-anchor='middle'>停下</text><text class='dg-t' x='268.75' y='80.0' text-anchor='middle'>心裡默數</text><text class='dg-t' x='268.75' y='102.0' text-anchor='middle'>1、2、3</text><line class='dg-line' x1='347.0' y1='75' x2='367.0' y2='75'/><polygon class='dg-arrow' points='365.0,67 374.0,75 365.0,83'/><rect class='dg-hl' x='375.0' y='20' width='152.5' height='110' rx='8'/><text class='dg-ths' x='451.25' y='69.0' text-anchor='middle'>再開口</text><text class='dg-ths' x='451.25' y='91.0' text-anchor='middle'>主動表達</text><line class='dg-line' x1='529.5' y1='75' x2='549.5' y2='75'/><polygon class='dg-arrow' points='547.5,67 556.5,75 547.5,83'/><rect class='dg-box' x='557.5' y='20' width='152.5' height='110' rx='8'/><text class='dg-tb' x='633.75' y='58.0' text-anchor='middle'>有好點子</text><text class='dg-t' x='633.75' y='80.0' text-anchor='middle'>先寫紙上</text><text class='dg-t' x='633.75' y='102.0' text-anchor='middle'>會後再提</text></svg><figcaption>聽完再說的小步驟</figcaption></figure><h2>為什麼會打斷</h2>\n<p>作者說，背後常是兩種焦慮：怕剛想到的好點子忘記，或潛意識急著證明「我懂、我是對的」。</p>\n<h2>打斷的代價</h2>\n<p>很多人真正的重點與內心需求，其實放在最後幾句。插嘴會切斷對方的思路，也傳達出「不尊重」。傾聽是為了「理解」，而不是為了「回應」。</p>\n<h2>完整聽完會怎樣</h2>\n<p>等對方把情緒與觀點拋完再接球，你能聽見文字背後的訊號，也讓自己從急躁的表現欲裡解放出來。</p>\n<h2>兩個行動</h2>\n<ol><li>對方停下來時，先在心裡默數「1、2、3」再開口：確認他真的講完，也讓你的回應從被動反射變成主動表達。</li><li>會議中突然有好觀點，先寫在紙上，會後再提，不要直接打斷。</li></ol>\n<h2>可以怎麼用</h2>\n<p>今天下一次跟人講話時，試一次「默數三秒」。做不到也沒關係，注意到自己想插嘴，就已經是進步。</p><p class='src'>來源與備註：Threads @lifeworkbook（習慣養成系列），2026-11-24 發文；是個人建議，沒有引用研究。</p>",
+   "ai_cmd": null,
+   "label": "",
+   "related": [
+    {
+     "title": "聊天技巧：事實、觀點、感悟的接話法",
+     "ref": "2026-11-11-h9",
+     "note": "已統整/2026-11-03/2026-11-03-聊天技巧-事實觀點感悟.md",
+     "relation": "補充",
+     "why": "聽完對方再接話，這篇教怎麼接得自然"
+    },
+    {
+     "title": "提升表達能力：先整理思緒，再說話",
+     "ref": "2026-11-16-h11",
+     "note": "已統整/2026-11-07/2026-11-07-提升表達能力-整理思緒與邏輯框架.md",
+     "relation": "接續",
+     "why": "等對方講完後，還要先整理思緒再開口"
+    }
+   ]
+  },
+  {
+   "topic": "心理與自我照顧",
+   "title": "人面對壓力的三種防衛反應與第四條路",
+   "quote": "逃、扛、躲都只是暫時安心，接受才是出路",
+   "action": "",
+   "blurb": "面對威脅，人常用迴避、對抗、退縮三種方式保護自己，暫時舒服卻困在原地。書摘提出的第四條路是接受、探索與更新。",
+   "note": "已統整/2026-11-24/2026-11-24-壓力下三種防衛反應-鬆綁表現焦慮-transcendent_reader.md",
+   "is_new": true,
+   "body_html": "<p>被主管質疑、被朋友批評，你的第一反應是什麼？這篇書摘整理《鬆綁表現焦慮》的觀點：人在壓力下常有三種消極的自我防衛，但還有第四條路。</p><figure class='diagram'><svg viewBox='0 0 720 150'><rect class='dg-box' x='10.0' y='20' width='152.5' height='110' rx='8'/><text class='dg-tb' x='86.25' y='69.0' text-anchor='middle'>迴避或封閉</text><text class='dg-t' x='86.25' y='91.0' text-anchor='middle'>逃避問題</text><line class='dg-line' x1='164.5' y1='75' x2='184.5' y2='75'/><polygon class='dg-arrow' points='182.5,67 191.5,75 182.5,83'/><rect class='dg-box' x='192.5' y='20' width='152.5' height='110' rx='8'/><text class='dg-tb' x='268.75' y='69.0' text-anchor='middle'>對抗或防衛</text><text class='dg-t' x='268.75' y='91.0' text-anchor='middle'>證明自己對</text><line class='dg-line' x1='347.0' y1='75' x2='367.0' y2='75'/><polygon class='dg-arrow' points='365.0,67 374.0,75 365.0,83'/><rect class='dg-box' x='375.0' y='20' width='152.5' height='110' rx='8'/><text class='dg-tb' x='451.25' y='69.0' text-anchor='middle'>退縮與依賴</text><text class='dg-t' x='451.25' y='91.0' text-anchor='middle'>回舒適圈</text><line class='dg-line' x1='529.5' y1='75' x2='549.5' y2='75'/><polygon class='dg-arrow' points='547.5,67 556.5,75 547.5,83'/><rect class='dg-hl' x='557.5' y='20' width='152.5' height='110' rx='8'/><text class='dg-ths' x='633.75' y='58.0' text-anchor='middle'>第四條路</text><text class='dg-ths' x='633.75' y='80.0' text-anchor='middle'>接受、探索</text><text class='dg-ths' x='633.75' y='102.0' text-anchor='middle'>與更新</text></svg><figcaption>三種消極反應，與書中提出的第四條路</figcaption></figure><h2>三種消極反應</h2>\n<ol><li><strong>迴避或封閉</strong>：逃避問題。</li><li><strong>對抗或防衛</strong>：拼命證明自己是對的，把行為合理化。</li><li><strong>退縮與依賴</strong>：退回舒適圈，找庇護。</li></ol>\n<p>它們能暫時緩解不安，但長久下來讓人困在原地。</p>\n<h2>第四條路：接受、探索與更新</h2>\n<p>書中的說法是：唯有看清並接納現實中的混亂與不完美，才能卸下干擾表現的心理防衛。</p>\n<h2>三個層次</h2>\n<ul><li><strong>存在（Be）</strong>：建立自我認同。</li><li><strong>行動（Do）</strong>：專注於過程與行動。</li><li><strong>歸屬（Belong）</strong>：從環境與關係中獲得歸屬感。</li></ul>\n<h2>可以怎麼用</h2>\n<p>回想最近一次讓你緊張的事，問自己：我當時是逃、拼命解釋，還是躲回舒適圈？只要先認出來，就已經踏出第四條路的第一步。</p><p class='src'>來源與備註：Threads @transcendent_reader，2026-11-24 發文，是單篇書摘；細節未對照原書。非專業意見。</p>",
+   "ai_cmd": null,
+   "label": "",
+   "related": [
+    {
+     "title": "內在小孩的防衛機制：五種保護模式與「內在成人」",
+     "ref": "2026-11-13-h6",
+     "note": "已統整/2026-11-12/2026-11-12-內在小孩的防衛機制與內在成人-yucaio.md",
+     "relation": "補充",
+     "why": "同樣談防衛反應，從內在小孩角度解釋"
+    },
+    {
+     "title": "周慕姿〈停止內耗〉：四個金句與五個啟發",
+     "ref": "2026-11-18-h1",
+     "note": "已統整/2026-11-17/2026-11-17-周慕姿TEDx停止內耗-四個金句與五個啟發-a_cup_of_woolongtea.md",
+     "relation": "接續",
+     "why": "看懂防衛反應後，可學怎麼停止內耗"
+    }
+   ]
+  },
+  {
+   "topic": "表達與人際關係",
+   "title": "向主管報告：三個做法，下一次就能用",
+   "quote": "先說你要對方決定什麼，再說其餘的事",
+   "action": "下一次報告前，先寫一句「我需要你決定＿＿」。",
+   "blurb": "主管聽報告時腦中只有一個問題：這件事跟我要做的決定有什麼關係？三個做法讓你的報告更好懂。",
+   "note": "已統整/2026-11-18/2026-11-18-向主管報告三個做法-結論放第一句-peter_career_hack.md",
+   "is_new": false,
+   "body_html": "<p>報告講到第五頁，主管打斷你：「所以，你需要我決定什麼？」這個場景是不是很熟悉？作者說，主管聽報告時，腦中只有一個問題：這件事跟我要做的決定有什麼關係。</p><figure class='diagram'><svg viewBox='0 0 720 150'><rect class='dg-hl' x='10.0' y='20' width='213.33333333333334' height='110' rx='8'/><text class='dg-ths' x='116.66666666666667' y='58.0' text-anchor='middle'>結論放第一句</text><text class='dg-ths' x='116.66666666666667' y='80.0' text-anchor='middle'>先講你要什麼</text><text class='dg-ths' x='116.66666666666667' y='102.0' text-anchor='middle'>建議什麼</text><line class='dg-line' x1='225.33333333333334' y1='75' x2='245.33333333333334' y2='75'/><polygon class='dg-arrow' points='243.33333333333334,67 252.33333333333334,75 243.33333333333334,83'/><rect class='dg-box' x='253.33333333333334' y='20' width='213.33333333333334' height='110' rx='8'/><text class='dg-tb' x='360.0' y='58.0' text-anchor='middle'>帶選項開會</text><text class='dg-t' x='360.0' y='80.0' text-anchor='middle'>兩到三個方案</text><text class='dg-t' x='360.0' y='102.0' text-anchor='middle'>附上推薦</text><line class='dg-line' x1='468.6666666666667' y1='75' x2='488.6666666666667' y2='75'/><polygon class='dg-arrow' points='486.6666666666667,67 495.6666666666667,75 486.6666666666667,83'/><rect class='dg-box' x='496.6666666666667' y='20' width='213.33333333333334' height='110' rx='8'/><text class='dg-tb' x='603.3333333333334' y='58.0' text-anchor='middle'>先講風險</text><text class='dg-t' x='603.3333333333334' y='80.0' text-anchor='middle'>點出最可能</text><text class='dg-t' x='603.3333333333334' y='102.0' text-anchor='middle'>被質疑的地方</text></svg><figcaption>三個下次就能用的做法</figcaption></figure><h2>三個做法</h2>\n<ol><li><strong>結論放在第一句</strong>：先講你要什麼、建議什麼。</li><li><strong>帶著選項進會議</strong>：準備兩到三個方案，附上你的推薦。</li><li><strong>先講風險和需要的支援</strong>：主動點出最可能被質疑的地方。</li></ol>\n<h2>作者的經驗</h2>\n<p>他的週報以前交出去，主管常回頭問「這個數字是什麼意思」。後來把格式和判斷標準固定下來，就不用再來回解釋。他也提到，每月檢討簡報中「收數字」的那一段，可以交給 AI 整理成初稿，但結論怎麼下，還是要自己來講。</p>\n<h2>作者的提問</h2>\n<p>你下一次報告，要讓主管決定哪一件事？</p>\n<h2>可以怎麼用</h2>\n<p>在下一份簡報或訊息的最前面，寫一句「我建議＿＿，需要你決定＿＿」。寫完再整理其他內容。</p><p class='src'>來源與備註：Threads @peter_career_hack，2026-11-18 發文；是個人經驗分享，作者資歷為自述。非專業意見。</p>",
+   "ai_cmd": null,
+   "label": "　舊文 11/18",
+   "related": [
+    {
+     "title": "2026-11-17-如何講重點讓團隊協作更有效率-open.tabs_v",
+     "ref": null,
+     "note": "已統整/2026-11-17/2026-11-17-如何講重點讓團隊協作更有效率-open.tabs_v.md",
+     "relation": "補充",
+     "why": "一樣教結論先說，講重點的更多細節"
+    },
+    {
+     "title": "2026-11-17-會前會的重要性-PM週會不被問倒的點線面內串-pmpeach_2025",
+     "ref": null,
+     "note": "已統整/2026-11-17/2026-11-17-會前會的重要性-PM週會不被問倒的點線面內串-pmpeach_2025.md",
+     "relation": "接續",
+     "why": "報告前先開會前會，才不會在週會被問倒"
+    },
+    {
+     "title": "你見過最厲害的「向上管理」長怎樣？（不是拍馬屁的那種）",
+     "ref": "2026-11-17-h1",
+     "note": "已統整/2026-11-17/2026-11-17-你見過最厲害的向上管理長怎樣-jawinwangjawin.md",
+     "relation": "補充",
+     "why": "向上管理的實際樣子，跟報告技巧互相搭配"
+    }
+   ]
+  },
+  {
+   "topic": "學習與研究",
+   "title": "我藏了十年的外語學習祕訣",
+   "quote": "每天講的話就那幾句，會說這幾句就夠用了",
+   "action": "今天挑三句平常會講的中文，查查外語怎麼說。",
+   "blurb": "不用另外找教材：每次講中文時，順便想這句話用外語怎麼說。練到日常想說的話都能用外語表達，就成功了。",
+   "note": "已統整/2026-11-14/2026-11-14-外語學習-把平常講的中文順便用外語說.md",
+   "is_new": false,
+   "body_html": "<p>學外語常常卡在「沒時間」。作者說他藏了十年的方法很簡單：不用多花時間，只要在講中文時，順便想一下外語怎麼說。</p><figure class='diagram'><svg viewBox='0 0 720 150'><rect class='dg-box' x='10.0' y='20' width='152.5' height='110' rx='8'/><text class='dg-tb' x='86.25' y='69.0' text-anchor='middle'>講中文</text><text class='dg-t' x='86.25' y='91.0' text-anchor='middle'>日常那幾句</text><line class='dg-line' x1='164.5' y1='75' x2='184.5' y2='75'/><polygon class='dg-arrow' points='182.5,67 191.5,75 182.5,83'/><rect class='dg-box' x='192.5' y='20' width='152.5' height='110' rx='8'/><text class='dg-tb' x='268.75' y='69.0' text-anchor='middle'>順便想</text><text class='dg-t' x='268.75' y='91.0' text-anchor='middle'>外語怎麼說</text><line class='dg-line' x1='347.0' y1='75' x2='367.0' y2='75'/><polygon class='dg-arrow' points='365.0,67 374.0,75 365.0,83'/><rect class='dg-box' x='375.0' y='20' width='152.5' height='110' rx='8'/><text class='dg-tb' x='451.25' y='69.0' text-anchor='middle'>不會就查</text><text class='dg-t' x='451.25' y='91.0' text-anchor='middle'>翻譯軟體</text><line class='dg-line' x1='529.5' y1='75' x2='549.5' y2='75'/><polygon class='dg-arrow' points='547.5,67 556.5,75 547.5,83'/><rect class='dg-hl' x='557.5' y='20' width='152.5' height='110' rx='8'/><text class='dg-ths' x='633.75' y='69.0' text-anchor='middle'>記起來</text><text class='dg-ths' x='633.75' y='91.0' text-anchor='middle'>下次直接用</text></svg><figcaption>日常生活就能做的練習循環</figcaption></figure><h2>為什麼有效</h2>\n<p>作者的觀點是：每天會用到的句子其實就那幾句，講來講去都差不多。如果這些話你都能用外語講，是不是就代表你已經會講外語了？</p>\n<h2>做法</h2>\n<ol><li>每次講中文時，順便想一下這句話用外語怎麼說。</li><li>不知道就用翻譯軟體查一下，然後記起來。</li><li>練到平常大部分想講的中文，都能自然用外語表達，就成功了。</li></ol>\n<h2>留言的補充</h2>\n<p>有讀者說，這個方法的核心就一個字：「用」。也有老師留言說這完全不冷門，自己也請學生這樣練習。作者沒有說自己學的是哪種語言，也沒說程度到哪裡。</p>\n<h2>可以怎麼用</h2>\n<p>今天挑三句你一定會說的話，例如「我到了」「等一下回你」「這個多少錢」，查出外語說法並記下來。</p><p class='src'>來源與備註：Threads @viregeek，2026-11-13 發文；是個人經驗，沒有引用研究。</p>",
+   "ai_cmd": null,
+   "label": "　舊文 11/14",
+   "related": [
+    {
+     "title": "日文學習 App 與頻道 S 到 D 分級表",
+     "ref": "2026-11-14-h6",
+     "note": "已統整/2026-11-13-日文學習工具分級表S到D-yuki.studiesjp.md",
+     "relation": "補充",
+     "why": "外語學習的工具推薦，可搭配這個日常用法"
+    },
+    {
+     "title": "用 Claude 當個人導師學任何東西：15 個學習提示詞",
+     "ref": "2026-11-16-h12",
+     "note": "已統整/2026-11-14/2026-11-14-用Claude學任何東西-15個學習提示詞.md",
+     "relation": "對照",
+     "why": "用 AI 當家教學習，與自己開口練習做法不同"
+    }
+   ]
+  },
+  {
+   "topic": "思考與決策",
+   "title": "跟上趨勢，人生就會更好嗎？趨勢適配練習",
+   "quote": "市場有機會，不等於那就是你想要的人生",
+   "action": "今天寫下一件覺得「應該要跟上」的事，答三個問題。",
+   "blurb": "追趨勢容易焦慮。貼文建議先看清自己真正想要什麼，用五分鐘三題檢查，再用一小時的小實驗驗證，才決定要不要投入。",
+   "note": "已統整/2026-11-08/2026-11-08-跟上趨勢人生就會更好嗎-趨勢適配練習.md",
+   "is_new": false,
+   "body_html": "<p>「現在不學 AI 以後沒競爭力」「人人都在做個人品牌，我該開始嗎」。新東西出現的速度，比我們完成待辦的速度還快。這篇貼文提供一個五分鐘的練習，幫你分辨哪些趨勢值得追。</p><figure class='diagram'><svg viewBox='0 0 720 150'><rect class='dg-box' x='10.0' y='20' width='152.5' height='110' rx='8'/><text class='dg-tb' x='86.25' y='58.0' text-anchor='middle'>選一件事</text><text class='dg-t' x='86.25' y='80.0' text-anchor='middle'>最近覺得應該</text><text class='dg-t' x='86.25' y='102.0' text-anchor='middle'>跟上的</text><line class='dg-line' x1='164.5' y1='75' x2='184.5' y2='75'/><polygon class='dg-arrow' points='182.5,67 191.5,75 182.5,83'/><rect class='dg-hl' x='192.5' y='20' width='152.5' height='110' rx='8'/><text class='dg-ths' x='268.75' y='58.0' text-anchor='middle'>答三題</text><text class='dg-ths' x='268.75' y='80.0' text-anchor='middle'>為何想跟上？</text><text class='dg-ths' x='268.75' y='102.0' text-anchor='middle'>想要什麼？</text><line class='dg-line' x1='347.0' y1='75' x2='367.0' y2='75'/><polygon class='dg-arrow' points='365.0,67 374.0,75 365.0,83'/><rect class='dg-box' x='375.0' y='20' width='152.5' height='110' rx='8'/><text class='dg-tb' x='451.25' y='58.0' text-anchor='middle'>小實驗</text><text class='dg-t' x='451.25' y='80.0' text-anchor='middle'>花一小時</text><text class='dg-t' x='451.25' y='102.0' text-anchor='middle'>試試看</text><line class='dg-line' x1='529.5' y1='75' x2='549.5' y2='75'/><polygon class='dg-arrow' points='547.5,67 556.5,75 547.5,83'/><rect class='dg-box' x='557.5' y='20' width='152.5' height='110' rx='8'/><text class='dg-tb' x='633.75' y='58.0' text-anchor='middle'>再決定</text><text class='dg-t' x='633.75' y='80.0' text-anchor='middle'>要不要</text><text class='dg-t' x='633.75' y='102.0' text-anchor='middle'>加碼投入</text></svg><figcaption>趨勢適配的四個步驟</figcaption></figure><h2>核心觀念</h2>\n<p>產業成長代表可能有更多機會，但不代表每個人都適合，也不代表投入後一定過得喜歡。市場提供資訊，但「市場」不等於你想要的人生。想追的往往是別的需求：轉熱門產業，也許是想要更好的收入；學最新工具，也許是想要更多自由時間；建立個人品牌，也許是希望作品被更多人看見。</p>\n<h2>五分鐘「趨勢適配檢查」</h2>\n<p>找一件最近覺得「應該要跟上」而有點緊張的事，寫下來並回答：</p>\n<ol><li>我為什麼想跟上它？</li><li>我希望它為生活帶來什麼？</li><li><strong>有哪些其他方法也可能讓我得到這些東西？</strong>（第三題最重要，能重新看見選項。）</li></ol>\n<h2>示範：我應該學 AI</h2>\n<p>想跟上的是 AI 工具；真正想要的是減少重複工作、保留更多創作時間；其他方法有改善工作流程、減少不必要的任務、學習自動化。發現：先解決一個工作問題，再決定要不要投入更多時間。</p>\n<h2>一小時小實驗</h2>\n<p>投入大量時間或金錢前，先花一小時用它解決一件原本很耗時的工作。完成後問：它有幫助我達成原本的期待嗎？我想繼續投入嗎？下一步值得增加多少投入？</p>\n<h2>可以怎麼用</h2>\n<p>現在就拿出紙，寫下一件你最近覺得非跟不可的事，只答第三題。</p><p class='src'>來源與備註：Threads 帳號 offcourse_ins（Life Design 工作坊單位），2026-11 發文；方法屬生涯設計常見做法，沒有研究數據；貼文單位的自我介紹部分未查到獨立確認。</p>",
+   "ai_cmd": null,
+   "label": "　舊文 11/08",
+   "related": [
+    {
+     "title": "做更好決定的 8 個概念",
+     "ref": "2026-11-16-d1",
+     "note": "已統整/2026-11-15/2026-11-15-做更好決定的八個概念-TheFuturaLab.md",
+     "relation": "補充",
+     "why": "跟不跟趨勢是決定問題，這篇給八個決策概念"
+    },
+    {
+     "title": "史丹佛「人生奧德賽計畫」：20 分鐘畫三種五年版本",
+     "ref": "2026-11-12-h12",
+     "note": "已統整/2026-11-04/2026-11-04-史丹佛Odyssey-Plan人生奧德賽計畫-20分鐘畫三種五年版本.md",
+     "relation": "接續",
+     "why": "想好適不適合自己後，可畫三種五年版本"
+    }
+   ]
+  },
+  {
+   "topic": "寫作與設計",
+   "title": "一個人的核心競爭力，其實是美感",
+   "quote": "你怎麼選人、佈置、說話，就是你的美感",
+   "action": "",
+   "blurb": "作者認為美感不只是穿搭，而是整體思維加細節思維。它藏在你選什麼人、看什麼書、怎麼安排時間，也藏在怎麼說話。",
+   "note": "已統整/2026-11-17/2026-11-17-一個人的核心競爭力是美感-uulefan.md",
+   "is_new": false,
+   "body_html": "<p>提到美感，很多人想到穿搭或設計。但這篇貼文說，美感是一個人最底層的競爭力，而且範圍比你想的大得多。</p><figure class='diagram'><svg viewBox='0 0 720 230'><rect class='dg-box' x='180' y='10' width='360' height='56' rx='8'/><text class='dg-tb' x='360.0' y='43.0' text-anchor='middle'>美感藏在哪裡</text><line class='dg-line' x1='360' y1='66' x2='360' y2='90'/><line class='dg-line' x1='90.0' y1='90' x2='630.0' y2='90'/><line class='dg-line' x1='90.0' y1='90' x2='90.0' y2='110'/><rect class='dg-box' x='10.0' y='110' width='160.0' height='100' rx='8'/><text class='dg-tb' x='90.0' y='165.0' text-anchor='middle'>選什麼人</text><line class='dg-line' x1='270.0' y1='90' x2='270.0' y2='110'/><rect class='dg-box' x='190.0' y='110' width='160.0' height='100' rx='8'/><text class='dg-tb' x='270.0' y='165.0' text-anchor='middle'>看什麼書</text><line class='dg-line' x1='450.0' y1='90' x2='450.0' y2='110'/><rect class='dg-box' x='370.0' y='110' width='160.0' height='100' rx='8'/><text class='dg-tb' x='450.0' y='154.0' text-anchor='middle'>怎麼佈置</text><text class='dg-t' x='450.0' y='176.0' text-anchor='middle'>房間</text><line class='dg-line' x1='630.0' y1='90' x2='630.0' y2='110'/><rect class='dg-box' x='550.0' y='110' width='160.0' height='100' rx='8'/><text class='dg-tb' x='630.0' y='154.0' text-anchor='middle'>怎麼安排</text><text class='dg-t' x='630.0' y='176.0' text-anchor='middle'>時間、說話</text></svg><figcaption>作者認為美感出現在生活的各個選擇</figcaption></figure><h2>作者的看法</h2>\n<ul><li><strong>範圍</strong>：美學既代表整體思維，也代表細節思維，不是穿衣服那麼簡單。</li><li><strong>感受力</strong>：同樣的世界，在不同人眼裡不一樣；美感高的人更用心感受生活，也更容易發現生活裡的美。</li><li><strong>選擇</strong>：審美高的人做選擇不太將就，因為知道什麼是對的、什麼是不對的。</li></ul>\n<h2>留言的不同聲音</h2>\n<p>有人認為核心競爭力是「提供價值」；有人說審美也是一種價值觀，不相近就很難混在一起；也有人提醒審美高有時會孤獨；還有人說，扣除人設，審美眼光看得出一個人的內心世界。</p>\n<h2>可以怎麼用</h2>\n<p>今天看看桌面或手機主畫面，挑一個你其實不太滿意、卻一直將就的小地方，動手調整一下。</p><p class='src'>來源與備註：Threads @uulefan，2026-11-16 發文；是個人觀點，沒有引用研究或案例。</p>",
+   "ai_cmd": null,
+   "label": "　舊文 11/17",
+   "related": [
+    {
+     "title": "2026-11-06-品味是尚未發現的創作天賦-LouiseFletcher五個答案",
+     "ref": null,
+     "note": "已統整/2026-11-06/2026-11-06-品味是尚未發現的創作天賦-LouiseFletcher五個答案.md",
+     "relation": "補充",
+     "why": "品味怎麼養成，是美感競爭力的來源"
+    },
+    {
+     "title": "2026-11-04-為什麼忙碌的人還需要美感-杜威經驗的四個觀點",
+     "ref": null,
+     "note": "已統整/2026-11-04/2026-11-04-為什麼忙碌的人還需要美感-杜威經驗的四個觀點.md",
+     "relation": "補充",
+     "why": "說明忙碌的人為何仍需要美感"
+    },
+    {
+     "title": "2026-11-13-訓練AI擁有自己的美感四步驟-darrell_tw_",
+     "ref": "2026-11-14-h4",
+     "note": "已統整/2026-11-13/2026-11-13-訓練AI擁有自己的美感四步驟-darrell_tw_.md",
+     "relation": "接續",
+     "why": "有了美感後，可教 AI 照你的美感做事"
+    }
+   ]
+  },
+  {
+   "topic": "人生方向與故事",
+   "title": "提問：有人真的透過職訓局成功轉職嗎？",
+   "quote": "職訓是敲門磚，門後的路要自己持續走",
+   "action": "",
+   "blurb": "網友分享職訓轉職的各種經驗：有成功轉行的，也有發現不適合而及時停手的。共同提醒是，學完還要持續累積。",
+   "note": "已統整/2026-11-17/2026-11-17-提問-有人真的透過職訓局成功轉職嗎-emilychang1001.md",
+   "is_new": false,
+   "body_html": "<p>想轉職、又怕花時間學了沒用？有人在 Threads 問：真的有人靠職訓局成功轉職嗎？留言裡有許多真實經驗，以下是歸納。</p><figure class='diagram'><svg viewBox='0 0 720 232'><rect class='dg-box' x='10' y='10' width='340' height='44' rx='8'/><text class='dg-tb' x='180.0' y='37.0' text-anchor='middle'>成功的經驗</text><rect class='dg-hl' x='370' y='10' width='340' height='44' rx='8'/><text class='dg-ths' x='540.0' y='37.0' text-anchor='middle'>要小心的地方</text><rect class='dg-box' x='10' y='64' width='340' height='44' rx='8'/><text class='dg-tb' x='180.0' y='91.0' text-anchor='middle'>從零學繪圖成繪圖工程師</text><rect class='dg-box' x='370' y='64' width='340' height='44' rx='8'/><text class='dg-tb' x='540.0' y='91.0' text-anchor='middle'>有人說媒合沒用</text><rect class='dg-box' x='10' y='118' width='340' height='44' rx='8'/><text class='dg-tb' x='180.0' y='145.0' text-anchor='middle'>超市勞工轉機電工程師</text><rect class='dg-box' x='370' y='118' width='340' height='44' rx='8'/><text class='dg-tb' x='540.0' y='145.0' text-anchor='middle'>技能與職場可能不相關</text><rect class='dg-box' x='10' y='172' width='340' height='44' rx='8'/><text class='dg-tb' x='180.0' y='199.0' text-anchor='middle'>轉水電、配線、影片行銷</text><rect class='dg-box' x='370' y='172' width='340' height='44' rx='8'/><text class='dg-tb' x='540.0' y='199.0' text-anchor='middle'>有天份、企圖心才有用</text></svg><figcaption>網友留言的兩面看法</figcaption></figure><h2>成功的例子</h2>\n<ul><li>零基礎學繪圖，後來成為繪圖工程師；超市底層勞工轉成機電工程師。</li><li>學焊接、提前就業、考到甲級證照（但現場工作仍很累）。</li><li>學 AutoCAD、3D 製圖後做工業繪圖；行政轉乙級水電後去營造廠，薪水翻好幾倍。</li><li>家人學完工程師課程，靠不斷進修，現在年薪破百萬。</li></ul>\n<h2>要持續進修，也要小心</h2>\n<p>有留言者說，學完不進修，之後薪水不變。也有人說職訓局媒合沒用，自己找的才轉成；入行後發現職場用的技能與課程所學不相關，要多學才加分；個人特質、轉職後習不習慣，也很重要。</p>\n<h2>把職訓當「試探市場」</h2>\n<p>有人用產投方案學寵物美容，試過之後發現夢想美、收入薄，沒有從業，把課程當作試探。作者也確認，職訓同樣要筆試和面試。</p>\n<h2>可以怎麼用</h2>\n<p>先上勞動部相關網站，挑一門你有興趣的課，看課程大綱和結訓後的出路，今天只做這一步。</p><p class='src'>來源與備註：Threads @emilychang1001 的提問串，2026-05-25 發文；內容是網友個人經驗，無法驗證，偏向成功者才會留言；補助細節請以官方公告為準。非專業意見。</p>",
+   "ai_cmd": null,
+   "label": "　舊文 11/17",
+   "related": [
+    {
+     "title": "30、40 歲才學陌生的東西：數百位網友的轉變故事",
+     "ref": "2026-11-15-d2",
+     "note": "已統整/2026-11-10/2026-11-10-Threads問大家-30歲後學新東西.md",
+     "relation": "補充",
+     "why": "許多人三四十歲轉換跑道的真實經驗"
+    },
+    {
+     "title": "聽起來厲害又不難考的證照？網友這樣推薦",
+     "ref": "2026-11-15-h8",
+     "note": "已統整/2026-11-10/2026-11-10-Threads問大家-好考又有用的證照.md",
+     "relation": "補充",
+     "why": "轉職常需證照，網友推薦可參考"
+    },
+    {
+     "title": "2026-11-12-viregeek迷茫時的串文合集-照顧自己清單與自律十一件事",
+     "ref": null,
+     "note": "已統整/2026-11-12/2026-11-12-viregeek迷茫時的串文合集-照顧自己清單與自律十一件事.md",
+     "relation": "接續",
+     "why": "轉職迷茫時，可先學怎麼照顧自己"
+    }
+   ]
+  }
+ ],
+ "also": [
+  "AI Agent 第一個模組「大腦 LLM」怎麼選？（雲端、地端、Hybrid）",
+  "第一屆《一看就知是AI文用字》大賽（留言串）",
+  "十種可以直接告訴 AI 的視覺風格",
+  "Dario Amodei 的 AI 學習指南",
+  "想在 Netflix 找適合學日語的動畫（留言串）",
+  "轉職策略：一頁式轉職戰略",
+  "傲慢理論：未來 6 個月養成 11 個習慣",
+  "八種方法訓練大腦喜歡做困難的事",
+  "八個比「可愛、聰明」更細膩形容一個人美好的英文詞",
+  "台灣成人進修的七種管道",
+  "把你的品味教給 AI",
+  "日文為什麼要「持續學習」",
+  "你聽過最棒的生死觀是什麼？（留言串）",
+  "納瓦爾寶典「複利」簡易大綱",
+  "自我提升複利成長的簡單總表",
+  "一篇 paper 要讀到什麼程度算懂？（留言串）",
+  "一人推一個會讓讀書上癮的方法（留言串）",
+  "從小到大都靠死背？遺忘曲線與分散複習",
+  "遇到「內耗」又「思想混亂」的人：灰石法則"
+ ],
+ "question": "下週一你臨時請假一天，同事遇到問題，第一個想到要問的人還是你。這時候你比較想怎麼辦？",
+ "question_options": [
+  "出門前先寫三行判斷重點留給他們",
+  "手機開著，有事再回",
+  "想不到，我好像沒什麼可以交代的"
+ ],
+ "focus_action": "下一次報告前，先寫一句「我需要你決定＿＿」，十分鐘內寫完。",
+ "question_note": "已統整/2026-11-24/2026-11-24-我不在後還剩什麼-PM傳承-kiwisobest.md",
+ "date": "2026-11-25",
+ "answer_uri": "obsidian://open?vault=%E7%9F%A5%E8%AD%98%E5%BA%AB&file=%E9%96%B1%E8%AE%80%E5%A0%B1%E5%91%8A/%E9%9B%BB%E5%AD%90%E5%A0%B1/%E5%9B%9E%E7%AD%94/2026-11-25-%E5%9B%9E%E7%AD%94"
+}
