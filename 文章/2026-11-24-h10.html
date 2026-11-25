@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>diagram-design：給 AI 寫程式工具用的架構圖 Skill</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../站台/style.css">
+</head>
+<body>
+<header class="wrap mast small">
+ <div class="rule1"></div>
+ <div class="dateline"><span>2026年11月24日　星期二</span><span class="mid">第 15 期</span>
+  <div class="theme" role="group" aria-label="顏色模式"><button type="button" data-mode="auto">自動</button><button type="button" data-mode="light">淺色</button><button type="button" data-mode="dark">深色</button></div></div>
+ <h1><a href="../index.html">今日草稿</a></h1>
+ <p class="en">TODAY'S DRAFT</p>
+ 
+ 
+ <nav aria-label="主題"><ul><li><a href="../index.html">首頁</a></li><li><a href="../主題/心理與自我照顧.html">心理與自我照顧</a></li><li><a href="../主題/人生方向與故事.html">人生方向與故事</a></li><li><a href="../主題/思考與決策.html">思考與決策</a></li><li><a href="../主題/學習與研究.html">學習與研究</a></li><li><a href="../主題/表達與人際關係.html">表達與人際關係</a></li><li><a href="../主題/社會與商業.html">社會與商業</a></li><li><a href="../主題/寫作與設計.html" aria-current=page>寫作與設計</a></li><li><a href="../主題/其他.html">其他</a></li><li><a href="../主題/個人系統與工具.html">個人系統與工具</a></li><li><a href="../主題/AI 協作與治理.html">AI 協作與治理</a></li><li><a href="../往期.html">往期</a></li></ul></nav>
+</header>
+
+<div class="crumb wrap"><a href="../各期/2026-11-24.html">← 回到 2026-11-24 這一期</a></div>
+<main class="wrap"><article class="article"><div class="kick">約 1 分鐘　頭條　寫作與設計　舊文 11/14</div><h1>diagram-design：給 AI 寫程式工具用的架構圖 Skill</h1><p>想請 AI 幫你畫架構圖，卻總是得到醜醜的預設樣式？diagram-design 是 GitHub 上的一個開源 Skill，讓 Claude Code、Codex、Cursor 等工具直接輸出乾淨的圖。</p><h2>它是什麼</h2><ul><li>輸出單一檔案的 HTML 加 SVG，不靠 Mermaid。</li><li>強調沒有陰影、沒有多餘的線，截圖可以直接放進簡報或 PR 說明。</li><li>支援套用自己的品牌配色與字體。</li><li>圖的種類很多，例如架構圖、流程圖、時間軸、象限圖、組織圖、甘特圖等。</li></ul><h2>數字不一致的地方</h2><p>貼文說有 44 種圖表，但專案頁面自己前後寫的是 45 與 50，其他來源也有 29、38 等說法，可能是不同版本。星數也在快速成長（貼文 10 月 12 日寫 51,004 顆，之後頁面已超過 6 萬）。</p><h2>使用時注意</h2><ul><li>只認這一個官方 repo，其他名稱的版本視為非官方。</li><li>預設字體從 Google Fonts 載入，離線時要改系統字體。</li><li>授權為 MIT。</li></ul><h2>可以怎麼用</h2><p>挑一張你最近想畫的流程，請 AI 用這個 Skill 做一份，再和你平常拖方塊畫的版本比較。</p><p class="src">來源與備註：@easyanythinghk 於 2026-10-12 在 Threads 轉介紹；GitHub 頁面內容已對照，各數字以頁面為準。</p><section class="cmd"><h2>給 Claude Code 的指令</h2><p class="when"><strong>適合情境：</strong>需要畫架構圖或流程圖放進簡報、說明文件時</p><pre id="cmdtext">請先讀懂下面的需求，列出你打算讀哪些檔案、改哪些地方、步驟是什麼，等我說「好」再動手；不要直接修改或刪除任何檔案。
+
+請先看看這個專案的結構與 README，然後幫我用乾淨的 HTML＋SVG 畫一張架構圖：
+1. 先列出你看到的主要模組與它們之間的關係，讓我確認。
+2. 確認後，畫成單一的 HTML 檔，不要陰影、不要多餘線條，文字手動斷行、不超出方塊。
+3. 有先後順序的地方才用箭頭，並列的項目不要用箭頭。
+4. 圖放在新資料夾裡，不要改動現有檔案。
+如果我另外給了配色與字體，請套用。</pre><button type="button" class="btn copy" id="copybtn">一鍵複製</button><p class="sub">貼進 Claude Code 後，它會先列出要改什麼、等你說「好」才動手。同一份指令也存在原筆記的「給 AI 的指令」。</p></section><section class="rel"><h2>延伸閱讀</h2><p class="sub">以下是別篇的內容，和這篇的重點分開看。</p><ul><li><span class="rl">補充</span><a href="2026-11-13-h11.html">Minicharts：18 種互動式圖表展示站（Dashboard 靈感）</a><span class="why">另一個圖表類的靈感站，搭配架構圖一起看</span></li><li><span class="rl">接續</span><a href="2026-11-20-h6.html">AI 做的 HTML 網頁怎麼分享</a><span class="why">做完圖與網頁後，怎麼分享成網址</span></li></ul></section><p class="src">原筆記：2026-11-14-diagram-design-44種架構圖Skill　<a href="obsidian://open?vault=%E7%9F%A5%E8%AD%98%E5%BA%AB&amp;file=%E5%B7%B2%E7%B5%B1%E6%95%B4/2026-11-14/2026-11-14-diagram-design-44%E7%A8%AE%E6%9E%B6%E6%A7%8B%E5%9C%96Skill" style="border-bottom:1.5px solid var(--hl)">在 Obsidian 打開</a></p></article>
+<div class="pn"><a href="2026-11-24-h9.html" style="border-bottom:1.5px solid var(--hl)">← 上一則</a><a href="2026-11-24-h11.html" style="border-bottom:1.5px solid var(--hl)">下一則 →</a></div></main>
+<footer class="wrap">今日草稿 ・ 內容整理自你的知識庫筆記，出處與細節都留在原筆記</footer>
+<script src="../站台/theme.js"></script>
+</body>
+</html>
