@@ -1,0 +1,383 @@
+{
+ "one_line": "健康地活著，才有力氣好好體驗人生",
+ "deep": [
+  {
+   "topic": "AI 協作與治理",
+   "title": "網站做好了然後呢？上架到登記 SEO 的 7 步懶人包",
+   "summary": "用 AI 做好網站之後，怎麼讓別人搜得到？這份懶人包把流程拆成 7 步：上架、綁網域、補頁面設定、交網站地圖、登記 Google Search Console、多開 Bing 與社群幾扇門，最後用 site: 確認收錄。每一步都有具體做法與常見卡關。",
+   "hint": "",
+   "tags": [
+    "架站",
+    "SEO",
+    "網站"
+   ],
+   "note": "已統整/2026-11-25/2026-11-25-網站上架到SEO登記-7步懶人包.md",
+   "is_new": true,
+   "body_html": "<p>很多人用 AI 做出網站後，就停在「自己打得開」這一步：網址只有自己知道，Google 也搜不到。Threads 帳號 @biopastel.talk 把「網站做好之後」整理成一份 7 步懶人包，從把網站放上網、綁自己的網域、補頁面設定，到登記 Google 與 Bing、確認有沒有被收錄，一步一步讓別人找得到你。如果你已經在用 Claude 做行程網站、小工具或個人頁，這篇正好補上「做好之後」那一段。</p><figure class='diagram'><svg viewBox='0 0 720 290'><rect class='dg-box' x='10' y='20' width='160' height='100' rx='8'/><text class='dg-tb' x='90.0' y='65.0' text-anchor='middle'>1 上架</text><text class='dg-t' x='90.0' y='87.0' text-anchor='middle'>放上網拿到網址</text><line class='dg-line' x1='172' y1='70' x2='182' y2='70'/><polygon class='dg-arrow' points='180,63 190,70 180,77'/><rect class='dg-box' x='190' y='20' width='160' height='100' rx='8'/><text class='dg-tb' x='270.0' y='65.0' text-anchor='middle'>2 綁網域</text><text class='dg-t' x='270.0' y='87.0' text-anchor='middle'>DNS 加記錄</text><line class='dg-line' x1='352' y1='70' x2='362' y2='70'/><polygon class='dg-arrow' points='360,63 370,70 360,77'/><rect class='dg-box' x='370' y='20' width='160' height='100' rx='8'/><text class='dg-tb' x='450.0' y='65.0' text-anchor='middle'>3 補設定</text><text class='dg-t' x='450.0' y='87.0' text-anchor='middle'>title、描述、alt</text><line class='dg-line' x1='532' y1='70' x2='542' y2='70'/><polygon class='dg-arrow' points='540,63 550,70 540,77'/><rect class='dg-box' x='550' y='20' width='160' height='100' rx='8'/><text class='dg-tb' x='630.0' y='65.0' text-anchor='middle'>4 交地圖</text><text class='dg-t' x='630.0' y='87.0' text-anchor='middle'>sitemap、robots</text><line class='dg-line' x1='630' y1='120' x2='630' y2='145'/><line class='dg-line' x1='630' y1='145' x2='90' y2='145'/><line class='dg-line' x1='90' y1='145' x2='90' y2='162'/><polygon class='dg-arrow' points='83,160 90,170 97,160'/><rect class='dg-hl' x='10' y='170' width='160' height='100' rx='8'/><text class='dg-ths' x='90.0' y='204.0' text-anchor='middle'>5 登記 Google</text><text class='dg-ths' x='90.0' y='226.0' text-anchor='middle'>Search Console</text><text class='dg-ths' x='90.0' y='248.0' text-anchor='middle'>最重要</text><line class='dg-line' x1='172' y1='220' x2='182' y2='220'/><polygon class='dg-arrow' points='180,213 190,220 180,227'/><rect class='dg-box' x='190' y='170' width='160' height='100' rx='8'/><text class='dg-tb' x='270.0' y='215.0' text-anchor='middle'>6 多開幾扇門</text><text class='dg-t' x='270.0' y='237.0' text-anchor='middle'>Bing、社群放網址</text><line class='dg-line' x1='352' y1='220' x2='362' y2='220'/><polygon class='dg-arrow' points='360,213 370,220 360,227'/><rect class='dg-box' x='370' y='170' width='160' height='100' rx='8'/><text class='dg-tb' x='450.0' y='215.0' text-anchor='middle'>7 等收錄</text><text class='dg-t' x='450.0' y='237.0' text-anchor='middle'>site: 檢查</text><rect class='dg-box' x='550' y='170' width='160' height='100' rx='8'/><text class='dg-t' x='630.0' y='215.0' text-anchor='middle'>之後持續更新</text><text class='dg-t' x='630.0' y='237.0' text-anchor='middle'>改版就更新地圖</text><line class='dg-line' x1='532' y1='220' x2='542' y2='220'/><polygon class='dg-arrow' points='540,213 550,220 540,227'/></svg><figcaption>網站做好之後的 7 步：第 5 步登記 Google Search Console 最關鍵</figcaption></figure>\n<h2>一句話先記住</h2>\n<blockquote>上架 → 綁網域 → 補設定 → 交地圖 → 登記 Google 與 Bing → 等收錄，之後持續更新內容。</blockquote>\n<h2>Step 1｜上架：先讓大家都打得開</h2>\n<p>目標是拿到一個任何人都打得開的網址。</p>\n<ul><li><strong>自己寫或 AI 做的網站</strong>：放 Cloudflare Pages、Vercel、Netlify、GitHub Pages，個人網站用免費方案通常就夠。</li>\n<li><strong>要讓客戶自己改內容</strong>：用 Wix、Squarespace 這類一站式平台（付費）。</li>\n<li><strong>怎麼上架</strong>：把專案放到 GitHub → 在平台連結 GitHub → 按部署。之後每次把更新推上去，平台會自動重新上架。不想碰 GitHub，多數平台也能直接拖拉資料夾上傳。</li>\n<li><strong>完成的樣子</strong>：拿到像 xxx.pages.dev 或 xxx.vercel.app 的免費網址。用手機和電腦都打開看看，確認開頭是 https。</li></ul>\n<h2>Step 2｜綁定自己的網域</h2>\n<p>免費網址也能被搜到，但自己的網域更專業、好記。</p>\n<ol><li><strong>買網域</strong>：在 Cloudflare、GoDaddy、Gandi 這類網域商搜尋想要的名稱。.com、.tw 價格不同，先比價，也要看「續約價」，別只看第一年。</li>\n<li><strong>在架站平台加入網域</strong>：到平台的「自訂網域（Custom Domain）」輸入網域，再照畫面到網域商的 DNS 設定新增一筆 CNAME 或 A 記錄。網域和網站都在 Cloudflare，通常一鍵完成。</li>\n<li><strong>等生效</strong>：幾分鐘到 48 小時；https 憑證平台多半自動處理。</li></ol>\n<p><strong>小提醒</strong>：「有 www」和「沒 www」選一個當主網址，另一個轉址過去，Google 才不會當成兩個網站。</p>\n<h2>Step 3｜頁面基本設定：讓 Google 看得懂</h2>\n<table><tr><th>項目</th><th>怎麼做</th></tr>\n<tr><td>語言</td><td>&lt;html lang=\"zh-Hant-TW\"&gt;，表示這是繁體中文網站</td></tr>\n<tr><td>標題 title</td><td>每頁不同，約 30 字內，放「關鍵字＋品牌名」</td></tr>\n<tr><td>描述 description</td><td>約 80～120 字，寫成會想點進來的摘要</td></tr>\n<tr><td>大標 h1</td><td>每頁一個，說清楚這頁在講什麼</td></tr>\n<tr><td>圖片 alt</td><td>用一句話描述圖片內容</td></tr>\n<tr><td>手機版</td><td>有 viewport 設定，字不太小、按鈕好點</td></tr>\n<tr><td>分享預覽</td><td>og:title、og:image，貼到 LINE、FB 時會出現標題和圖片</td></tr></table>\n<p><strong>用 AI 架站的小撇步</strong>：直接請 AI「幫每一頁補上 title、description、OG 分享標籤和圖片 alt」。</p>\n<h2>Step 4｜網站地圖與參觀須知</h2>\n<ul><li><strong>sitemap.xml（網站地圖）</strong>：列出所有頁面網址，放在網站根目錄，打開「你的網域/sitemap.xml」要看得到。</li>\n<li><strong>robots.txt（參觀須知）</strong>：告訴爬蟲哪些頁面可以看，順便寫上地圖位置。最簡單的寫法是三行：User-agent: *、Allow: /、Sitemap: https://你的網域/sitemap.xml。</li>\n<li><strong>可以省略的情況</strong>：Wix、Squarespace 會自動產生；500 頁內、從首頁點得到每一頁的小網站，沒有 sitemap 也行，直接請 Google 檢索首頁。</li>\n<li><strong>一定要注意</strong>：開發時加的 noindex（不要收錄）上線前一定要拿掉，不然前面都白做。</li></ul>\n<h2>Step 5｜最重要：登記 Google Search Console</h2>\n<p>網址是 search.google.com/search-console，用 Google 帳號登入。</p>\n<ol><li><strong>新增資源，二選一</strong>：「網域」（推薦）一次涵蓋 www 和所有子網域，要到網域商 DNS 加一筆 TXT 記錄驗證；「網址前置字元」只驗證這一個網址，可以用 HTML 檔或 meta 標籤驗證，用免費網址（例如 .pages.dev）就選這個。</li>\n<li><strong>提交 Sitemap</strong>：驗證成功後，左側選單「Sitemap」→ 貼上 sitemap.xml 網址 → 提交。</li>\n<li><strong>請 Google 來看首頁</strong>：最上方「網址審查」貼首頁網址 → 按「要求建立索引」，重要頁面可以各做一次。</li></ol>\n<p>要知道：提交不保證一定收錄，但能加快 Google 找到你，之後也能在這裡看搜尋成效。</p>\n<h2>Step 6｜Google 之外，多開幾扇門</h2>\n<ul><li><strong>Bing Webmaster Tools</strong>（bing.com/webmasters）：選「從 Google Search Console 匯入」，網站和 sitemap 一鍵帶過去。作者提到 Bing 的資料也會被 Yahoo、DuckDuckGo 和部分 AI 搜尋工具使用。</li>\n<li><strong>Google 商家檔案</strong>：有實體店面、工作室，或到府服務有固定區域才建，才有機會出現在 Google 地圖。</li>\n<li><strong>把網址放出去</strong>：IG、Threads 個人檔案、LINE 官方帳號、方格子都放上網址；有外部連結指向你，搜尋引擎更容易發現。</li></ul>\n<h2>Step 7｜檢查有沒有被收錄</h2>\n<ul><li>在 Google 搜尋 <strong>site:你的網域.com</strong>，有出現頁面就是已收錄；沒出現，到 Search Console 的「網頁」報表看原因。</li>\n<li>新網站通常要幾天到幾週，耐心等，不用每天重送。</li>\n<li>之後的保養：用 PageSpeed Insights 測速度、裝 Google Analytics（GA4）看有多少人來；新增或改了頁面就更新 sitemap，重要頁面再要求建立索引一次。</li></ul>\n<h2>最常卡住的五個地方</h2>\n<ol><li>上線前忘了拿掉 noindex。</li>\n<li>www 和沒 www 兩個網址並存。</li>\n<li>只看第一年網域價格，沒看續約價。</li>\n<li>用免費網址卻選了「網域」驗證，做不下去（應選網址前置字元）。</li>\n<li>每天重送索引，其實只要等。</li></ol>\n<h2>可以怎麼用</h2>\n<p>挑一個你做過的網站，今天在 Google 搜一次「site:你的網址」。有出現就好；沒出現，就從 Step 5 開始，先把 Search Console 登記起來。</p>\n<p class=\"src\">來源與備註：Threads @biopastel.talk，2026-11-25 發布的 8 頁懶人包，屬個人整理；各平台免費額度與細節可能變動，部分數字未查到出處。</p>",
+   "ai_cmd": {
+    "when": "你用 Claude 做好一個網站，想確認上線前 SEO 基本設定都齊全時",
+    "prompt": "請先讀懂下面的需求，列出你打算讀哪些檔案、改哪些地方、步驟是什麼，等我說「好」再動手；不要直接修改或刪除任何檔案。\n\n請幫我檢查這個網站專案的上線前基本設定，先只列報告、不要直接改：1. 每一頁有沒有 <html lang=\"zh-Hant-TW\">、各頁不同的 title（約 30 字內）、meta description（80～120 字）、每頁一個 h1、所有圖片有 alt、viewport 設定、og:title 與 og:image。2. 根目錄有沒有 sitemap.xml 與 robots.txt，robots.txt 有沒有寫 Sitemap 位置。3. 有沒有殘留 noindex。4. 有沒有 www 與非 www 兩種網址並存的跡象。用表格列出每頁缺什麼，再給我修改建議，等我同意後再補。"
+   },
+   "label": "",
+   "related": [
+    {
+     "title": "2026-11-12-叫AI做網頁前先逛的五個設計靈感網站-inkhaus.tw",
+     "ref": "2026-11-24-h12",
+     "note": "已統整/2026-11-12/2026-11-12-叫AI做網頁前先逛的五個設計靈感網站-inkhaus.tw.md",
+     "relation": "補充",
+     "why": "一篇講網站動手前去哪找設計靈感，一篇講做好後怎麼上線，前後剛好接起來"
+    }
+   ]
+  },
+  {
+   "topic": "心理與自我照顧",
+   "title": "智慧手機成癮的大腦結構與功能差異：2020 年論文到底說了什麼",
+   "summary": "一篇 2020 年的腦部影像研究發現，符合「智慧手機成癮」量表標準的人，在前腦島、前扣帶迴等和注意、情緒、控制有關的區域，與對照組有差異。整理研究怎麼做、三個主要發現、論文自己承認的限制，以及讀這類大腦研究新聞時可以多問的三句話。",
+   "hint": "",
+   "tags": [
+    "心理學",
+    "手機成癮",
+    "大腦"
+   ],
+   "note": "已統整/2026-11-18/2026-11-18-手機成癮與大腦結構功能差異-2020論文-curiousmindshub.md",
+   "is_new": false,
+   "body_html": "<p>常聽到一句話：「滑手機會把腦袋滑壞。」Threads 帳號 @curiousmindshub_ 轉發了一篇 2020 年的腦部影像研究，貼文說手機可能影響你的注意力，因為問題性的手機使用和大腦結構、活動的差異有關。這篇研究真的存在，也是經過同行審查的期刊論文；但仔細讀它到底做了什麼、看到什麼、自己承認哪些限制，會發現它說的比「手機傷腦」謹慎得多。這篇把研究拆開來看，也談談讀這類「大腦研究」新聞時可以怎麼想。</p><figure class='diagram'><svg viewBox='0 0 720 300'><rect class='dg-hl' x='160' y='15' width='400' height='60' rx='8'/><text class='dg-ths' x='360' y='40' text-anchor='middle'>48 位 18～30 歲手機使用者</text><text class='dg-ths' x='360' y='62' text-anchor='middle'>用量表分成兩組，做腦部磁振造影</text><line class='dg-line' x1='360' y1='75' x2='360' y2='95'/><line class='dg-line' x1='125' y1='95' x2='595' y2='95'/><line class='dg-line' x1='125' y1='95' x2='125' y2='115'/><line class='dg-line' x1='360' y1='95' x2='360' y2='115'/><line class='dg-line' x1='595' y1='95' x2='595' y2='115'/><rect class='dg-box' x='15' y='115' width='220' height='100' rx='8'/><text class='dg-tb' x='125' y='148' text-anchor='middle'>結構：灰質較少</text><text class='dg-t' x='125' y='172' text-anchor='middle'>前腦島、下顳葉</text><text class='dg-t' x='125' y='194' text-anchor='middle'>海馬旁迴</text><rect class='dg-box' x='250' y='115' width='220' height='100' rx='8'/><text class='dg-tb' x='360' y='148' text-anchor='middle'>活動：較低</text><text class='dg-t' x='360' y='172' text-anchor='middle'>右前扣帶迴</text><text class='dg-t' x='360' y='194' text-anchor='middle'>（靜息狀態）</text><rect class='dg-box' x='485' y='115' width='220' height='100' rx='8'/><text class='dg-tb' x='595' y='148' text-anchor='middle'>分數越高</text><text class='dg-t' x='595' y='172' text-anchor='middle'>前扣帶迴體積、活動</text><text class='dg-t' x='595' y='194' text-anchor='middle'>越低（r 約 −0.44／−0.51）</text><line class='dg-line' x1='360' y1='215' x2='360' y2='235'/><polygon class='dg-arrow' points='353,233 360,243 367,233'/><rect class='dg-hl' x='110' y='243' width='500' height='48' rx='8'/><text class='dg-ths' x='360' y='273' text-anchor='middle'>只是「有關聯」，不能說手機造成大腦改變</text></svg><figcaption>研究怎麼做、看到什麼，以及最重要的界線</figcaption></figure>\n<h2>這是一篇什麼研究</h2>\n<p>論文標題是《Structural and functional correlates of smartphone addiction》（智慧手機成癮的結構與功能相關性），2020 年刊在《Addictive Behaviors》第 105 期，作者是德國海德堡大學等單位的 Juliane Horvath、Robert Christian Wolf 等人。研究沒有特定經費來源，也聲明沒有利益衝突。</p>\n<p>研究背景是：這幾年手機普及得很快，大家越來越擔心過度使用對身心健康的影響。過去估計「智慧手機成癮」的盛行率大約 12～28%，學生族群尤其高。不過論文也坦白，「智慧手機成癮」這個詞本身受到批評，因為它和網路遊戲障礙、社群媒體使用有很多重疊，只是目前文獻大多還是這樣稱呼。</p>\n<h2>研究怎麼做</h2>\n<ul><li><strong>受試者</strong>：48 位 18～30 歲、慣用右手、沒有神經或精神疾病史的手機使用者，每人拿到 30 歐元報酬。</li>\n<li><strong>怎麼分組</strong>：用「智慧手機成癮量表簡版」打分，超過切點（男性 31 分以上、女性 33 分以上）算成癮組，共 22 人；其餘 26 人是對照組。因為影像資料品質不佳剔除幾人後，實際分析 21 人與 23 人。</li>\n<li><strong>測了什麼</strong>：用 3T 磁振造影看兩件事。一是大腦結構，也就是各區域灰質的體積；二是大腦在休息、什麼都不做時的自發活動強度。</li></ul>\n<p>兩組在年齡（約 22～23 歲）、性別比例、受教育年數都差不多。差別在使用時間：成癮組平日每天用手機約 3.6 小時、週末約 4.4 小時，對照組平日與週末都只有約 2.1～2.2 小時。另外，成癮組的憂鬱量表分數（9.5 比 4.4）和衝動量表分數（64.3 比 56.5）也明顯較高。有趣的是，兩組「拿手機做什麼」幾乎沒差別：打電話、傳訊息、用社群、拍照、上網的頻率都相近，例如幾乎每個人都每天用通訊軟體。差的主要是「用多久」與「停不停得下來」。</p>\n<h2>三個主要發現</h2>\n<ol><li><strong>有些區域灰質較少</strong>：成癮組在左側前腦島、左下顳葉、左海馬旁迴的灰質體積比對照組小。不過把憂鬱分數納入考量後，前腦島和下顳葉的差異還在，海馬旁迴的差異就不明顯了。</li>\n<li><strong>前扣帶迴比較安靜</strong>：成癮組右側前扣帶迴在休息時的自發活動較低。</li>\n<li><strong>分數越高、差異越明顯</strong>：把所有受試者放在一起看，成癮量表分數越高，前扣帶迴的體積越小（相關係數約 −0.44）、活動越低（約 −0.51）。分數高的人，左側眶額皮質的灰質也較少。</li></ol>\n<p>前腦島和前扣帶迴是大腦「顯著性網絡」的關鍵部位。白話說，這個網絡負責判斷「眼前什麼事重要、值得注意」，並在不同任務之間切換。作者因此推測，成癮組這個網絡的神經完整性可能有異常。貼文把它說成「注意力」，是一種延伸詮釋；論文本身沒有直接測量注意力表現。</p>\n<h2>論文自己列出的限制</h2>\n<p>這段是讀這類研究最該看的地方，作者自己寫得很清楚：</p>\n<ul><li><strong>樣本小</strong>：每組只有二十多人。</li>\n<li><strong>沒有正式臨床評估</strong>：沒辦法完全排除其他精神狀況的影響，而成癮組的憂鬱分數確實較高，作者也建議未來要排除輕度憂鬱的干擾。</li>\n<li><strong>只看一個時間點</strong>：這種「橫斷面」設計看不出先後順序。可能是手機用多了大腦跟著變，也可能是原本大腦就有這些特點的人比較容易停不下手機，或兩者都受其他因素影響。相關不代表因果。</li>\n<li><strong>只看休息時</strong>：沒有測人在做事、專心時的大腦反應。</li>\n<li><strong>統計門檻不夠嚴</strong>：如果用最嚴格的全腦多重比較校正，所有全腦層級的發現都會變得不顯著。</li></ul>\n<p>作者也提到，前扣帶迴的改變並不是手機成癮獨有，很多精神疾患都看得到類似現象；其他區域的差異則和網路遊戲障礙的影像研究結果相近。所以他們的結論用詞很保守：這是「初步證據」，需要更大樣本、長期追蹤和任務型的腦部造影再重複驗證；同時也質疑「手機完全無害」的假設，至少對本來就比較容易陷入成癮的人。</p>\n<h2>讀這類「大腦研究」新聞，可以多問三句</h2>\n<ul><li><strong>多少人？</strong>二十幾人的結果，可以當線索，不適合當定論。</li>\n<li><strong>看到的是關聯還是因果？</strong>只量一次的研究，通常只能說「有關」。</li>\n<li><strong>研究者自己怎麼說？</strong>原論文的結論常比轉發標題保守很多，這篇就是例子。</li></ul>\n<p>這不表示可以放心無限滑。研究中成癮組同時有較高的憂鬱與衝動分數，用手機時間也將近對照組兩倍，這些本身就值得留意。知識庫裡另一篇談「總是累又情緒低落，可能是你無時無刻都在刺激自己」，以及談「過度拍照會減損記憶與享受」的筆記，也從生活面提醒同一件事：問題不只在大腦長什麼樣子，而在你有沒有留時間給自己真正休息、真正體驗。</p>\n<h2>可以怎麼用</h2>\n<p>今天打開手機內建的螢幕使用時間，看一眼自己平日平均幾小時。對照研究裡兩組的數字（約 2 小時與 3.6 小時），不用急著下結論，只要問自己一句：這些時間裡，有多少是我想用的，有多少是停不下來？</p>\n<p class=\"src\">來源與備註：Threads @curiousmindshub_ 於 2026-11-17 轉發論文頁面；論文為 Horvath 等人，Addictive Behaviors 105（2020）106334，DOI 10.1016/j.addbeh.2020.106334。本文依論文頁面整理，未讀完整論文全文。</p>",
+   "ai_cmd": {
+    "when": "你想知道自己的手機使用習慣，又不想被「手機傷腦」的說法嚇到時",
+    "prompt": "請先讀懂下面的需求，列出你打算讀哪些檔案、改哪些地方、步驟是什麼，等我說「好」再動手；不要直接修改或刪除任何檔案。\n\n我會貼上我手機的螢幕使用時間（每天總時數、前五名 App 與各自時數、每天拿起手機次數）。請幫我：1. 用表格整理哪些是我主動想用的、哪些比較像停不下來的習慣。2. 不要嚇我、不要下診斷，只指出一兩個最值得調整的時段或 App。3. 給我一個這週就能試的小改變（例如某個時段把手機放到另一個房間），並告訴我一週後怎麼檢查有沒有效。"
+   },
+   "label": "　舊文 11/18",
+   "related": [
+    {
+     "title": "2026-11-17-總是累又情緒低落-你無時無刻都在刺激自己-zane_junn",
+     "ref": null,
+     "note": "已統整/2026-11-17/2026-11-17-總是累又情緒低落-你無時無刻都在刺激自己-zane_junn.md",
+     "relation": "補充",
+     "why": "從日常感受講一直滑手機、不停刺激自己，跟大腦研究互相印證"
+    },
+    {
+     "title": "2026-11-17-過度拍照減損記憶與享受-patronviv828",
+     "ref": null,
+     "note": "已統整/2026-11-17/2026-11-17-過度拍照減損記憶與享受-patronviv828.md",
+     "relation": "補充",
+     "why": "同樣講手機習慣怎麼影響大腦，這篇聚焦在記憶和享受"
+    },
+    {
+     "title": "社經層級與大腦的關聯：Marek 等人的研究",
+     "ref": "2026-11-16-h8",
+     "note": "已統整/2026-11-14/2026-11-14-社經層級與大腦的關聯-Marek研究.md",
+     "relation": "接續",
+     "why": "讀完腦影像研究，接著看樣本數要多大結果才可靠"
+    }
+   ]
+  }
+ ],
+ "headlines": [
+  {
+   "topic": "人生方向與故事",
+   "title": "明年 30 歲，30 歲前有什麼事建議完成？",
+   "quote": "健康地活著，才有力氣好好體驗人生",
+   "action": "拿張紙寫下：接下來五個月，你最想完成的一件事。",
+   "blurb": "一位明年滿 30 歲的人列出自己的清單，再問大家還漏了什麼。最多人提醒的不是存錢或保單，而是運動和一個讓心安定的興趣。",
+   "note": "已統整/2026-11-25/2026-11-25-30歲前建議完成的事-問大家-pochamapachapocha.md",
+   "is_new": true,
+   "body_html": "<p>Threads 上有人說：再五個月就滿 30 歲了，有什麼事建議在這之前完成？提問者先列出自己想到的，大家再補充。這份清單很實際，也很適合任何快要跨進下一個階段的人拿來對照：你已經做了哪些？還漏了哪些？</p><figure class='diagram'><svg viewBox='0 0 720 250'><rect class='dg-box' x='210' y='15' width='300' height='60' rx='8'/><text class='dg-tb' x='360.0' y='51.0' text-anchor='middle'>30 歲前大家最常提醒</text><line class='dg-line' x1='360' y1='75' x2='360' y2='100'/><line class='dg-line' x1='91.5' y1='100' x2='628.5' y2='100'/><line class='dg-line' x1='91.5' y1='100' x2='91.5' y2='125'/><rect class='dg-hl' x='10.0' y='125' width='163.0' height='110' rx='8'/><text class='dg-ths' x='91.5' y='175.0' text-anchor='middle'>運動習慣</text><text class='dg-ths' x='91.5' y='197.0' text-anchor='middle'>最多人提到</text><line class='dg-line' x1='270.5' y1='100' x2='270.5' y2='125'/><rect class='dg-box' x='189.0' y='125' width='163.0' height='110' rx='8'/><text class='dg-tb' x='270.5' y='175.0' text-anchor='middle'>一個興趣</text><text class='dg-t' x='270.5' y='197.0' text-anchor='middle'>讓心有支撐</text><line class='dg-line' x1='449.5' y1='100' x2='449.5' y2='125'/><rect class='dg-box' x='368.0' y='125' width='163.0' height='110' rx='8'/><text class='dg-tb' x='449.5' y='175.0' text-anchor='middle'>固定見朋友</text><text class='dg-t' x='449.5' y='197.0' text-anchor='middle'>交換近況</text><line class='dg-line' x1='628.5' y1='100' x2='628.5' y2='125'/><rect class='dg-box' x='547.0' y='125' width='163.0' height='110' rx='8'/><text class='dg-tb' x='628.5' y='175.0' text-anchor='middle'>學救命術</text><text class='dg-t' x='628.5' y='197.0' text-anchor='middle'>BLS 基本救命</text></svg><figcaption>大家補充的建議裡，運動被提到最多次</figcaption></figure><h2>提問者自己的清單</h2>\n<ol><li>保單健檢：30 歲後保費會變貴，先查缺補漏。</li>\n<li>打 HPV 疫苗：預約三針九價。</li>\n<li>健康檢查：用公教自費方案，每年做。</li>\n<li>打工度假：興趣不大，想出國就去旅遊。</li>\n<li>建立儲蓄觀念：月儲蓄率約收入的 40%，也有買股票和基金。</li>\n<li>駕照、國外獨旅：都已完成。</li></ol>\n<h2>大家補充了什麼</h2>\n<ul><li><strong>建立運動習慣</strong>：約 5 個人提到，有人說「健康才能好好體驗人生」「健康活著就是福氣」。也有人建議找教練認真重訓，讓身體陪你玩得更久。</li>\n<li><strong>找一個療癒的興趣</strong>：約 3 個人提到，要能支撐精神。提問者回說自己喜歡寫作和做飯。</li>\n<li><strong>和好朋友固定聚</strong>：例如每季聚餐一次，交換近況。</li>\n<li><strong>學 BLS 基本救命術</strong>：萬一親友或路人需要，你能幫上忙。</li>\n<li><strong>不必為年齡焦慮</strong>：剛滿 30 的人說，年齡只是數字。</li>\n<li>有人附和「我也快 30 了，準備整理保單」；也有人問公教自費健檢去哪做，提問者回答可以找所在地的衛福部醫院，榮總也有。</li></ul>\n<h2>這串的共通點</h2>\n<p>提問者的清單偏「把風險顧好」：保險、疫苗、健檢、存錢。大家補上的則偏「把生活過好」：身體、興趣、朋友。兩邊合起來，才是比較完整的 30 歲準備。</p>\n<h2>可以怎麼用</h2>\n<p>不管你幾歲，拿這份清單對照一次，挑出一件還沒做的，寫下來，再寫一個本月就能開始的第一步，例如「這週先去運動一次」。</p>\n<p class='src'>來源與備註：Threads @pochamapachapocha，2026-11-24 發文的提問串，建議都是網友個人經驗；補助與保險相關資訊請以官方為準。非專業意見。</p>",
+   "ai_cmd": null,
+   "hint": "非專業意見",
+   "label": "",
+   "related": [
+    {
+     "title": "30、40 歲才學陌生的東西：數百位網友的轉變故事",
+     "ref": "2026-11-15-d2",
+     "note": "已統整/2026-11-10/2026-11-10-Threads問大家-30歲後學新東西.md",
+     "relation": "補充",
+     "why": "30 歲後才開始學新東西的真實故事，讓人少一點年齡焦慮"
+    },
+    {
+     "title": "請大家推薦 2027 可以嘗試、體驗的事",
+     "ref": "2026-11-14-h5",
+     "note": "已統整/2026-11-13-2027年想嘗試的事情清單-kkeyuju.md",
+     "relation": "補充",
+     "why": "同樣是請大家推薦想體驗的事，可以拿來擴充自己的清單"
+    },
+    {
+     "title": "別急著選人生，先寫三種五年後的生活（奧德賽計畫輕量版）",
+     "ref": "2026-11-18-d1",
+     "note": "已統整/2026-11-17/2026-11-17-別急著選人生先寫三種五年後的生活-yinglifetelling.md",
+     "relation": "接續",
+     "why": "列完想做的事，再用三種五年後的生活想清楚往哪走"
+    }
+   ]
+  },
+  {
+   "topic": "寫作與設計",
+   "title": "用 AI＋Canva 把旅遊行程做成翻頁小書",
+   "quote": "把回憶整理成一本書，旅行就再走了一次",
+   "action": "打開手機相簿，把上一趟旅行最喜歡的十張照片放進同一個相簿。",
+   "blurb": "有人把今年二月的北海道行程，做成 42 頁、會翻頁的旅遊小本本。做法只有三步：行程表加照片、交給 AI 搭 Canva 排版、匯入翻頁 App。",
+   "note": "inbox/2026-11-25-用AI加Canva把旅遊行程做成翻頁小書-北海道-weiii_722.md",
+   "is_new": true,
+   "body_html": "<p>旅行回來，照片散在手機裡，行程表躺在 Excel，很快就忘了。Threads 上 @weiii_722 把今年二月的北海道行程做成「第一本旅遊小本本」，翻頁影片裡看得到共 42 頁。好幾個人留言問怎麼做，作者在置頂回覆寫了三個步驟。</p><figure class='diagram'><svg viewBox='0 0 720 160'><rect class='dg-box' x='10' y='20' width='217.33333333333334' height='120' rx='8'/><text class='dg-tb' x='118.66666666666667' y='64.0' text-anchor='middle'>1 準備材料</text><text class='dg-t' x='118.66666666666667' y='86.0' text-anchor='middle'>Excel 行程表</text><text class='dg-t' x='118.66666666666667' y='108.0' text-anchor='middle'>＋共享相簿連結</text><line class='dg-line' x1='229.33333333333334' y1='80.0' x2='241.33333333333334' y2='80.0'/><polygon class='dg-arrow' points='239.33333333333334,73.0 249.33333333333334,80.0 239.33333333333334,87.0'/><rect class='dg-box' x='251.33333333333334' y='20' width='217.33333333333334' height='120' rx='8'/><text class='dg-tb' x='360.0' y='64.0' text-anchor='middle'>2 AI 搭 Canva</text><text class='dg-t' x='360.0' y='86.0' text-anchor='middle'>做出雛形</text><text class='dg-t' x='360.0' y='108.0' text-anchor='middle'>再自己調版型配色</text><line class='dg-line' x1='470.6666666666667' y1='80.0' x2='482.6666666666667' y2='80.0'/><polygon class='dg-arrow' points='480.6666666666667,73.0 490.6666666666667,80.0 480.6666666666667,87.0'/><rect class='dg-hl' x='492.6666666666667' y='20' width='217.33333333333334' height='120' rx='8'/><text class='dg-ths' x='601.3333333333334' y='64.0' text-anchor='middle'>3 匯入 LiveNote</text><text class='dg-ths' x='601.3333333333334' y='86.0' text-anchor='middle'>變成會翻頁</text><text class='dg-ths' x='601.3333333333334' y='108.0' text-anchor='middle'>的旅遊小書</text></svg><figcaption>三步把行程變成一本會翻頁的小書</figcaption></figure><h2>三個步驟</h2>\n<ol><li><strong>準備材料</strong>：一份已經排好的 Excel 行程表；把旅遊照片放進 iCloud 共享相簿，建立分享連結。</li>\n<li><strong>交給 AI 做雛形</strong>：把行程表和相簿連結交給 AI 工具，請它搭配 Canva 做出旅遊書的雛形，再依自己的喜好來回調整版型、風格和配色。</li>\n<li><strong>做成翻頁小書</strong>：定稿後把檔案匯入 LiveNote（一款擬物翻頁的手帳 App），就有翻書的效果。</li></ol>\n<h2>成品長什麼樣子</h2>\n<ul><li>封面是翻頁動畫。</li>\n<li>目錄頁叫「行程總覽」，依日期列出每天去的地點和頁碼，行程從 2/9 到 2/25。</li>\n<li>內頁有「航班與住宿」「交通怎麼走」等主題頁，其餘是各天的照片與紀錄。</li></ul>\n<h2>作者沒說的地方</h2>\n<p>用哪一個 AI 工具、Canva 用免費還是付費版、匯入 LiveNote 是用 PDF 還是圖片、總共花了多久，作者都沒寫。想跟著做，可以先從「匯出 PDF」試起，因為 LiveNote 本身支援匯入 PDF 手帳模板。</p>\n<h2>為什麼值得一試</h2>\n<p>行程表是「出發前」的工具，小書則是「回來後」的紀念。同一份資料，換個形式就從待辦清單變成回憶，也比一大串照片更容易拿給家人朋友看。</p>\n<h2>可以怎麼用</h2>\n<p>今天先做最小的一步：把上一趟旅行最喜歡的十張照片放進同一個相簿。之後想做小書時，材料已經準備好一半。</p>\n<p class='src'>來源與備註：Threads @weiii_722，2026-11-23 發文，置頂回覆寫於 2026-11-24。</p>",
+   "ai_cmd": null,
+   "label": "",
+   "related": [
+    {
+     "title": "2026-11-25-用Claude做日本行程網站-地圖頭像順延與最晚出發",
+     "ref": null,
+     "note": "已統整/2026-11-25/2026-11-25-用Claude做日本行程網站-地圖頭像順延與最晚出發.md",
+     "relation": "對照",
+     "why": "一樣用 AI 整理行程，一個做成翻頁小書，一個做成網站"
+    },
+    {
+     "title": "2026-11-16-旅行規劃網站AI-Prompt",
+     "ref": null,
+     "note": "已統整/2026-11-16/2026-11-16-旅行規劃網站AI-Prompt.md",
+     "relation": "補充",
+     "why": "先用 AI 排好行程，再把行程做成小書，是前後兩段"
+    }
+   ]
+  },
+  {
+   "topic": "其他",
+   "title": "大阪必吃早餐，只能選一家你推哪家？",
+   "quote": "只能選一個的時候，才知道自己真正想要什麼",
+   "action": "",
+   "blurb": "有人問大阪早餐只能選一家要吃哪裡，還補充想吃日式。大家推了和食早餐、昭和咖啡廳，也有人說麥當勞必吃一次。",
+   "note": "inbox/2026-11-25-大阪必吃早餐只能選一家-留言串-rong.beautyfu.md",
+   "is_new": true,
+   "body_html": "<p>去大阪玩好幾天，早餐常常只能靠超商解決。Threads 上有人問：如果只能選一家，大阪必吃的早餐你會推哪家？提問者補充，想吃日式的。這串留言不多，但每個人推的都不一樣，剛好可以當成大阪早餐的起點清單。</p>\n<h2>大家推了哪些</h2>\n<ul><li><strong>馳走うお佐（Chisou Uosa）</strong>：日式朝食，在難波（大阪市中央區難波 3-5-14），可以在 TableCheck 訂位，價位約 3,000 日圓上下，各處寫法不太一致。提問者回「這家也很有名，需要訂位嗎」。</li>\n<li><strong>丸福咖啡</strong>：昭和風的老咖啡店，招牌是厚蛋三明治配古早味咖啡歐蕾。提問者說「這家我也看到很多人推」。</li>\n<li><strong>麥當勞</strong>：有人說必吃一次，其次是麵包店、牛肉飯。</li>\n<li><strong>吉野家</strong>：提問者問「有這麼早開嗎」，沒有下文。</li>\n<li>有人推台灣早餐，提問者說先不用，想吃日式的。</li></ul>\n<h2>這串有意思的地方</h2>\n<p>沒有任何一家被重複推薦。提問者的條件其實有三個：要日式、天數多、平常靠超商省預算；而「只能選一家」的問法，讓大家各推各的「必吃一次」。真正規劃時，可以把天數拆開：一天吃一頓有名的和食朝食，一天吃昭和咖啡廳，其餘交給超商和麵包店。</p>\n<h2>出發前要注意</h2>\n<ul><li>和食早餐熱門店建議先訂位。</li>\n<li>營業時間、價格容易變動，出發前用 Google 地圖再看一次。</li></ul>\n<h2>可以怎麼用</h2>\n<p>如果近期要去大阪，把馳走うお佐和丸福咖啡先存進地圖，排在不同天的早上。</p>\n<p class='src'>來源與備註：Threads @rong.beautyfu，2026-11-24 發文的提問串；店家資訊以官方與地圖為準，部分數字未查到出處。</p>",
+   "ai_cmd": null,
+   "label": "",
+   "related": []
+  },
+  {
+   "topic": "其他",
+   "title": "東山炭燒牛舌台北信義店：厚切牛舌，台北還有哪裡好吃？",
+   "quote": "被請的一頓飯，最好吃的是那份善意",
+   "action": "",
+   "blurb": "美食帳號分享在台北信義區吃到厚切牛舌，這頓還是一對老夫婦請客，順便問大家台北還有哪家牛舌好吃。",
+   "note": "inbox/2026-11-25-東山炭燒牛舌信義店-厚切牛舌-vivian_8628.md",
+   "is_new": true,
+   "body_html": "<p>Threads 美食帳號 @vivian_8628 分享在「東山 炭燒牛舌 台北信義店」吃到極品厚切牛舌，開心的是這頓有一對善良的老夫婦出錢請客。貼文最後問大家：台北還有哪裡的牛舌好吃？想吃牛舌的人，這篇可以當成點餐與找店的參考。</p>\n<h2>菜單與價格（可能已變動）</h2>\n<ul><li>極品厚切牛舌定食：1,199 元（報導說這是台灣限定）。</li>\n<li>極品厚切牛舌拼經典牛舌：999 元。</li>\n<li>極品厚切牛舌排＋日本和牛排：1,499 元。</li>\n<li>另有 988、488 元的單品；炭烤牛舌丸 258 元。</li>\n<li>商業午餐：作者說一份大約三百多元，菜單上看得到 398 元的燉牛舌類套餐。</li></ul>\n<h2>店家小資訊</h2>\n<ul><li>位在信義區 Dream Plaza 一帶；不同報導寫的地址不一樣，出發前用 Google 地圖確認。</li>\n<li>寵物友善，但毛孩要用推車或籃子整個裝起來。</li></ul>\n<h2>大家怎麼回</h2>\n<ul><li>唯一被推薦的另一家是 <strong>Power Beef</strong>，留言的人說超愛、超好吃。</li>\n<li>其他多是「牛舌厚得像牛排」「好想吃」「在減肥」的感想，還有人標記朋友說要一起去。</li></ul>\n<h2>可以怎麼用</h2>\n<p>想吃又怕貴，可以先從平日的商業午餐試起；同時把 Power Beef 存進地圖，下次比較看看。</p>\n<p class='src'>來源與備註：Threads @vivian_8628，2026-11-25 發文；價格來自店內菜單照，可能已調整，作者沒有標示合作。</p>",
+   "ai_cmd": null,
+   "label": "",
+   "related": []
+  },
+  {
+   "topic": "其他",
+   "title": "無印良品的湯底好不好吃？大家推這幾款",
+   "quote": "不必每樣都自己熬，好用的捷徑也是生活智慧",
+   "action": "",
+   "blurb": "有人問無印良品的湯底和食材值不值得買。最多人推相撲鍋，壽喜燒、蘿蔔泥也有人愛，口味淡的人兌水可以多一點。",
+   "note": "inbox/2026-11-25-無印良品湯底好不好吃-留言串-changhui.wu.7.md",
+   "is_new": true,
+   "body_html": "<p>天冷想煮鍋，又懶得熬湯。Threads 上有人問：有沒有人買過無印良品的湯底或食材回家煮？好吃嗎？二十多則留言大多很捧場，幾乎沒人踩雷，可以直接當採買清單。</p>\n<h2>大家推哪些</h2>\n<ul><li><strong>相撲鍋湯底（最多人推，4 位）</strong>：當火鍋底，滾了再加菜加肉，吃完還能煮白麵條收尾。</li>\n<li><strong>壽喜燒、蘿蔔泥</strong>：各有 2 位推薦。</li>\n<li><strong>雪濃牛骨、黑蒜雞湯</strong>：有人說不錯吃；砂鍋魚頭湯有人列入待試。</li>\n<li><strong>剝皮辣椒雞湯底</strong>：好吃，但提醒「沒有很辣、裡面沒有辣椒」。</li>\n<li><strong>湯麵</strong>：有人說家裡學生很愛。</li></ul>\n<h2>兩個小技巧</h2>\n<ol><li>在門市試吃過：把煮好的冷凍水餃丟進湯底，變成湯餃，很好吃。</li>\n<li>包裝是小份量、方便；口味清淡的人，水可以比包裝指示多加一點。</li></ol>\n<h2>唯一的不同聲音</h2>\n<p>有 1 位說每次看到成份表就縮回去，被追問原因時沒有回答。成份好不好，這串沒有答案；在意的人購買前自己看一下成份標示。</p>\n<h2>可以怎麼用</h2>\n<p>第一次買，先挑相撲鍋，再加一包冷凍水餃，就是一頓十分鐘上桌的晚餐。</p>\n<p class='src'>來源與備註：Threads @changhui.wu.7，2026-11-24 發文的提問串；品項與價格可能隨季節更換。</p>",
+   "ai_cmd": null,
+   "label": "",
+   "related": []
+  },
+  {
+   "topic": "表達與人際關係",
+   "title": "溝通落差：改善「說」，升級「聽」",
+   "quote": "說的時候替對方著想，聽的時候放下自己的準備",
+   "action": "今天聊天時，對方說完先停三秒再回話。",
+   "blurb": "多數衝突不是事情本身，而是兩個人對同一句話理解不同。這篇給了說的四個做法、聽的三個層次，和三個隨時能練的小習慣。",
+   "note": "已統整/2026-11-03/2026-11-03-溝通落差-說與聽的練習.md",
+   "is_new": false,
+   "body_html": "<p>吵架之後回頭看，常常發現不是事情多嚴重，而是兩個人對同一句話的理解不一樣。這篇把溝通的落差拆成兩邊：說的人和聽的人，各給了具體的練法，短短幾條就能馬上用。</p><figure class='diagram'><svg viewBox='0 0 720 260'><rect class='dg-box' x='10' y='15' width='340' height='146' rx='8'/><text class='dg-tb' x='180.0' y='50.0' text-anchor='middle'>改善「說」</text><text class='dg-t' x='180.0' y='72.0' text-anchor='middle'>1 先給結論，再補理由</text><text class='dg-t' x='180.0' y='94.0' text-anchor='middle'>2 一次只講一個重點</text><text class='dg-t' x='180.0' y='116.0' text-anchor='middle'>3 依對方在意的點切入</text><text class='dg-t' x='180.0' y='138.0' text-anchor='middle'>4 說完問：你的理解是？</text><rect class='dg-box' x='370' y='15' width='340' height='146' rx='8'/><text class='dg-tb' x='540.0' y='50.0' text-anchor='middle'>升級「聽」</text><text class='dg-t' x='540.0' y='72.0' text-anchor='middle'>1 聽內容：說了什麼</text><text class='dg-t' x='540.0' y='94.0' text-anchor='middle'>2 聽意圖：為什麼這樣說</text><text class='dg-t' x='540.0' y='116.0' text-anchor='middle'>3 聽未說出口的：</text><text class='dg-t' x='540.0' y='138.0' text-anchor='middle'>   迴避、停頓、反覆提起</text><rect class='dg-hl' x='10' y='181' width='700' height='64' rx='8'/><text class='dg-ths' x='360.0' y='219.0' text-anchor='middle'>多數人在練說，願意好好聽的人很少</text></svg><figcaption>說與聽各有落差，差異在願不願意聽</figcaption></figure><h2>兩種落差</h2>\n<ol><li><strong>表達落差</strong>：說的人以為說出口，就等於傳達到了。</li>\n<li><strong>傾聽落差</strong>：聽的人忙著準備回應，而不是理解對方。</li></ol>\n<h2>改善「說」的四個做法</h2>\n<ul><li>先給結論，再補理由。</li><li>一次只傳遞一個重點。</li><li>依對方在意的點調整切入角度。</li><li>說完確認：「你的理解是什麼？」</li></ul>\n<h2>升級「聽」的三個層次</h2>\n<ul><li><strong>聽內容</strong>：對方說了什麼。</li><li><strong>聽意圖</strong>：對方為什麼這樣說。</li><li><strong>聽未說出口的</strong>：迴避的話題、停頓，還有反覆提起的事。</li></ul>\n<h2>三個低成本練習</h2>\n<ol><li><strong>複述</strong>：用自己的話把對方的意思說一遍。</li><li><strong>開放式提問</strong>：問「怎麼了」「後來呢」，而不是只能答是或否的問題。</li><li><strong>容忍三秒沉默</strong>：對方說完別急著接話，常常會聽到更多。</li></ol>\n<blockquote>多數人都在練習怎麼說，真正願意好好聽的人很少，差異就在這裡。</blockquote>\n<h2>可以怎麼用</h2>\n<p>今天挑一次聊天，只練一件事：對方說完先停三秒，再用一句話複述你聽到的意思。</p>\n<p class='src'>來源與備註：Threads 上的溝通主題貼文，2026-11-03 收錄。</p>",
+   "ai_cmd": null,
+   "label": "　舊文 11/03",
+   "related": [
+    {
+     "title": "聊天技巧：事實、觀點、感悟的接話法",
+     "ref": "2026-11-11-h9",
+     "note": "已統整/2026-11-03/2026-11-03-聊天技巧-事實觀點感悟.md",
+     "relation": "補充",
+     "why": "一篇講聽和說的落差，一篇給具體接話方法，可以馬上練"
+    },
+    {
+     "title": "職場表達：口頭禪換說法，加四步表達公式",
+     "ref": "2026-11-13-h3",
+     "note": "已統整/2026-11-12/2026-11-12-職場表達-口頭禪換說法與四步表達公式-singer.of.office.md",
+     "relation": "補充",
+     "why": "把「改善說」落到職場用語和四步表達公式"
+    },
+    {
+     "title": "常被說講話沒邏輯、沒深度，怎麼訓練？",
+     "ref": "2026-11-14-h11",
+     "note": "已統整/2026-11-07-怎麼訓練說話邏輯與思考-閱讀說給人聽錄音.md",
+     "relation": "接續",
+     "why": "想把話說清楚，接著看怎麼練說話的邏輯和深度"
+    }
+   ]
+  },
+  {
+   "topic": "人生方向與故事",
+   "title": "怎麼擁有自己的風格？穿搭、音樂、閱讀",
+   "quote": "風格不是挑出來的，是一次次試出來的",
+   "action": "",
+   "blurb": "有人困擾自己總在跟隨大眾、模仿成四不像。大家的建議是多試、問自己真的喜歡嗎、再一點點加進自己的東西。",
+   "note": "已統整/2026-11-14/2026-11-14-怎麼擁有自己的風格-留言串.md",
+   "is_new": false,
+   "body_html": "<p>Threads 上有人問：要怎麼擁有自己的風格？不管是穿搭、音樂還是閱讀。提問者說，喜歡的風格跟自己的個性不太像，有違和感；多半在跟隨大眾，模仿也模仿成四不像，穿搭還可能受蘋果型身材限制。留言給了幾條很實在的路。</p>\n<h2>大家怎麼建議</h2>\n<ol><li><strong>多試，累積自己的資料庫</strong>：多接觸沒試過的東西，久了就知道喜歡什麼、不喜歡什麼；在別人眼中，那就是你的風格。</li>\n<li><strong>先試經典，再問自己</strong>：穿搭可以先試現代休閒、老錢風、美式工裝。試完問一句：「我是真的喜歡，還是穿給別人看的？」</li>\n<li><strong>從喜歡的開始模仿，再加一點自己</strong>：模仿時放進自己的元素；有人說「從每個人身上偷一點，就成了全新的」。</li>\n<li><strong>寫下喜歡或不喜歡的理由</strong>：看有層次的書與電影，寫感想。風格是由內而外長出來的觀點。</li>\n<li><strong>和朋友討論</strong>：欣賞作品、音樂、穿著後跟人聊，慢慢養成自己看世界的方式。</li>\n<li><strong>三件事分開看</strong>：有人提醒，音樂和閱讀本來就很主觀，真正的困擾可能主要在穿搭。</li></ol>\n<h2>共同的方向</h2>\n<p>沒有人說「找到風格」是一次決定的事。大家說的都是過程：大量嘗試、誠實問自己、記下理由，再慢慢把別人的東西變成自己的。模仿不是問題，只停在模仿才是。</p>\n<h2>可以怎麼用</h2>\n<p>今天看到一件喜歡的衣服、一首歌或一本書時，多寫一句「我喜歡它，是因為＿＿」。累積十句，你的風格就開始有輪廓了。</p>\n<p class='src'>來源與備註：Threads 提問串，2026-11-14 收錄，建議都是網友個人經驗。</p>",
+   "ai_cmd": null,
+   "label": "　舊文 11/14",
+   "related": [
+    {
+     "title": "找到一種符合內心意願的生活方式",
+     "ref": "2026-11-16-h3",
+     "note": "已統整/2026-11-15/2026-11-15-找到符合內心意願的生活方式-f.1oo1z.md",
+     "relation": "補充",
+     "why": "風格從內而外長出來，跟找到符合內心的生活方式是同一件事"
+    },
+    {
+     "title": "你必須非常堅定，成為你想成為的人",
+     "ref": "2026-11-14-h8",
+     "note": "已統整/2026-11-06-你必須非常堅定-成為你想成為的人.md",
+     "relation": "對照",
+     "why": "一邊說多試慢慢摸索，一邊說要堅定成為想成為的人"
+    }
+   ]
+  },
+  {
+   "topic": "寫作與設計",
+   "title": "找 Banner 靈感的兩個網站：BANNER LIBRARY 與 Put!",
+   "quote": "靈感可以借，作品要是自己的",
+   "action": "",
+   "blurb": "一位設計帳號推薦兩個日本網站：一個專收真實廣告 Banner、可依顏色風格篩選；另一個用 AI 產生 Banner，還附可商用提示詞。",
+   "note": "已統整/2026-11-08/2026-11-08-找Banner靈感的兩個網站-BANNER-LIBRARY與Put.md",
+   "is_new": false,
+   "body_html": "<p>要做活動圖、社群封面卻不知道從哪下手？Threads 設計帳號 @sharon.cai_ 推薦兩個找 Banner 靈感的日本網站：一個讓你看別人怎麼做，一個讓你用 AI 快速做出來。最後還提醒了一條很重要的界線。</p><figure class='diagram'><svg viewBox='0 0 720 260'><rect class='dg-box' x='10' y='15' width='340' height='146' rx='8'/><text class='dg-tb' x='180.0' y='50.0' text-anchor='middle'>BANNER LIBRARY</text><text class='dg-t' x='180.0' y='72.0' text-anchor='middle'>看真實廣告 Banner</text><text class='dg-t' x='180.0' y='94.0' text-anchor='middle'>依主題、顏色、風格篩</text><text class='dg-t' x='180.0' y='116.0' text-anchor='middle'>可看形狀、投放平台</text><text class='dg-t' x='180.0' y='138.0' text-anchor='middle'>有排行榜看大家參考什麼</text><rect class='dg-box' x='370' y='15' width='340' height='146' rx='8'/><text class='dg-tb' x='540.0' y='50.0' text-anchor='middle'>Put!</text><text class='dg-t' x='540.0' y='72.0' text-anchor='middle'>用 AI 產生 Banner</text><text class='dg-t' x='540.0' y='94.0' text-anchor='middle'>附可商用提示詞集</text><text class='dg-t' x='540.0' y='116.0' text-anchor='middle'>輸入文字與顏色就能做</text><text class='dg-t' x='540.0' y='138.0' text-anchor='middle'>可選 1:1、16:9、9:16</text><rect class='dg-hl' x='10' y='181' width='700' height='64' rx='8'/><text class='dg-ths' x='360.0' y='219.0' text-anchor='middle'>找靈感可以，別拿創作者的圖去餵 AI</text></svg><figcaption>一個看範例，一個快速做，界線要守住</figcaption></figure><h2>BANNER LIBRARY（design-library.jp）</h2>\n<ul><li>專門收集好看、有參考價值的真實廣告 Banner。</li>\n<li>可以依主題、顏色篩，也能用類別、風格、形狀、投放平台找。</li>\n<li>有排行榜，看最近大家都在參考什麼；首頁還有季節推薦標籤，例如冬季、聖誕節、特賣、高級感、只有文字的排版、漸層。</li></ul>\n<h2>Put!（put.dezalink.com/prompts）</h2>\n<ul><li>給沒有設計軟體、或不熟操作的人，用 AI 做 Banner 的日本工具。</li>\n<li>旁邊有一組可商用的提示詞集，縮圖、活動、促銷 Banner 都能參考。</li>\n<li>輸入文字和顏色就能產出，可選 1:1、16:9、9:16 比例。</li>\n<li>提示詞是日文，要自己翻譯；商用條件與是否需要登入，以官網為準。</li></ul>\n<h2>作者的提醒</h2>\n<blockquote>以上是找靈感與簡單速成的方法，請勿直接拿創作者的圖去餵 AI。</blockquote>\n<h2>可以怎麼用</h2>\n<p>下次要做一張社群圖前，先到 BANNER LIBRARY 用同樣的顏色篩三張範例，看它們的字放哪裡、留白多少，再動手。</p>\n<p class='src'>來源與備註：Threads @sharon.cai_，2026-11-08 發文；網站收錄數量與條件可能變動。</p>",
+   "ai_cmd": null,
+   "label": "　舊文 11/08",
+   "related": [
+    {
+     "title": "Minicharts：18 種互動式圖表展示站（Dashboard 靈感）",
+     "ref": "2026-11-13-h11",
+     "note": "已統整/2026-11-08/2026-11-08-Minicharts-18種互動式圖表-Dashboard靈感.md",
+     "relation": "補充",
+     "why": "同樣是設計靈感站，一個看 Banner，一個看圖表版面"
+    },
+    {
+     "title": "ui-ux-pro-max-skill：做網頁前，先讓 Claude Code 配好設計",
+     "ref": "2026-11-13-h9",
+     "note": "已統整/2026-11-08/2026-11-08-ui-ux-pro-max-skill-Claude-Code做網頁先配好設計.md",
+     "relation": "接續",
+     "why": "找完靈感，接著讓 AI 照設計規則把頁面做出來"
+    }
+   ]
+  },
+  {
+   "topic": "社會與商業",
+   "title": "外送不加價，毛利額默默被吃掉",
+   "quote": "賣得多不等於賺得多，要看每一份留下多少",
+   "action": "",
+   "blurb": "同樣賣 100 元，店內留下 60 元，外送扣掉抽成只剩 25 元。作者用簡單算式說明外送為什麼一定要重新定價。",
+   "note": "已統整/2026-11-14/2026-11-14-外送不加價毛利額被吃掉-通路與毛利到財務槓桿.md",
+   "is_new": false,
+   "body_html": "<p>很多店家上外送平台時，直接用店內價格上架。帳號 jacky5453（署名小關）回應一則留言「外送是多出來的單，不該把人力租金算進去」，用幾個簡單數字說明：把外送當成一個要抽成的「通路」來看，不加價的話，整體毛利額會悄悄變少。就算你不開店，這也是理解「營收和真正賺到的錢」差在哪的好例子。</p><figure class='diagram'><svg viewBox='0 0 720 236'><rect class='dg-box' x='10' y='15' width='340' height='122' rx='8'/><text class='dg-tb' x='180.0' y='49.0' text-anchor='middle'>店內賣 100 元</text><text class='dg-t' x='180.0' y='71.0' text-anchor='middle'>成本 40 元</text><text class='dg-t' x='180.0' y='93.0' text-anchor='middle'>毛利額 60 元</text><text class='dg-t' x='180.0' y='115.0' text-anchor='middle'>賣 100 份：6,000 元</text><rect class='dg-box' x='370' y='15' width='340' height='122' rx='8'/><text class='dg-tb' x='540.0' y='49.0' text-anchor='middle'>外送賣 100 元</text><text class='dg-t' x='540.0' y='71.0' text-anchor='middle'>抽成 35 元＋成本 40 元</text><text class='dg-t' x='540.0' y='93.0' text-anchor='middle'>毛利額 25 元</text><text class='dg-t' x='540.0' y='115.0' text-anchor='middle'>賣 100 份：2,500 元</text><rect class='dg-hl' x='10' y='157' width='700' height='64' rx='8'/><text class='dg-ths' x='360.0' y='195.0' text-anchor='middle'>同樣營收，外送少賺 3,500 元</text></svg><figcaption>同一個價格，不同通路留下的錢差很多</figcaption></figure><h2>混合的情況</h2>\n<p>一萬元營收，店內七成、外送三成，外送不調價：店內 7,000×60%＝4,200 元；外送 3,000×25%＝750 元；合計 4,950 元，比全部店內賣的 6,000 元少了 1,050 元。</p>\n<h2>對方的邏輯，和它的盲點</h2>\n<ul><li><strong>對方的想法</strong>：外送是閒置產能，多接一單是一單，產能開滿，管銷比例就會下降。</li>\n<li><strong>作者的看法</strong>：盲點在於低毛利的單會排擠高毛利的單。餐期就那麼長，就像工廠淡季接低毛利單，到旺季產能卻被卡住。</li></ul>\n<h2>延伸到財務槓桿</h2>\n<p>作者把這條線拉長：通路佈局 → 毛利額 → 淨利 → 每月現金流 → 能借多少錢。一億營收，淨利 15% 和 5% 差 1,000 萬，約等於每月多 83 萬現金流；以每月 80 萬、6 年、3% 利息本利攤還粗估，可以向銀行借到約 5,000 萬。重點不只是那 1,000 萬，而是它帶來的還款能力。</p>\n<h2>作者的建議</h2>\n<ul><li>外送毛利不夠、又不想關外送：寧可拉高外送價，掉一點單。</li>\n<li>進階做法：為外送重新設計菜單，把抽成算進毛利，並用設計降低「好貴」的感覺。</li>\n<li>也提醒外送價高到難入手時，客人可能回到店內買，外送司機接不到單，整個生態會失衡。</li></ul>\n<p>留言裡有餐飲業者分享：店面選址不好，就只用外送賣高毛利商品，當成市場測試，順便練出 5 分鐘出單的效率。</p>\n<h2>可以怎麼用</h2>\n<p>下次叫外送時，對照一下同一份餐點的店內價，想想差價裡有多少是平台抽成。</p>\n<p class='src'>來源與備註：Threads 帳號 jacky5453（小關），2026-11-14 發文；數字為示範用的假設，抽成比例依平台而異。非專業意見。</p>",
+   "ai_cmd": null,
+   "hint": "非專業意見",
+   "label": "　舊文 11/14",
+   "related": [
+    {
+     "title": "打九折要多賣兩成多：損益兩平算給你看",
+     "ref": "2026-11-15-h5",
+     "note": "已統整/2026-11-14/2026-11-14-損益兩平計算-打九折要多賣兩成.md",
+     "relation": "補充",
+     "why": "同樣算毛利被吃掉，這篇用打折算給你看要多賣多少"
+    },
+    {
+     "title": "個人商業模式畫布：四段提示詞，讓 AI 陪你一格一格填",
+     "ref": "2026-11-14-d2",
+     "note": "已統整/2026-11-05-個人商業模式畫布-四段提示詞讓AI陪你填.md",
+     "relation": "接續",
+     "why": "看懂通路和毛利後，用商業模式畫布整理自己的生意"
+    }
+   ]
+  },
+  {
+   "topic": "學習與研究",
+   "title": "一人推一個，讓讀書上癮的方法",
+   "quote": "講得出來給別人聽，才算真的學會",
+   "action": "把今天學到的一件事，用三句話講給一個人聽。",
+   "blurb": "一位高中生想找回讀書巔峰，請大家一人推一個方法。幾百則留言歸納下來，最多人用的是找對手、設計獎勵、教別人。",
+   "note": "已統整/2026-11-24/2026-11-24-讓讀書上癮的方法-留言串-starmusicinny.md",
+   "is_new": false,
+   "body_html": "<p>一位高中生說自己一直回不到讀書的巔峰時期，在 Threads 上請大家「一人推一個會讓讀書上癮的方法」，結果湧進幾百則留言。整理起來，方法大致可分成幾類，不只學生，任何想重新拿起書的大人都用得上。</p><figure class='diagram'><svg viewBox='0 0 720 250'><rect class='dg-box' x='210' y='15' width='300' height='60' rx='8'/><text class='dg-tb' x='360.0' y='51.0' text-anchor='middle'>讓讀書上癮的幾條路</text><line class='dg-line' x1='360' y1='75' x2='360' y2='100'/><line class='dg-line' x1='91.5' y1='100' x2='628.5' y2='100'/><line class='dg-line' x1='91.5' y1='100' x2='91.5' y2='125'/><rect class='dg-box' x='10.0' y='125' width='163.0' height='110' rx='8'/><text class='dg-tb' x='91.5' y='164.0' text-anchor='middle'>找對手</text><text class='dg-t' x='91.5' y='186.0' text-anchor='middle'>比你好一點</text><text class='dg-t' x='91.5' y='208.0' text-anchor='middle'>的人</text><line class='dg-line' x1='270.5' y1='100' x2='270.5' y2='125'/><rect class='dg-box' x='189.0' y='125' width='163.0' height='110' rx='8'/><text class='dg-tb' x='270.5' y='164.0' text-anchor='middle'>設計獎勵</text><text class='dg-t' x='270.5' y='186.0' text-anchor='middle'>讀完才</text><text class='dg-t' x='270.5' y='208.0' text-anchor='middle'>滑手機</text><line class='dg-line' x1='449.5' y1='100' x2='449.5' y2='125'/><rect class='dg-hl' x='368.0' y='125' width='163.0' height='110' rx='8'/><text class='dg-ths' x='449.5' y='175.0' text-anchor='middle'>教別人</text><text class='dg-ths' x='449.5' y='197.0' text-anchor='middle'>對空氣講課</text><line class='dg-line' x1='628.5' y1='100' x2='628.5' y2='125'/><rect class='dg-box' x='547.0' y='125' width='163.0' height='110' rx='8'/><text class='dg-tb' x='628.5' y='175.0' text-anchor='middle'>降低門檻</text><text class='dg-t' x='628.5' y='197.0' text-anchor='middle'>先讀五分鐘</text></svg><figcaption>留言歸納出的四條主要路線</figcaption></figure><h2>大家最常用的方法</h2>\n<ul><li><strong>找對手或榜樣（最多人）</strong>：找一個程度比你好一點的人，拚命超越他；或找讀書搭子，每天用語音掛著一起讀。</li>\n<li><strong>獎勵與階段化</strong>：讀 25 分鐘換一杯珍奶；把書分成四塊，每完成 25% 休息一下，再做練習訂正；也有人每讀完一段擲骰子決定是繼續、吃零食還是滑五分鐘手機。</li>\n<li><strong>教別人、對空氣講課</strong>：講到卡住，就知道哪裡不會；一層層做「摘要的摘要」，直到能讓朋友聽懂。有人因此接家教，後來去補習班當老師。</li>\n<li><strong>寫與抄、自己推公式</strong>：不想讀就告訴自己「只是抄一下」；推完公式很爽，也容易進入心流。</li>\n<li><strong>回想</strong>：前一晚整理重點，隔天走路時在腦中回想哪裡想不起來。</li>\n<li><strong>降低起步門檻</strong>：先讀 5 分鐘、只要坐上書桌就好；「允許自己只看一頁，不喜歡就換一本」，有人因此一年讀了約 10 本書。</li>\n<li><strong>環境</strong>：去圖書館、手機調黑白或放遠、用縮時錄影記錄自己讀書。</li>\n<li><strong>讓內容變有趣</strong>：把歷史想成動漫、整理時間線；把學會的東西想成遊戲技能樹，越點越多。</li></ul>\n<h2>少數不同的聲音</h2>\n<p>有人說讀書上癮不是好事，先弄清楚為什麼要讀；也有人說每個人方法不同，找到自己的就好。</p>\n<h2>可以怎麼用</h2>\n<p>今天學到任何一件事（一篇文章、一個新詞都算），用三句話講給一個人聽，講不出來的地方就是還沒懂的地方。</p>\n<p class='src'>來源與備註：Threads @starmusicinny，2026-11-21 發文的提問串，方法都是網友個人經驗，因人而異。</p>",
+   "ai_cmd": null,
+   "label": "　舊文 11/24",
+   "related": [
+    {
+     "title": "契克森米哈伊「心流」八大要素",
+     "ref": "2026-11-13-h2",
+     "note": "已統整/2026-11-12/2026-11-12-契克森米哈伊心流的八大要素-alyssa__7687.md",
+     "relation": "補充",
+     "why": "大家說的讀書上癮，其實很多就是心流的條件"
+    },
+    {
+     "title": "用 Claude 當個人導師學任何東西：15 個學習提示詞",
+     "ref": "2026-11-16-h12",
+     "note": "已統整/2026-11-14/2026-11-14-用Claude學任何東西-15個學習提示詞.md",
+     "relation": "接續",
+     "why": "想讓學習更有回饋，可以試著讓 AI 當家教陪讀"
+    }
+   ]
+  },
+  {
+   "topic": "思考與決策",
+   "title": "未來十年的十二條建議",
+   "quote": "少做幾件事，但把做的那件做完、推出去",
+   "action": "挑一件做到八成的事，今天花十分鐘把它推出去給一個人看。",
+   "blurb": "有人請 AI 給「未來十年的建議，不用解釋」，得到十二條短句，涵蓋做事、資產、競爭力、身心與人際，句句都能拿來對照自己。",
+   "note": "已統整/2026-11-12/2026-11-12-未來十年的十二條建議-轉貼自X-elmsword.md",
+   "is_new": false,
+   "body_html": "<p>Threads 上 @elmsword 轉貼了一則 X 上的內容：有人問 AI 模型 Fable 5.2「給我未來十年的建議，不用解釋」，它回了十二條短句。沒有長篇大論，反而每一句都能拿來問自己：我做到了嗎？</p><figure class='diagram'><svg viewBox='0 0 720 250'><rect class='dg-box' x='210' y='15' width='300' height='60' rx='8'/><text class='dg-tb' x='360.0' y='51.0' text-anchor='middle'>未來十年的十二條建議</text><line class='dg-line' x1='360' y1='75' x2='360' y2='100'/><line class='dg-line' x1='91.5' y1='100' x2='628.5' y2='100'/><line class='dg-line' x1='91.5' y1='100' x2='91.5' y2='125'/><rect class='dg-hl' x='10.0' y='125' width='163.0' height='110' rx='8'/><text class='dg-ths' x='91.5' y='164.0' text-anchor='middle'>做事</text><text class='dg-ths' x='91.5' y='186.0' text-anchor='middle'>少做、做完</text><text class='dg-ths' x='91.5' y='208.0' text-anchor='middle'>推出去</text><line class='dg-line' x1='270.5' y1='100' x2='270.5' y2='125'/><rect class='dg-box' x='189.0' y='125' width='163.0' height='110' rx='8'/><text class='dg-tb' x='270.5' y='164.0' text-anchor='middle'>資產</text><text class='dg-t' x='270.5' y='186.0' text-anchor='middle'>自己的通路</text><text class='dg-t' x='270.5' y='208.0' text-anchor='middle'>會複利的東西</text><line class='dg-line' x1='449.5' y1='100' x2='449.5' y2='125'/><rect class='dg-box' x='368.0' y='125' width='163.0' height='110' rx='8'/><text class='dg-tb' x='449.5' y='164.0' text-anchor='middle'>競爭力</text><text class='dg-t' x='449.5' y='186.0' text-anchor='middle'>跟緊前沿</text><text class='dg-t' x='449.5' y='208.0' text-anchor='middle'>磨品味</text><line class='dg-line' x1='628.5' y1='100' x2='628.5' y2='125'/><rect class='dg-box' x='547.0' y='125' width='163.0' height='110' rx='8'/><text class='dg-tb' x='628.5' y='164.0' text-anchor='middle'>身心與人</text><text class='dg-t' x='628.5' y='186.0' text-anchor='middle'>睡眠肌力</text><text class='dg-t' x='628.5' y='208.0' text-anchor='middle'>深交幾個人</text></svg><figcaption>十二條可歸成四類，第一條最常被忽略</figcaption></figure><h2>十二條原文</h2>\n<ol><li>少做幾件事，但要把做的做完，推出去。</li>\n<li>握有自己的通路，別把丟了會受不了的東西放在租來的地方。</li>\n<li>經營會複利成長的東西，像是技能、受眾、股權和人脈。</li>\n<li>跟緊最前沿，但要賣給不在前沿的人。</li>\n<li>品味就是護城河，要一直磨。</li>\n<li>開銷壓低，讓手上的錢撐得久。</li>\n<li>把睡眠、肌力和曬太陽當營收一樣顧好。</li>\n<li>挑幾個人，這十年都跟他們深交。</li>\n<li>每年寫下自己相信什麼，之後再回頭讀。</li>\n<li>拒絕要更快。</li>\n<li>讓 AI 代理去做事，但判斷要留在自己手上。</li>\n<li>做那種到 2036 年你還會覺得驕傲的東西。</li></ol>\n<h2>怎麼讀這份清單</h2>\n<ul><li><strong>做事</strong>：第 1、10、12 條都在講「聚焦」，拒絕得快，才有空把重要的事做完。</li>\n<li><strong>資產</strong>：第 2、3、6 條提醒，作品和受眾要放在自己掌握得住的地方，例如自己的網站，而不只是別人的平台。</li>\n<li><strong>競爭力</strong>：第 4、5、11 條說，懂新東西是優勢，但價值在於把它帶給還不懂的人，判斷力不能外包。</li>\n<li><strong>身心與人</strong>：第 7、8、9 條把健康、關係和自我反思，當成跟收入一樣重要的事。</li></ul>\n<h2>可以怎麼用</h2>\n<p>從第 1 條開始：挑一件做到八成、一直沒拿出來的事，今天花十分鐘把它推出去，給一個人看就算數。</p>\n<p class='src'>來源與備註：Threads @elmsword，2026-11-10 轉貼自 X，原貼文作者未註明；這是 AI 產生的一般性建議，健康與理財部分為非專業意見。</p>",
+   "ai_cmd": null,
+   "hint": "非專業意見",
+   "label": "　舊文 11/12",
+   "related": [
+    {
+     "title": "年底自問十個問題",
+     "ref": "2026-11-15-h12",
+     "note": "已統整/2026-11-04/2026-11-04-年底自問十個問題.md",
+     "relation": "補充",
+     "why": "建議每年寫下相信什麼，這份十個問題剛好能拿來用"
+    },
+    {
+     "title": "你有哪個深信不疑、後來徹底改變的觀點？",
+     "ref": "2026-11-15-h9",
+     "note": "已統整/2026-11-10/2026-11-10-Threads問大家-改變過的觀點.md",
+     "relation": "接續",
+     "why": "回頭讀自己相信的事，看看別人哪些觀點後來徹底改變"
+    },
+    {
+     "title": "OKR 對齊 AI 排程：方向比速度貴",
+     "ref": "2026-11-16-h10",
+     "note": "已統整/2026-11-07/2026-11-07-OKR對齊AI排程-方向比速度貴.md",
+     "relation": "補充",
+     "why": "都講讓 AI 做事、方向和判斷留在自己手上"
+    }
+   ]
+  }
+ ],
+ "also": [
+  "把要決定的事做成勾選表，省下做決定的力氣（辨識優於回想）",
+  "Anthropic 官方新聞：2026-09-22～11-20 近兩個月更新",
+  "LLM Wiki：讓 AI 當私人圖書館員的個人知識系統",
+  "個人工作站：每個專案配一個 AI 經理，總經理每天早上報告",
+  "手帳週計畫：把九宮格縮小放進一週兩頁（11 月第 3 週）",
+  "用 Claude 做日本行程網站：地圖頭像、一鍵順延、最晚出發倒數",
+  "28天行動冥想 DAY 23：以清明心行事，先支付自己（書摘）"
+ ],
+ "question": "你花一個週末做好一個小網站，傳給朋友，朋友說：「我用 Google 搜不到耶。」你會先做哪一步？",
+ "question_options": [
+  "先去登記 Google 搜尋後台",
+  "先把網址貼到社群上",
+  "先檢查每頁標題和描述"
+ ],
+ "focus_action": "挑一件做到八成的事，今天花十分鐘把它推出去給一個人看。",
+ "question_note": "已統整/2026-11-25/2026-11-25-網站上架到SEO登記-7步懶人包.md",
+ "date": "2026-11-26",
+ "answer_uri": "obsidian://open?vault=%E7%9F%A5%E8%AD%98%E5%BA%AB&file=%E9%96%B1%E8%AE%80%E5%A0%B1%E5%91%8A/%E9%9B%BB%E5%AD%90%E5%A0%B1/%E5%9B%9E%E7%AD%94/2026-11-26-%E5%9B%9E%E7%AD%94"
+}
